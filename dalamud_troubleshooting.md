@@ -1,7 +1,7 @@
 Put Dalamud and plugin-related FAQs here
 
 ### Table of Contents
-[How do I install/enable plugins?](q-how-do-i-installenable-plugins) <br>
+[How do I install/enable plugins?](#q-how-do-i-installenable-plugins) <br>
 [What is the command for \<insert plugin here\>?](https://github.com/goatcorp/faq/blob/main/dalamud_troubleshooting.md#q-what-is-the-command-for-insert-plugin-here) <br>
 [How do I enable\/disable Dalamud Testing or Plugin Testing](https://github.com/goatcorp/faq/blob/main/dalamud_troubleshooting.md#q-how-do-i-enabledisable-dalamud-testing-or-plugin-testing) <br>
 [Do not expect XL\/Dalamud\/Plugin updates on patch day releases](https://github.com/goatcorp/faq/blob/main/dalamud_troubleshooting.md#q-do-not-expect-xldalamudplugin-updates-on-patch-day-releases) <br>
