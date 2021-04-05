@@ -1,28 +1,28 @@
 Put XIVLauncher related FAQs here
 
 ### Table of Contents
-[How come the in-game addon \(Dalamud\) doesn't work and/or plugins don't display?](https://github.com/goatcorp/faq/blob/main/xl_troubleshooting.md#q-how-come-the-in-game-addon-dalamud-doesnt-work-andor-plugins-dont-display) <br>
-[How do I uninstall XIV Launcher?](https://github.com/goatcorp/faq/blob/main/xl_troubleshooting.md#q-how-do-i-uninstall-xiv-launcher) <br>
-[How do I fix plugins that rely on Dalamud provided opcodes?](https://github.com/goatcorp/faq/blob/main/xl_troubleshooting.md#q-how-do-i-fix-plugins-that-rely-on-dalamud-provided-opcodes) <br>
-[How do I whitelist XIVLauncher and Dalamud so my Antivirus leaves them alone](https://github.com/goatcorp/faq/blob/main/xl_troubleshooting.md#q-how-do-i-whitelist-xivlauncher-and-dalamud-so-my-antivirus-leaves-them-alone) <br>
-[XIV isn't saving my new password / how do I clear my saved password?](https://github.com/goatcorp/faq/blob/main/xl_troubleshooting.md#q-xiv-isnt-saving-my-new-password--how-do-i-clear-my-saved-password) <br>
-[I think XIVLauncher is giving me a Blue Screen of Death. What information would help narrow this down?](https://github.com/goatcorp/faq/blob/main/xl_troubleshooting.md#q-i-think-xivlauncher-is-giving-me-a-blue-screen-of-death-what-information-would-help-narrow-this-down) <br>
-[How do I enable/disable Dalamud Testing or Plugin Testing?](https://github.com/goatcorp/faq/blob/main/xl_troubleshooting.md#q-how-do-i-enabledisable-dalamud-testing-or-plugin-testing) <br>
-[How can I fix crashes on startup?](https://github.com/goatcorp/faq/blob/main/xl_troubleshooting.md#q-how-can-i-fix-crashes-on-startup) <br>
-[Do not expect XL/Dalamud/Plugin updates on patch day releases.](https://github.com/goatcorp/faq/blob/main/xl_troubleshooting.md#q-do-not-expect-xldalamudplugin-updates-on-patch-day-releases) <br>
-[CAN I LOGIN EARLY TO TITLESCREEN BEFORE PATCH LIVE????](https://github.com/goatcorp/faq/blob/main/xl_troubleshooting.md#q-can-i-login-early-to-titlescreen-before-patch-live) <br>
-[XL Environment Variables](https://github.com/goatcorp/faq/blob/main/xl_troubleshooting.md#q-xl-environment-variables) <br>
-[Outdated Plugins List](https://github.com/goatcorp/faq/blob/main/xl_troubleshooting.md#q-outdated-plugins-list) <br>
-[The launcher shows a red world icon and an error message when trying to log in, and the official launcher doesn't open](https://github.com/goatcorp/faq/blob/main/xl_troubleshooting.md#q-the-launcher-shows-a-red-world-icon-and-an-error-message-when-trying-to-log-in-and-the-official-launcher-doesnt-open) <br>
-[WTFast Config](https://github.com/goatcorp/faq/blob/main/xl_troubleshooting.md#q-wtfast-config) <br>
-[NVIDIA Driver issue \(7th of January\)](https://github.com/goatcorp/faq/blob/main/xl_troubleshooting.md#q-nvidia-driver-issue-7th-of-january) <br>
-[How to set an an injection delay in rivaTuner/RTSS](https://github.com/goatcorp/faq/blob/main/xl_troubleshooting.md#q-how-to-set-an-an-injection-delay-in-rivatunerrtss) <br>
-[Where can I find my FFXIV Installation?](https://github.com/goatcorp/faq/blob/main/xl_troubleshooting.md#q-where-can-i-find-my-ffxiv-installation) <br>
-[How do I migrate ffxiv and/or xivlauncher files from an old Wine prefix to a new one? \[Linux\]](https://github.com/goatcorp/faq/blob/main/xl_troubleshooting.md#q-how-do-i-migrate-ffxiv-andor-xivlauncher-files-from-an-old-wine-prefix-to-a-new-one-linux) <br>
-[How do I migrate ffxiv and\\or xivlauncher files from an old installation to a new one? \[Windows\]](https://github.com/goatcorp/faq/blob/main/xl_troubleshooting.md#q-how-do-i-migrate-ffxiv-andor-xivlauncher-files-from-an-old-installation-to-a-new-one-windows) <br>
-[I'm on Linux and I keep getting \"XIVLauncher failed to update\" errors](https://github.com/goatcorp/faq/blob/main/xl_troubleshooting.md#q-im-on-linux-and-i-keep-getting-xivlauncher-failed-to-update-errors) <br>
-[How do I get started with development?](https://github.com/goatcorp/faq/blob/main/xl_troubleshooting.md#q-how-do-i-get-started-with-development) <br>
-[Why do people keep asking about Steam so much?](https://github.com/goatcorp/faq/blob/main/xl_troubleshooting.md#q-Why-do-people-keep-asking-about-Steam-so-much) <br>
+[How come the in-game addon \(Dalamud\) doesn't work and/or plugins don't display?](#q-how-come-the-in-game-addon-dalamud-doesnt-work-andor-plugins-dont-display) <br>
+[How do I uninstall XIV Launcher?](#q-how-do-i-uninstall-xiv-launcher) <br>
+[How do I fix plugins that rely on Dalamud provided opcodes?](#q-how-do-i-fix-plugins-that-rely-on-dalamud-provided-opcodes) <br>
+[How do I whitelist XIVLauncher and Dalamud so my Antivirus leaves them alone](#q-how-do-i-whitelist-xivlauncher-and-dalamud-so-my-antivirus-leaves-them-alone) <br>
+[XIV isn't saving my new password / how do I clear my saved password?](#q-xiv-isnt-saving-my-new-password--how-do-i-clear-my-saved-password) <br>
+[I think XIVLauncher is giving me a Blue Screen of Death. What information would help narrow this down?](#q-i-think-xivlauncher-is-giving-me-a-blue-screen-of-death-what-information-would-help-narrow-this-down) <br>
+[How do I enable/disable Dalamud Testing or Plugin Testing?](#q-how-do-i-enabledisable-dalamud-testing-or-plugin-testing) <br>
+[How can I fix crashes on startup?](#q-how-can-i-fix-crashes-on-startup) <br>
+[Do not expect XL/Dalamud/Plugin updates on patch day releases.](#q-do-not-expect-xldalamudplugin-updates-on-patch-day-releases) <br>
+[CAN I LOGIN EARLY TO TITLESCREEN BEFORE PATCH LIVE????](#q-can-i-login-early-to-titlescreen-before-patch-live) <br>
+[XL Environment Variables](#q-xl-environment-variables) <br>
+[Outdated Plugins List](#q-outdated-plugins-list) <br>
+[The launcher shows a red world icon and an error message when trying to log in, and the official launcher doesn't open](#q-the-launcher-shows-a-red-world-icon-and-an-error-message-when-trying-to-log-in-and-the-official-launcher-doesnt-open) <br>
+[WTFast Config](#q-wtfast-config) <br>
+[NVIDIA Driver issue \(7th of January\)](#q-nvidia-driver-issue-7th-of-january) <br>
+[How to set an an injection delay in rivaTuner/RTSS](#q-how-to-set-an-an-injection-delay-in-rivatunerrtss) <br>
+[Where can I find my FFXIV Installation?](#q-where-can-i-find-my-ffxiv-installation) <br>
+[How do I migrate ffxiv and/or xivlauncher files from an old Wine prefix to a new one? \[Linux\]](#q-how-do-i-migrate-ffxiv-andor-xivlauncher-files-from-an-old-wine-prefix-to-a-new-one-linux) <br>
+[How do I migrate ffxiv and\\or xivlauncher files from an old installation to a new one? \[Windows\]](#q-how-do-i-migrate-ffxiv-andor-xivlauncher-files-from-an-old-installation-to-a-new-one-windows) <br>
+[I'm on Linux and I keep getting \"XIVLauncher failed to update\" errors](#q-im-on-linux-and-i-keep-getting-xivlauncher-failed-to-update-errors) <br>
+[How do I get started with development?](#q-how-do-i-get-started-with-development) <br>
+[Why do people keep asking about Steam so much?](#q-Why-do-people-keep-asking-about-Steam-so-much) <br>
 <hr>
 
 ### Q: How come the in-game addon (Dalamud) doesn't work and/or plugins don't display?
@@ -34,7 +34,7 @@ Some of the more common ones that may cause issues are:
 - **MacType** makes no changes to FFXIV because it doesn't use normal fonts anyways. Block it from hooking to FFXIV and you'll be fine.
 - **MSI Afterburner** contains RTSS. See below.
 -  **OBS** Some of the streaming modes involve hooking directx for better capture. This can cause plugins to render in streams or to not render at all. You may need to change your capture methods.
-- **RivaTuner**/**RTSS** see if disabling the RTSS overlay helps. If not, blacklist FFXIV from automatic hooking. RTSS can be used after Dalamud loads without issues. You may also have luck with [Setting an RTSS delay](https://github.com/goatcorp/faq/blob/main/xl_troubleshooting.md#q-how-to-set-an-an-injection-delay-in-rivatunerrtss)
+- **RivaTuner**/**RTSS** see if disabling the RTSS overlay helps. If not, blacklist FFXIV from automatic hooking. RTSS can be used after Dalamud loads without issues. You may also have luck with [Setting an RTSS delay](#q-how-to-set-an-an-injection-delay-in-rivatunerrtss)
 <hr>
 
 ### Q: How do I uninstall XIV Launcher?
@@ -315,13 +315,13 @@ Steam Integration = "I want the steam program to see I'm playing FFXIV and do th
 Use Steam service account = "I bought FFXIV through Steam, which is not the same as the Windows platform."
 <hr>
 
-Want to add a new FAQ entry? Please use the temple below
+Want to add a new FAQ entry? Please use the template below and PR to the main [FAQ repo](https://github.com/goatcorp/faq)
 ```
 ### Basic Title
 FAQ content
 <hr>
 ```
-Then add it to the Table of Contents using `[Name / Title here](Link with anchor here) <br>`
+Then add it to the Table of Contents using `[Name / Title here](#anchor here) <br>`
 
-[Return to the top](https://github.com/goatcorp/faq/blob/main/xl_troubleshooting.md)<br>
+[Return to the top]()<br>
 [Return to the main Readme](https://github.com/goatcorp/faq/blob/main/README.md)
