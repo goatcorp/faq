@@ -2,12 +2,11 @@ Put XIVLauncher related FAQs here
 
 Table of Contents
 
-[How come the in-game addon \(Dalamud\) doesn't work and/or plugins don't display?](https://github.com/goatcorp/faq/blob/main/xl_troubleshooting.md#FAQConflict)
+[How come the in-game addon \(Dalamud\) doesn't work and/or plugins don't display?](https://github.com/goatcorp/faq/blob/main/xl_troubleshooting.md#q-how-come-the-in-game-addon-dalamud-doesnt-work-andor-plugins-dont-display)
 
 <hr>
 
-### FAQConflict
-#### Q: How come the in-game addon (Dalamud) doesn't work and/or plugins don't display?
+### Q: How come the in-game addon (Dalamud) doesn't work and/or plugins don't display?
 
 Like many other game tools, Dalamud works by injecting into the FFXIV process and hooking DirectX. Occasionally, it conflicts with other tools or can't work because of them.
 
@@ -26,7 +25,7 @@ Want to add a new FAQ entry? Please use the temple below
 FAQ content
 <hr>
 ```
-Then add it to the Table of Contents using `[Name / Title here](#FAQshortcode)`
+Then add it to the Table of Contents using `[Name / Title here](Link with anchor here)`
 
 [Return to the top](https://github.com/goatcorp/faq/blob/main/xl_troubleshooting.md)<br>
 [Return to the main Readme](https://github.com/goatcorp/faq/blob/main/README.md)
