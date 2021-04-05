@@ -304,3 +304,4 @@ Then add it to the Table of Contents using `[Name / Title here](Link with anchor
 
 [Return to the top](https://github.com/goatcorp/faq/blob/main/xl_troubleshooting.md)<br>
 [Return to the main Readme](https://github.com/goatcorp/faq/blob/main/README.md)
+>>>>>>> before discard
