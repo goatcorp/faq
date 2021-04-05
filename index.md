@@ -8,7 +8,7 @@
     border-style: solid;
     border-width: 1px;
     border-radius: 0.3rem;
-    transition: color 0.2s, background-color 0.2s, border-color 0.2s
+    transition: color 0.2s, background-color 0.2s, border-color 0.2s;
     padding: 1rem 4rem;
 }
 
