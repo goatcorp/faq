@@ -62,34 +62,32 @@ Please make exceptions (or whitelist) the following folders:
  - `%localappdata%\goatsoft`
  - `%appdata%\XIVLauncher`
 
-**__Please also restart your computer afterwards__**
-======
+## Please also restart your computer afterwards
 
 Want to help us out? If your antivirus complains about XIVLauncher or Dalamud, please submit the files it complains about on the whitelist link. Include "this is not harmful" and the type of malware your Av program flagged it as.
 
 **Avast**
-<https://support.avast.com/en-ww/article/Antivirus-scan-exclusions>
+<https://support.avast.com/en-ww/article/Antivirus-scan-exclusions> <br>
 Whitelist form: <https://www.avast.com/en-us/false-positive-file-form.php>
 
 **AVG**
-<https://support.avg.com/SupportArticleView?l=en&urlname=AVG-Antivirus-scan-exclusions>
+<https://support.avg.com/SupportArticleView?l=en&urlname=AVG-Antivirus-scan-exclusions> <br>
 Whitelist form: <https://www.avg.com/en-us/false-positive-file-form>
 
 **Bitdefender**
-<https://www.bitdefender.com/consumer/support/answer/8886/>
-Whitelist: form <https://www.bitdefender.com/submit>
+<https://www.bitdefender.com/consumer/support/answer/8886/> <br>
+Whitelist form: <https://www.bitdefender.com/submit>
 **NOTE**: BitDefender users may also need to whitelist xivlauncher's program files (local appdata stuff) through the BitDefender firewall. You'll know this is the case if it fails to check for updates/open.
 
 **Norton**
-<https://support.norton.com/sp/en/us/home/current/solutions/v3672136>
+<https://support.norton.com/sp/en/us/home/current/solutions/v3672136> <br>
 Whitelist form: <https://submit.norton.com/>
 
 **Windows Defender**
-<https://support.microsoft.com/en-us/help/4028485/windows-10-add-an-exclusion-to-windows-security>
-
+<https://support.microsoft.com/en-us/help/4028485/windows-10-add-an-exclusion-to-windows-security> <br>
 Whitelist form: <https://www.microsoft.com/en-us/wdsi/filesubmission>
 
-(**PLEASE PROCEED WITH CAUTION**. If you're installing dev plugins or something outside of the normal /xlplugins method, we cannot be sure that the plugins will work and not cause harm to your computer)
+(**PLEASE PROCEED WITH CAUTION**. If you're installing dev plugins, third-party plugins, or something outside of the normal /xlplugins method, we cannot be sure that the plugins will work, be undetected in-game, and not cause harm to your computer)
 <hr>
 
 ### Q: XIV isn't saving my new password / how do I clear my saved password?
