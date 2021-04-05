@@ -1,9 +1,8 @@
 Put Dalamud and plugin-related FAQs here
 
-Table of Contents
-
+### Table of Contents
 [How do I install/enable plugins?](https://github.com/goatcorp/faq/blob/main/dalamud_troubleshooting.md#q-how-do-i-install-enable-plugins) <br>
-[Q: What is the command for \<insert plugin here\>?](https://github.com/goatcorp/faq/blob/main/dalamud_troubleshooting.md#q-what-is-the-command-for-insert-plugin-here
+[What is the command for \<insert plugin here\>?](https://github.com/goatcorp/faq/blob/main/dalamud_troubleshooting.md#q-what-is-the-command-for-insert-plugin-here
 ) <br>
 <hr>
 
