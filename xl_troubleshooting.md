@@ -1,3 +1,4 @@
+
 **Put XIVLauncher related FAQs here
 
 ### Table of Contents
@@ -150,12 +151,147 @@ Broken in: 5.4
 Status: Being split into multiple separate plugins that can be maintained separately. (ChatBubbles and Chat TRanslator are two of these plugins)
 <hr>
 
-### Basic Title
-FAQ content
+### The launcher shows a red world icon and an error message when trying to log in, and the official launcher doesn't open
+This is an issue with Square Enix servers that has been affecting players in the US for a while now, being caused by the login servers being hosted directly by SE in Japan and not taking care of their routes to players.
+
+To remedy it, you can either wait a while and try again then, or set your VPN to Japan until you are on the title screen. Then you should be able to play normally without a VPN. DNS changes have also been said to help.
+
+We can recommend mudfish as a VPN for FFXIV as it's cheap and seems to work reliably.
+To troubleshoot, you can ping frontier.ffxiv.com, SE's Japanese login server.
 <hr>
 
-### Basic Title
-FAQ content
+### WTFast Config
+![wtfast config settings](images\wtfastconfig.png)
+<hr>
+
+### NVIDIA Driver issue (7th of January)
+If you experience crashes with the Nvidia driver from the 7th of January, please try rolling back to the last release before the holidays from the 15th of December.
+
+The release from the 7th seemingly introduced a change or bug that will cause FFXIV to crash under certain conditions when XL is loaded.
+
+We are still looking into this.
+<hr>
+
+###
+**How to set an an injection delay in rivaTuner/RTSS**
+
+1. Go to `C:\Program Files (x86)\RivaTuner Statistics Server\Profiles\\`
+2. Open the **ffxiv_dx11.exe.cfg** file in your text editor of choice.
+3. Find the `[Hooking]` section and change 2 parameters there:
+```
+InjectionDelay=15000
+InjectionDelayTriggers=KERNEL32.dll,USER32.dll
+```
+If they are not present, add them
+
+<hr>
+
+### **Where can I find my FFXIV Installation?**
+(AKA: What does XIVLauncher mean by GamePath?)
+
+FFXIV installs to a few different locations depending on whether you used the official installer or steam, when you installed it, and potentionally if you installed the free trial or not. Here are some of the common paths.
+
+Whatever you do, DO NOT SELECT THE `BOOT` OR `GAME` FOLDER. But if you already have a copy of FFXIV installed, you'll want the folder that contains them.
+
+Official Launcher:
+`C:\Program Files (x86)\SquareEnix\FINAL FANTASY XIV - A Realm Reborn`
+
+Steam:
+`C:\Program Files (x86)\Steam\steamapps\common\FINAL FANTASY XIV Online`
+`C:\Program Files (x86)\Steam\steamapps\common\FINAL FANTASY XIV - A Realm Reborn`
+__NOTE__: If your steam library is on another drive, it will have a different, but similar structure.
+![Example](images\xivlaunchersSettings.png)
+<hr>
+
+### **How do I migrate ffxiv and/or xivlauncher files from an old Wine prefix to a new one? [Linux]**
+
+Once you've made your new xivlauncher-based prefix, you can copy files from your old ffxiv prefix for the following:
+
+**Copy a FFXIV Install from one prefix to another (or move/symlink as desired)**
+from:
+`~/Games/<old prefix>/drive_c/Program Files (x86)/SquareEnix/FINAL FANTASY XIV - A Realm Reborn`
+to:
+`~/Games/<new prefix>/drive_c/Program Files (x86)/SquareEnix/FINAL FANTASY XIV - A Realm Reborn`
+
+**Copy your user/character settings:**
+from:
+`~/Games/<old prefix>/drive_c/users/<username>/My Documents/My Games/FINAL FANTASY XIV - A Realm Reborn`
+to:
+`~/Games/<new prefix>/drive_c/users/<username>/My Documents/My Games/FINAL FANTASY XIV - A Realm Reborn`
+
+**Copy XIV Launcher config (please reinstall plugins)**:
+from:
+`~/Games/<old prefix>/drive_c/users/<username>/Application Data/XIVLauncher/pluginConfigs`
+to:
+`~/Games/<new prefix>/drive_c/users/<username>/Application Data/XIVLauncher/pluginConfigs`
+<hr>
+
+### **How do I migrate ffxiv and\or xivlauncher files from an old installation to a new one? [Windows]**
+
+**Copy a FFXIV Install**
+For the most part, FFXIV is portable. You just need to make sure you've installed Directx as needed. I recommend installing the launcher with SE's installer first, and then replacing the files with a backup if you don't want to patch.
+__NOTE__: You shouldn't do this if you had textools installed. Or at least, make sure to restore indexes first as it probably broke your client.
+
+**Copy your user\character settings:**
+`%USERPROFILE%\Documents\My Games\FINAL FANTASY XIV - A Realm Reborn`
+
+**Copy XIV Launcher config (please reinstall plugins)**:
+__NOTE__: do not copy other config or folders as those are unique to that particular computer. You should set them up per machine.
+`%appdata%\XIVLauncher\pluginConfigs`
+<hr>
+
+### **I'm on Linux and I keep getting "XIVLauncher failed to update" errors**
+
+On some more recent Linux distributions, TLS 1.0 and 1.1 has been disabled. This causes an issue with Wine and FFXIV/XIVLauncher because it may not always negotiate TLS correctly.
+
+You can fix this by seting your `dssenh` DLL override to native if it isn't already. (dssenh=n as an environment variable or in Lutris)
+
+This has also been added to the xivlauncher Lutris script as well.
+
+Thank you to kainz0r for this tip!
+![Example](images\LinuxConfigScreenshot.png)
+<hr>
+
+### **How do I get started with development?**
+This post is a work in progress and will be edited as new information and resources become available. It's generally easier to just ask in the <#Dev> channel.
+
+__XIVLauncher__
+The launcher itself.
+
+The XIVLauncher source code can be found on the main project repo.
+<https://github.com/goatcorp/FFXIVQuickLauncher>
+
+__Dalamud__
+Dalamud is the core addon/plugin system.
+
+The Dalamud source code can be found on the main project repo.
+<https://github.com/goatcorp/Dalamud>
+
+Other assets required by Dalamud can be found here:
+<https://github.com/goatcorp/DalamudAssets>
+
+You can find the Dalamud API page below, which also lists functions you can use in plugins.
+<https://goatcorp.github.io/Dalamud/api/index.html>
+
+__Dalamud Plugins__
+Karashiiro has a good starting document here:
+<https://github.com/karashiiro/DalamudPluginGuide>
+
+We also have a number of sample plugin templates to choose from:
+<https://github.com/goatcorp/SamplePlugin>
+<https://github.com/karashiiro/DalamudPluginProjectTemplate>
+<https://github.com/lmcintyre/PluginTemplate>
+
+You might also find the LivePluginLoad plugin to be handy, as it allows you to do rapid plugin testing and reload dynamically. It's available by source or Caraxi's repo.
+<https://github.com/Caraxi/LivePluginLoad>
+<http://repo.caraxian.com/>
+
+To distribute a plugin, it does need to be packaged correctly. This can be done manually or with DalamudPackager.
+<https://github.com/goatcorp/DalamudPackager>
+
+When your plugin is ready for testing/release, it should be PRed over to the DalamudPlugins repo.
+*Please place testing plugins in the testing folder*
+<https://github.com/goatcorp/DalamudPlugins>
 <hr>
 
 Want to add a new FAQ entry? Please use the temple below
