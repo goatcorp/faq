@@ -3,6 +3,7 @@ Put XIVLauncher related FAQs here
 Table of Contents
 
 [How come the in-game addon \(Dalamud\) doesn't work and/or plugins don't display?](https://github.com/goatcorp/faq/blob/main/xl_troubleshooting.md#q-how-come-the-in-game-addon-dalamud-doesnt-work-andor-plugins-dont-display)
+[How do I uninstall XIV Launcher?]((https://github.com/goatcorp/faq/blob/main/xl_troubleshooting.md#q-how-do-i-uninstall-xiv-launcher)
 
 <hr>
 
@@ -18,10 +19,22 @@ Some of the more common ones that may cause issues are:
 - **RivaTuner**/**RTSS** see if disabling the RTSS overlay helps. If not, blacklist FFXIV from automatic hooking. RTSS can be used after Dalamud loads without issues. You may also have luck with [Setting a RTSS delay](Link goes here)
 <hr>
 
+### Q: How do I uninstall XIV Launcher?
+
+You can uninstall XIVLauncher like any normal windows program though the control panel or windows 10 setting app. If you want to purge any trace of it, check for and remove these folders.
+
+Program installation and old versions:
+`%localappdata%\XIVLauncher`
+`%localappdata%\goatsoft`
+
+Settings/plugins and other user config
+`%appdata%\XIVLauncher`
+<hr>
+
+----
 Want to add a new FAQ entry? Please use the temple below
 ```
-### FAQShortCode
-#### Q: Basic Title
+cBasic Title
 FAQ content
 <hr>
 ```
