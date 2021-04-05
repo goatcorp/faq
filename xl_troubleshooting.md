@@ -1,11 +1,27 @@
-
-**Put XIVLauncher related FAQs here
+Put XIVLauncher related FAQs here
 
 ### Table of Contents
 [How come the in-game addon \(Dalamud\) doesn't work and/or plugins don't display?](https://github.com/goatcorp/faq/blob/main/xl_troubleshooting.md#q-how-come-the-in-game-addon-dalamud-doesnt-work-andor-plugins-dont-display) <br>
 [How do I uninstall XIV Launcher?](https://github.com/goatcorp/faq/blob/main/xl_troubleshooting.md#q-how-do-i-uninstall-xiv-launcher) <br>
 [How do I fix plugins that rely on Dalamud provided opcodes?](https://github.com/goatcorp/faq/blob/main/xl_troubleshooting.md#q-how-do-i-fix-plugins-that-rely-on-dalamud-provided-opcodes) <br>
-How do I whitelist XIVLauncher and Dalamud so my Antivirus leaves them alone
+[How do I whitelist XIVLauncher and Dalamud so my Antivirus leaves them alone](https://github.com/goatcorp/faq/blob/main/xl_troubleshooting.md#q-How-do-I-whitelist-XIVLauncher-and-Dalamud-so-my-Antivirus-leaves-them-alone) <br>
+[XIV isn't saving my new password / how do I clear my saved password?](https://github.com/goatcorp/faq/blob/main/xl_troubleshooting.md#q-XIV-isn't-saving-my-new-password-/-how-do-I-clear-my-saved-password?) <br>
+[I think XIVLauncher is giving me a Blue Screen of Death. What information would help narrow this down?](https://github.com/goatcorp/faq/blob/main/xl_troubleshooting.md#q-I-think-XIVLauncher-is-giving-me-a-Blue-Screen-of-Death.-What-information-would-help-narrow-this-down?) <br>
+[How do I enable/disable Dalamud Testing or Plugin Testing?](https://github.com/goatcorp/faq/blob/main/xl_troubleshooting.md#q-How-do-I-enable/disable-Dalamud-Testing-or-Plugin-Testing?) <br>
+[How can I fix crashes on startup?](https://github.com/goatcorp/faq/blob/main/xl_troubleshooting.md#q-How-can-I-fix-crashes-on-startup?) <br>
+[Do not expect XL/Dalamud/Plugin updates on patch day releases.](https://github.com/goatcorp/faq/blob/main/xl_troubleshooting.md#q-Do-not-expect-XL/Dalamud/Plugin-updates-on-patch-day-releases.) <br>
+[CAN I LOGIN EARLY TO TITLESCREEN BEFORE PATCH LIVE????](https://github.com/goatcorp/faq/blob/main/xl_troubleshooting.md#q-CAN-I-LOGIN-EARLY-TO-TITLESCREEN-BEFORE-PATCH-LIVE????) <br>
+[XL Environment Variables](https://github.com/goatcorp/faq/blob/main/xl_troubleshooting.md#q-XL-Environment-Variables) <br>
+[Outdated Plugins List](https://github.com/goatcorp/faq/blob/main/xl_troubleshooting.md#q-Outdated-Plugins-List) <br>
+[The launcher shows a red world icon and an error message when trying to log in, and the official launcher doesn't open](https://github.com/goatcorp/faq/blob/main/xl_troubleshooting.md#q-The-launcher-shows-a-red-world-icon-and-an-error-message-when-trying-to-log-in,-and-the-official-launcher-doesn't-open) <br>
+[WTFast Config](https://github.com/goatcorp/faq/blob/main/xl_troubleshooting.md#q-WTFast-Config) <br>
+[NVIDIA Driver issue \(7th of January\)](https://github.com/goatcorp/faq/blob/main/xl_troubleshooting.md#q-NVIDIA-Driver-issue-\(7th-of-January\)) <br>
+[How to set an an injection delay in rivaTuner/RTSS](https://github.com/goatcorp/faq/blob/main/xl_troubleshooting.md#q-How-to-set-an-an-injection-delay-in-rivaTuner/RTSS) <br>
+[Where can I find my FFXIV Installation?](https://github.com/goatcorp/faq/blob/main/xl_troubleshooting.md#q-Where-can-I-find-my-FFXIV-Installation?) <br>
+[How do I migrate ffxiv and/or xivlauncher files from an old Wine prefix to a new one? \[Linux\]](https://github.com/goatcorp/faq/blob/main/xl_troubleshooting.md#q-How-do-I-migrate-ffxiv-and/or-xivlauncher-files-from-an-old-Wine-prefix-to-a-new-one?-\[Linux\) <br>
+[How do I migrate ffxiv and\\or xivlauncher files from an old installation to a new one? \[Windows\]](https://github.com/goatcorp/faq/blob/main/xl_troubleshooting.md#q-How-do-I-migrate-ffxiv-and\\or-xivlauncher-files-from-an-old-installation-to-a-new-one?-\[Windows\) <br>
+[I'm on Linux and I keep getting \"XIVLauncher failed to update\" errors](https://github.com/goatcorp/faq/blob/main/xl_troubleshooting.md#q-I'm-on-Linux-and-I-keep-getting-\"XIVLauncher-failed-to-update\"-errors) <br>
+[How do I get started with development?](https://github.com/goatcorp/faq/blob/main/xl_troubleshooting.md#q-How-do-I-get-started-with-development?) <br>
 <hr>
 
 ### Q: How come the in-game addon (Dalamud) doesn't work and/or plugins don't display?
@@ -75,7 +91,7 @@ Whitelist form: <https://www.microsoft.com/en-us/wdsi/filesubmission>
 (**PLEASE PROCEED WITH CAUTION**. If you're installing dev plugins or something outside of the normal /xlplugins method, we cannot be sure that the plugins will work and not cause harm to your computer)
 <hr>
 
-### XIV isn't saving my new password / how do I clear my saved password?
+### Q: XIV isn't saving my new password / how do I clear my saved password?
 
 XIV Launcher saves user credentials in the Windows Credential Manager. They will be appropriately labelled so you can find the exact one you want to edit/remove.
 
@@ -88,7 +104,7 @@ XIV Launcher saves user credentials in the Windows Credential Manager. They will
 If you need more help, a basic guide can be found on https://pureinfotech.com/credential-manager-windows-10/
 <hr>
 
-### I think XIVLauncher is giving me a Blue Screen of Death. What information would help narrow this down?
+### Q: I think XIVLauncher is giving me a Blue Screen of Death. What information would help narrow this down?
 (NOTE: It's probably not XIV Launcher, but the following information will help us verify that)
 
 1. What stop code are you getting?
@@ -100,7 +116,7 @@ If you need more help, a basic guide can be found on https://pureinfotech.com/cr
 If unsure about some of those details or if the Windows Event Viewer doesn't tell you, Bluescreenview https://www.nirsoft.net/utils/blue_screen_view.html can read the memory dump (please let the computer finish it without hitting the reset button while it dumps your memory to hard drive)
 <hr>
 
-### How do I enable/disable Dalamud Testing or Plugin Testing?
+### Q: How do I enable/disable Dalamud Testing or Plugin Testing?
 1. Type /xlsettings in game
 2. Click on the Experimental tab
 3. Select/Unselect the settings as wanted.
@@ -110,16 +126,16 @@ If unsure about some of those details or if the Windows Event Viewer doesn't tel
 * You may need to relaunch the game to receive another version of Dalamud.
 <hr>
 
-### How can I fix crashes on startup?
+### Q: How can I fix crashes on startup?
 Please try to install the VC Redist from Microsoft at https://github.com/abbodi1406/vcredist/releases/latest, as well as the .NET 4.8 Runtime https://dotnet.microsoft.com/download/dotnet-framework/thank-you/net48-web-installer.
 If you are still facing issues, please message us in #xivlauncher_issues
 <hr>
 
-### Do not expect XL/Dalamud/Plugin updates on patch day releases.
+### Q: Do not expect XL/Dalamud/Plugin updates on patch day releases.
 Please remember that many of the developers have school/jobs/both and live across a variety of timezones. Things will be updated when they can be. The notion that "XL could be gone at any time" still exists.
 <hr>
 
-### CAN I LOGIN EARLY TO TITLESCREEN BEFORE PATCH LIVE????
+### Q: CAN I LOGIN EARLY TO TITLESCREEN BEFORE PATCH LIVE????
 
 In theory, yes. But you'll probably have expired authorization and have to login again anyways.
 
@@ -132,7 +148,7 @@ The "wait for maintenance to be over" feature can also check for servers to be l
 As with any patch, **__in-game addons will be automatically disabled until Dalamud is updated for new patch content__**. Do not manually inject Dalamud as a startup application unless you'd like to crash your client  
 <hr>
 
-### **XL Environment Variables**
+### Q: **XL Environment Variables**
 
 You can set `XL_PRERELEASE=true` for testing a new release of xivlauncher if applicable.
 
@@ -143,15 +159,15 @@ Don't use the wine env var anymore. Just use the properly working Lutris scripts
  **Support will not be provided if you are not on the current version of XL, Dalamud, and plugins. Use with caution as outdated versions will likely crash.**
 <hr>
 
-### Outdated Plugins List
+### Q: Outdated Plugins List
 Between patches breaking them, time, and/or interest, these plugins are not currently updated and the developers are aware. If you'd like to help maintain a plugin, we can help you find their repo and contact if they're still active.
 
 #### Chat Extender:
 Broken in: 5.4
-Status: Being split into multiple separate plugins that can be maintained separately. (ChatBubbles and Chat TRanslator are two of these plugins)
+Status: Being split into multiple separate plugins that can be maintained separately. (ChatBubbles and Chat Translator are two of these plugins)
 <hr>
 
-### The launcher shows a red world icon and an error message when trying to log in, and the official launcher doesn't open
+### Q: The launcher shows a red world icon and an error message when trying to log in, and the official launcher doesn't open
 This is an issue with Square Enix servers that has been affecting players in the US for a while now, being caused by the login servers being hosted directly by SE in Japan and not taking care of their routes to players.
 
 To remedy it, you can either wait a while and try again then, or set your VPN to Japan until you are on the title screen. Then you should be able to play normally without a VPN. DNS changes have also been said to help.
@@ -160,11 +176,11 @@ We can recommend mudfish as a VPN for FFXIV as it's cheap and seems to work reli
 To troubleshoot, you can ping frontier.ffxiv.com, SE's Japanese login server.
 <hr>
 
-### WTFast Config
-![wtfast config settings](images\wtfastconfig.png)
+### Q: WTFast Config
+![wtfast config settings](images/wtfastconfig.png)
 <hr>
 
-### NVIDIA Driver issue (7th of January)
+### Q: NVIDIA Driver issue (7th of January)
 If you experience crashes with the Nvidia driver from the 7th of January, please try rolling back to the last release before the holidays from the 15th of December.
 
 The release from the 7th seemingly introduced a change or bug that will cause FFXIV to crash under certain conditions when XL is loaded.
@@ -172,8 +188,7 @@ The release from the 7th seemingly introduced a change or bug that will cause FF
 We are still looking into this.
 <hr>
 
-###
-**How to set an an injection delay in rivaTuner/RTSS**
+### Q: **How to set an an injection delay in rivaTuner/RTSS**
 
 1. Go to `C:\Program Files (x86)\RivaTuner Statistics Server\Profiles\\`
 2. Open the **ffxiv_dx11.exe.cfg** file in your text editor of choice.
@@ -186,7 +201,7 @@ If they are not present, add them
 
 <hr>
 
-### **Where can I find my FFXIV Installation?**
+### Q: **Where can I find my FFXIV Installation?**
 (AKA: What does XIVLauncher mean by GamePath?)
 
 FFXIV installs to a few different locations depending on whether you used the official installer or steam, when you installed it, and potentionally if you installed the free trial or not. Here are some of the common paths.
@@ -200,10 +215,10 @@ Steam:
 `C:\Program Files (x86)\Steam\steamapps\common\FINAL FANTASY XIV Online`
 `C:\Program Files (x86)\Steam\steamapps\common\FINAL FANTASY XIV - A Realm Reborn`
 __NOTE__: If your steam library is on another drive, it will have a different, but similar structure.
-![Example](images\xivlaunchersSettings.png)
+![Example](images/xivlaunchersSettings.png)
 <hr>
 
-### **How do I migrate ffxiv and/or xivlauncher files from an old Wine prefix to a new one? [Linux]**
+### Q: **How do I migrate ffxiv and/or xivlauncher files from an old Wine prefix to a new one? [Linux]**
 
 Once you've made your new xivlauncher-based prefix, you can copy files from your old ffxiv prefix for the following:
 
@@ -226,7 +241,7 @@ to:
 `~/Games/<new prefix>/drive_c/users/<username>/Application Data/XIVLauncher/pluginConfigs`
 <hr>
 
-### **How do I migrate ffxiv and\or xivlauncher files from an old installation to a new one? [Windows]**
+### Q: **How do I migrate ffxiv and\or xivlauncher files from an old installation to a new one? [Windows]**
 
 **Copy a FFXIV Install**
 For the most part, FFXIV is portable. You just need to make sure you've installed Directx as needed. I recommend installing the launcher with SE's installer first, and then replacing the files with a backup if you don't want to patch.
@@ -240,7 +255,7 @@ __NOTE__: do not copy other config or folders as those are unique to that partic
 `%appdata%\XIVLauncher\pluginConfigs`
 <hr>
 
-### **I'm on Linux and I keep getting "XIVLauncher failed to update" errors**
+### Q: **I'm on Linux and I keep getting "XIVLauncher failed to update" errors**
 
 On some more recent Linux distributions, TLS 1.0 and 1.1 has been disabled. This causes an issue with Wine and FFXIV/XIVLauncher because it may not always negotiate TLS correctly.
 
@@ -249,10 +264,10 @@ You can fix this by seting your `dssenh` DLL override to native if it isn't alre
 This has also been added to the xivlauncher Lutris script as well.
 
 Thank you to kainz0r for this tip!
-![Example](images\LinuxConfigScreenshot.png)
+![Example](images/LinuxConfigScreenshot.png)
 <hr>
 
-### **How do I get started with development?**
+### Q: **How do I get started with development?**
 This post is a work in progress and will be edited as new information and resources become available. It's generally easier to just ask in the <#Dev> channel.
 
 __XIVLauncher__
@@ -304,4 +319,3 @@ Then add it to the Table of Contents using `[Name / Title here](Link with anchor
 
 [Return to the top](https://github.com/goatcorp/faq/blob/main/xl_troubleshooting.md)<br>
 [Return to the main Readme](https://github.com/goatcorp/faq/blob/main/README.md)
->>>>>>> before discard
