@@ -2,8 +2,14 @@ Put Dalamud and plugin-related FAQs here
 
 ### Table of Contents
 [How do I install/enable plugins?](https://github.com/goatcorp/faq/blob/main/dalamud_troubleshooting.md#q-how-do-i-install-enable-plugins) <br>
-[What is the command for \<insert plugin here\>?](https://github.com/goatcorp/faq/blob/main/dalamud_troubleshooting.md#q-what-is-the-command-for-insert-plugin-here
-) <br>
+[What is the command for \<insert plugin here\>?](https://github.com/goatcorp/faq/blob/main/dalamud_troubleshooting.md#q-what-is-the-command-for-insert-plugin-here) <br>
+[How do I enable/disable Dalamud Testing or Plugin Testing](https://github.com/goatcorp/faq/blob/main/dalamud_troubleshooting.md#q-How-do-I-enable/disable-Dalamud-Testing-or-Plugin-Testing) <br>
+[Do not expect XL/Dalamud/Plugin updates on patch day releases](https://github.com/goatcorp/faq/blob/main/dalamud_troubleshooting.md#q-Do-not-expect-XL/Dalamud/Plugin-updates-on-patch-day-releases) <br>
+[I get an error message when trying to install/update/disable a plugin](https://github.com/goatcorp/faq/blob/main/dalamud_troubleshooting.md#q-I-get-an-error-message-when-trying-to-install/update/disable-a-plugin) <br>
+[Reshade and its variants don't work or Dalamud UI fails](https://github.com/goatcorp/faq/blob/main/dalamud_troubleshooting.md#q-Reshade-and-its-variants-don't-work-or-Dalamud-UI-fails) <br>
+[Outdated Plugins List](https://github.com/goatcorp/faq/blob/main/dalamud_troubleshooting.md#q-Outdated-Plugins-List) <br>
+[All my plugins basically stopped working](https://github.com/goatcorp/faq/blob/main/dalamud_troubleshooting.md#q-All-my-plugins-basically-stopped-working) <br>
+[Remember the patches, no matter how small, can break plugins](https://github.com/goatcorp/faq/blob/main/dalamud_troubleshooting.md#q-Remember-the-patches,-no-matter-how-small,-can-break-plugins) <br>
 <hr>
 
 ### Q: How do I install/enable plugins?
@@ -18,18 +24,76 @@ While some plugins will list their command from the plugin install window, use `
 You can also check out the [Plugin Gallery](https://github.com/goatcorp/DalamudPlugins/wiki/Plugin-Gallery) to see if there's some quick documentation, or check the plugin's repo for a readme.
 <hr>
 
-### Basic Title
-FAQ content
+### Q: How do I enable/disable Dalamud Testing or Plugin Testing?
+1. Type /xlsettings in game
+2. Click on the Experimental tab
+3. Select/Unselect the settings as wanted.
+4. Click on "Save and Close" to apply.
+
+* Only testing plugins show up in /xlplugins when testing is enabled. They'll still load as normal.
+* You may need to relaunch the game to receive another version of Dalamud.
 <hr>
 
-### Basic Title
-FAQ content
+### Do not expect XL/Dalamud/Plugin updates on patch day releases.
+
+Please remember that many of the developers have school/jobs/both and live across a variety of timezones. Things will be updated when they can be. The notion that "XL could be gone at any time" still exists.
 <hr>
 
-### Basic Title
-FAQ content
+### Q: I get an error message when trying to install/update/disable a plugin
+Please give us more information so we can help troubleshoot why this is happening to you.
+
+1. Which plugin is it?
+2. Did a previous version work and do you know what version it was?
+3. Does deleting the plugin and trying a fresh install work?
+4. Can you please provide your dalamud.txt file?
 <hr>
 
+### Reshade and its variants don't work or Dalamud UI fails
+It may help to change how you're injecting the hook for Reshade/GShade/etc.
+
+If you're using dgxi, try d3d11.
+If you're using d3d11, try dxgi.
+
+You can do this by renaming the hook file in your <ffxiv install>\game folder or by reinstalling your shader injector of choice, typically. (But make sure you don't have both!)
+<hr>
+
+### Q: How do I fix plugins that rely on Dalamud provided opcodes?
+
+To fix things that rely on opcodes (Universalis updates, PennyPincher, and more), please delete %appdata%\xivlauncher\addon\Hooks and relaunch so Dalamud and DalamudAssets  get redownloaded
+
+<hr>
+
+### Outdated Plugins List
+Between patches breaking them, time, and/or interest, these plugins are not currently updated and the developers are aware. If you'd like to help maintain a plugin, we can help you find their repo and contact if they're still active.
+
+Chat Extender:
+Broken in: 5.4
+Status: Being split into multiple separate plugins that can be maintained separately. (ChatBubbles and Chat Translator are two of these plugins)
+<hr>
+
+### Q: All my plugins basically stopped working
+Did you have Dalamud test releases enabled? (Currently version 5.2.2.1 as of post)
+
+Don't do that. It's for testing. Specifically for breaking feature changes.
+
+You can still access test plugins on the normal dalamud unless they specifically say they need the test version.
+
+You can turn off Dalamud Testing in /xlsettings if your're still in game.
+https://puu.sh/GQuDL.png
+
+Otherwise, please follow these steps:
+1. Close the game and xivlauncher if open.
+2. Go to %appdata%\xivlauncher\ and open dalamudConfig.json in your text editor of choice.
+3. Change the value of DoDalamudTest to false.
+<hr>
+
+### Remember the patches, no matter how small, can break plugins
+If you're experiencing crashes once Dalamud is whitelisted fora patch, you will want to disable/delete plugins and wait for updates.
+
+Plugins that rely on opcodes may take a little longer than ones ones that rely on hooks in some cases, but it ultimately depends on how much the ffxiv client changed.
+<hr>
+
+----
 Want to add a new FAQ entry? Please use the temple below
 ```
 ### Q: Basic Title
