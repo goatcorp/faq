@@ -1,6 +1,14 @@
-# faq
-FAQ and Knowledgebase for XIVLauncher
+Please select a category from below:
 
-[XIVLauncher FAQ posts](https://github.com/goatcorp/faq/blob/main/xl_troubleshooting.md)
+<div>
+<a href="https://goatcorp.github.io/faq/xl_troubleshooting" class="btn">Help for XIVLauncher</a>
 
-[Dalamud FAQ posts](https://github.com/goatcorp/faq/blob/main/dalamud_troubleshooting.md)
+<a href="https://goatcorp.github.io/faq/dalamud_troubleshooting" class="btn">Help for addons</a>
+</div>
+
+<br>
+<br>
+
+<div>
+If you cannot find what you're looking for, please join our discord: [![Discord Shield](https://discordapp.com/api/guilds/581875019861328007/widget.png?style=shield)](https://discord.gg/3NMcUV5)
+</div>
