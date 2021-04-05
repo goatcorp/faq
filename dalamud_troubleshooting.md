@@ -1,7 +1,7 @@
 Put Dalamud and plugin-related FAQs here
 
 ### Table of Contents
-[How do I install\/enable plugins?](https://github.com/goatcorp/faq/blob/main/dalamud_troubleshooting.md#q-how-do-i-installenable-plugins) <br>
+[How do I install/enable plugins?](q-how-do-i-installenable-plugins) <br>
 [What is the command for \<insert plugin here\>?](https://github.com/goatcorp/faq/blob/main/dalamud_troubleshooting.md#q-what-is-the-command-for-insert-plugin-here) <br>
 [How do I enable\/disable Dalamud Testing or Plugin Testing](https://github.com/goatcorp/faq/blob/main/dalamud_troubleshooting.md#q-how-do-i-enabledisable-dalamud-testing-or-plugin-testing) <br>
 [Do not expect XL\/Dalamud\/Plugin updates on patch day releases](https://github.com/goatcorp/faq/blob/main/dalamud_troubleshooting.md#q-do-not-expect-xldalamudplugin-updates-on-patch-day-releases) <br>
@@ -13,7 +13,7 @@ Put Dalamud and plugin-related FAQs here
 [Remember the patches, no matter how small, can break plugins](https://github.com/goatcorp/faq/blob/main/dalamud_troubleshooting.md#q-remember-the-patches-no-matter-how-small-can-break-plugins) <br>
 <hr>
 
-### Q: How do I install\/enable plugins?
+### Q: How do I install/enable plugins?
 Not sure how to install plugins? Just type `/xlplugins` in-game after you see that the in-game hook has loaded.
 
 Note: Disabled plugins are not uninstalled. You'll need to manually delete them if you want to remove all traces of the plugin.
@@ -25,7 +25,7 @@ While some plugins will list their command from the plugin install window, use `
 You can also check out the [Plugin Gallery](https://github.com/goatcorp/DalamudPlugins/wiki/Plugin-Gallery) to see if there's some quick documentation, or check the plugin's repo for a readme.
 <hr>
 
-### Q: How do I enable\/disable Dalamud Testing or Plugin Testing?
+### Q: How do I enable/disable Dalamud Testing or Plugin Testing?
 1. Type /xlsettings in game
 2. Click on the Experimental tab
 3. Select/Unselect the settings as wanted.
@@ -35,12 +35,12 @@ You can also check out the [Plugin Gallery](https://github.com/goatcorp/DalamudP
 * You may need to relaunch the game to receive another version of Dalamud.
 <hr>
 
-### Q: Do not expect XL\/Dalamud\/Plugin updates on patch day releases.
+### Q: Do not expect XL/Dalamud/Plugin updates on patch day releases.
 
 Please remember that many of the developers have school/jobs/both and live across a variety of timezones. Things will be updated when they can be. The notion that "XL could be gone at any time" still exists.
 <hr>
 
-### Q: I get an error message when trying to install\/update\/disable a plugin
+### Q: I get an error message when trying to install/update/disable a plugin
 Please give us more information so we can help troubleshoot why this is happening to you.
 
 1. Which plugin is it?
@@ -74,14 +74,13 @@ Status: Being split into multiple separate plugins that can be maintained separa
 <hr>
 
 ### Q: All my plugins basically stopped working
-Did you have Dalamud test releases enabled? (Currently version 5.2.2.1 as of post)
+Did you have Dalamud test releases enabled? (Currently version 5.2.4.2 as of post)
 
 Don't do that. It's for testing. Specifically for breaking feature changes.
 
 You can still access test plugins on the normal dalamud unless they specifically say they need the test version.
 
-You can turn off Dalamud Testing in /xlsettings if you're still in game.
-https://puu.sh/GQuDL.png
+You can turn off Dalamud Testing in the `/xldev` menu. It's no longer part of the settings window to help make sure people don't select it unintentionally.
 
 Otherwise, please follow these steps:
 1. Close the game and xivlauncher if open.
