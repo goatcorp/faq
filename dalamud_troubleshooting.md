@@ -102,5 +102,5 @@ FAQ content
 ```
 Then add it to the Table of Contents using `[Name / Title here](#anchor here) <br>`
 
-[Return to the top](https://github.com/goatcorp/faq/blob/main/dalamud_troubleshooting.md)<br>
-[Return to the main Readme](https://github.com/goatcorp/faq/blob/main/README.md)
+[Return to the top](#table-of-contents)<br>
+[Return to the main Readme](https://goatcorp.github.io/faq)
