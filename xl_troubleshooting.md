@@ -100,7 +100,7 @@ XIV Launcher saves user credentials in the Windows Credential Manager. They will
 4. Delete the entry. XIVLauncher will no longer be able to load it.
 5. Now open xivlauncher and try to login.
 
-If you need more help, a basic guide can be found on https://pureinfotech.com/credential-manager-windows-10/
+If you need more help, a basic guide can be found on <https://pureinfotech.com/credential-manager-windows-10/>
 <hr>
 
 ### Q: I think XIVLauncher is giving me a Blue Screen of Death. What information would help narrow this down?
@@ -112,7 +112,7 @@ If you need more help, a basic guide can be found on https://pureinfotech.com/cr
 4. Which plugins do you have installed? Does it still happen if you disable them and selectively re-enable them one by one?
 5. Have you done a full uninstall of XIVLauncher and reinstall? (see a few posts above for details)
 
-If unsure about some of those details or if the Windows Event Viewer doesn't tell you, Bluescreenview https://www.nirsoft.net/utils/blue_screen_view.html can read the memory dump (please let the computer finish it without hitting the reset button while it dumps your memory to hard drive)
+If unsure about some of those details or if the Windows Event Viewer doesn't tell you, [Bluescreenview](https://www.nirsoft.net/utils/blue_screen_view.html) can read the memory dump (please let the computer finish it without hitting the reset button while it dumps your memory to hard drive)
 <hr>
 
 ### Q: How do I enable\/disable Dalamud Testing or Plugin Testing?
@@ -126,7 +126,7 @@ If unsure about some of those details or if the Windows Event Viewer doesn't tel
 <hr>
 
 ### Q: How can I fix crashes on startup?
-Please try to install the VC Redist from Microsoft at https://github.com/abbodi1406/vcredist/releases/latest, as well as the .NET 4.8 Runtime https://dotnet.microsoft.com/download/dotnet-framework/thank-you/net48-web-installer.
+Please try to install the VC Redist from Microsoft at <https://github.com/abbodi1406/vcredist/releases/latest>, as well as the .NET 4.8 Runtime <https://dotnet.microsoft.com/download/dotnet-framework/thank-you/net48-web-installer>.
 If you are still facing issues, please message us in #xivlauncher_issues
 <hr>
 
@@ -143,7 +143,7 @@ You can make use of XL's "wait for maintenance to be over" features to sit and c
 
 The "wait for maintenance to be over" feature can also check for servers to be live every ~15 seconds to get you logged in as soon as things are live.
 
-As with any patch, **__in-game addons will be automatically disabled until Dalamud is updated for new patch content__**. Do not manually inject Dalamud as a startup application unless you'd like to crash your client  
+As with any patch, **in-game addons will be automatically disabled until Dalamud is updated for new patch content**. Do not manually inject Dalamud as a startup application unless you'd like to crash your client  
 <hr>
 
 ### Q: **XL Environment Variables**
