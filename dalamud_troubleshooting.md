@@ -79,7 +79,7 @@ Don't do that. It's for testing. Specifically for breaking feature changes.
 
 You can still access test plugins on the normal dalamud unless they specifically say they need the test version.
 
-You can turn off Dalamud Testing in /xlsettings if your're still in game.
+You can turn off Dalamud Testing in /xlsettings if you're still in game.
 https://puu.sh/GQuDL.png
 
 Otherwise, please follow these steps:
