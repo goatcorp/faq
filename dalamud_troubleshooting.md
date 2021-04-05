@@ -58,8 +58,9 @@ You can do this by renaming the hook file in your <ffxiv install>\game folder or
 <hr>
 
 ### Q: How do I fix plugins that rely on Dalamud provided opcodes?
+Certain plugins and features (Universalis updates, PennyPincher, and more), require knowing about the FFXIV client's current opcodes. These change every patch and can sometimes take more time to sort out before a Dalamud update for a new patch is ready.
 
-To fix things that rely on opcodes (Universalis updates, PennyPincher, and more), please delete %appdata%\xivlauncher\addon\Hooks and relaunch so Dalamud and DalamudAssets  get redownloaded
+If you need to refresh your opcode information after it was updated, please relaunch the game. Dalamud will check for updated definitions when it is launched.
 
 <hr>
 
