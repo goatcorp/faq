@@ -2,8 +2,8 @@ Put XIVLauncher related FAQs here
 
 Table of Contents
 
-[How come the in-game addon \(Dalamud\) doesn't work and/or plugins don't display?](https://github.com/goatcorp/faq/blob/main/xl_troubleshooting.md#q-how-come-the-in-game-addon-dalamud-doesnt-work-andor-plugins-dont-display)
-[How do I uninstall XIV Launcher?](https://github.com/goatcorp/faq/blob/main/xl_troubleshooting.md#q-how-do-i-uninstall-xiv-launcher)
+[How come the in-game addon \(Dalamud\) doesn't work and/or plugins don't display?](https://github.com/goatcorp/faq/blob/main/xl_troubleshooting.md#q-how-come-the-in-game-addon-dalamud-doesnt-work-andor-plugins-dont-display) <br>
+[How do I uninstall XIV Launcher?](https://github.com/goatcorp/faq/blob/main/xl_troubleshooting.md#q-how-do-i-uninstall-xiv-launcher) <br>
 
 <hr>
 
@@ -38,7 +38,7 @@ cBasic Title
 FAQ content
 <hr>
 ```
-Then add it to the Table of Contents using `[Name / Title here](Link with anchor here)`
+Then add it to the Table of Contents using `[Name / Title here](Link with anchor here) <br>`
 
 [Return to the top](https://github.com/goatcorp/faq/blob/main/xl_troubleshooting.md)<br>
 [Return to the main Readme](https://github.com/goatcorp/faq/blob/main/README.md)
