@@ -4,7 +4,7 @@ Table of Contents
 
 [How come the in-game addon \(Dalamud\) doesn't work and/or plugins don't display?](https://github.com/goatcorp/faq/blob/main/xl_troubleshooting.md#q-how-come-the-in-game-addon-dalamud-doesnt-work-andor-plugins-dont-display) <br>
 [How do I uninstall XIV Launcher?](https://github.com/goatcorp/faq/blob/main/xl_troubleshooting.md#q-how-do-i-uninstall-xiv-launcher) <br>
-
+[How do I fix plugins that rely on Dalamud provided opcodes?](https://github.com/goatcorp/faq/blob/main/xl_troubleshooting.md#q-how-do-i-fix-plugins-that-rely-on-dalamud-provided-opcodes) <br>
 <hr>
 
 ### Q: How come the in-game addon (Dalamud) doesn't work and/or plugins don't display?
@@ -31,10 +31,35 @@ Settings/plugins and other user config
 `%appdata%\XIVLauncher`
 <hr>
 
-----
+### Q: How do I fix plugins that rely on Dalamud provided opcodes?
+Certain plugins and features (Universalis updates, PennyPincher, and more), require knowing about the FFXIV client's current opcodes. These change every patch and can sometimes take more time to sort out before a Dalamud update for a new patch is ready.
+
+If you need to refresh your opcode information after it was updated, please relaunch the game. Dalamud will check for updated definitions when it is launched.
+<hr>
+
+### Basic Title
+FAQ content
+<hr>
+
+### Basic Title
+FAQ content
+<hr>
+
+### Basic Title
+FAQ content
+<hr>
+
+### Basic Title
+FAQ content
+<hr>
+
+### Basic Title
+FAQ content
+<hr>
+
 Want to add a new FAQ entry? Please use the temple below
 ```
-cBasic Title
+### Basic Title
 FAQ content
 <hr>
 ```
