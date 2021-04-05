@@ -22,6 +22,7 @@ Put XIVLauncher related FAQs here
 [How do I migrate ffxiv and\\or xivlauncher files from an old installation to a new one? \[Windows\]](https://github.com/goatcorp/faq/blob/main/xl_troubleshooting.md#q-how-do-i-migrate-ffxiv-andor-xivlauncher-files-from-an-old-installation-to-a-new-one-windows) <br>
 [I'm on Linux and I keep getting \"XIVLauncher failed to update\" errors](https://github.com/goatcorp/faq/blob/main/xl_troubleshooting.md#q-im-on-linux-and-i-keep-getting-xivlauncher-failed-to-update-errors) <br>
 [How do I get started with development?](https://github.com/goatcorp/faq/blob/main/xl_troubleshooting.md#q-how-do-i-get-started-with-development) <br>
+[Why do people keep asking about Steam so much?](https://github.com/goatcorp/faq/blob/main/xl_troubleshooting.md#q-Why-do-people-keep-asking-about-Steam-so-much) <br>
 <hr>
 
 ### Q: How come the in-game addon (Dalamud) doesn't work and/or plugins don't display?
@@ -213,7 +214,7 @@ Official Launcher:
 Steam:
 `C:\Program Files (x86)\Steam\steamapps\common\FINAL FANTASY XIV Online`
 `C:\Program Files (x86)\Steam\steamapps\common\FINAL FANTASY XIV - A Realm Reborn`
-__NOTE__: If your steam library is on another drive, it will have a different, but similar structure.
+__NOTE__: If your steam library is on another drive, it will have a different, but similar structure. <br>
 ![Example](images/xivlaunchersSettings.png)
 <hr>
 
@@ -306,6 +307,12 @@ To distribute a plugin, it does need to be packaged correctly. This can be done 
 When your plugin is ready for testing/release, it should be PRed over to the DalamudPlugins repo.
 *Please place testing plugins in the testing folder*
 <https://github.com/goatcorp/DalamudPlugins>
+<hr>
+
+### Q: **Why do people keep asking about Steam so much?**
+Steam Integration = "I want the steam program to see I'm playing FFXIV and do the overlay thing"
+
+Use Steam service account = "I bought FFXIV through Steam, which is not the same as the Windows platform."
 <hr>
 
 Want to add a new FAQ entry? Please use the temple below
