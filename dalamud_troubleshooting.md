@@ -71,6 +71,10 @@ Between patches breaking them, time, and/or interest, these plugins are not curr
 Chat Extender:
 Broken in: 5.4
 Status: Being split into multiple separate plugins that can be maintained separately. (ChatBubbles and Chat Translator are two of these plugins)
+
+VoidList:
+Broken in 5.4
+Status: Replaced completely with Visibility by SheepGoMeh. Install viz the /xlplugins command ingame.
 <hr>
 
 ### Q: All my plugins basically stopped working
