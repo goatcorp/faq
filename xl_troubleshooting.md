@@ -7,7 +7,6 @@ Put XIVLauncher related FAQs here
 [How do I whitelist XIVLauncher and Dalamud so my Antivirus leaves them alone](#q-how-do-i-whitelist-xivlauncher-and-dalamud-so-my-antivirus-leaves-them-alone) <br>
 [XIV isn't saving my new password / how do I clear my saved password?](#q-xiv-isnt-saving-my-new-password--how-do-i-clear-my-saved-password) <br>
 [I think XIVLauncher is giving me a Blue Screen of Death. What information would help narrow this down?](#q-i-think-xivlauncher-is-giving-me-a-blue-screen-of-death-what-information-would-help-narrow-this-down) <br>
-[How do I enable/disable Dalamud Testing or Plugin Testing?](#q-how-do-i-enabledisable-dalamud-testing-or-plugin-testing) <br>
 [How can I fix crashes on startup?](#q-how-can-i-fix-crashes-on-startup) <br>
 [Do not expect XL/Dalamud/Plugin updates on patch day releases.](#q-do-not-expect-xldalamudplugin-updates-on-patch-day-releases) <br>
 [CAN I LOGIN EARLY TO TITLESCREEN BEFORE PATCH LIVE????](#q-can-i-login-early-to-titlescreen-before-patch-live) <br>
@@ -113,16 +112,6 @@ If you need more help, a basic guide can be found on <https://pureinfotech.com/c
 5. Have you done a full uninstall of XIVLauncher and reinstall? (see a few posts above for details)
 
 If unsure about some of those details or if the Windows Event Viewer doesn't tell you, [Bluescreenview](https://www.nirsoft.net/utils/blue_screen_view.html) can read the memory dump (please let the computer finish it without hitting the reset button while it dumps your memory to hard drive)
-<hr>
-
-### Q: How do I enable\/disable Dalamud Testing or Plugin Testing?
-1. Type /xlsettings in game
-2. Click on the Experimental tab
-3. Select/Unselect the settings as wanted.
-4. Click on "Save and Close" to apply.
-
-* Only testing plugins show up in /xlplugins when testing is enabled. They'll still load as normal.
-* You may need to relaunch the game to receive another version of Dalamud.
 <hr>
 
 ### Q: How can I fix crashes on startup?
