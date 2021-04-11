@@ -29,7 +29,7 @@ Please select a category from below:
   
 <a href="https://goatcorp.github.io/faq/xl_troubleshooting" class="btnm">Help for XIVLauncher</a>
 
-<a href="https://goatcorp.github.io/faq/dalamud_troubleshooting" class="btnm">Help for addons</a>
+<a href="https://goatcorp.github.io/faq/dalamud_troubleshooting" class="btnm">Help for plugins</a>
 
 </div>
 </div>
