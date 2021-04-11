@@ -3,9 +3,9 @@ Put Dalamud and plugin-related FAQs here
 ### Table of Contents
 [How do I install/enable plugins?](#q-how-do-i-installenable-plugins) <br>
 [What is the command for \<insert plugin here\>?](#q-what-is-the-command-for-insert-plugin-here) <br>
-[How do I enable\/disable Dalamud Testing or Plugin Testing](#q-how-do-i-enabledisable-dalamud-testing-or-plugin-testing) <br>
-[Do not expect XL\/Dalamud\/Plugin updates on patch day releases](#q-do-not-expect-xldalamudplugin-updates-on-patch-day-releases) <br>
-[I get an error message when trying to install\/update\/disable a plugin](#q-i-get-an-error-message-when-trying-to-installupdatedisable-a-plugin) <br>
+[How do I enable/disable Dalamud Testing or Plugin Testing](#q-how-do-i-enabledisable-dalamud-testing-or-plugin-testing) <br>
+[Do not expect XL/Dalamud/Plugin updates on patch day releases](#q-do-not-expect-xldalamudplugin-updates-on-patch-day-releases) <br>
+[I get an error message when trying to install/update/disable a plugin](#q-i-get-an-error-message-when-trying-to-installupdatedisable-a-plugin) <br>
 [Reshade and its variants don't work or Dalamud UI fails](#q-reshade-and-its-variants-dont-work-or-dalamud-ui-fails) <br>
 [How do I fix plugins that rely on Dalamud provided opcodes?](#q-how-do-i-fix-plugins-that-rely-on-dalamud-provided-opcodes) <br>
 [Outdated Plugins List](#q-outdated-plugins-list) <br>
