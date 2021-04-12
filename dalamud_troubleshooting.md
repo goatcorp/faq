@@ -3,7 +3,8 @@ Put Dalamud and plugin-related FAQs here
 ### Table of Contents
 [How do I install/enable plugins?](#q-how-do-i-installenable-plugins) <br>
 [What is the command for \<insert plugin here\>?](#q-what-is-the-command-for-insert-plugin-here) <br>
-[How do I enable/disable Dalamud Testing or Plugin Testing](#q-how-do-i-enabledisable-dalamud-testing-or-plugin-testing) <br>
+[How do I turn Plugin Testing on or off?(#How do I turn Plugin Testing on or off?) <br>
+[How do I turn Dalamud Staging on or off?](#q-how-do-i-turn-dalamud-staging-on-or-off) <br>
 [Do not expect XL/Dalamud/Plugin updates on patch day releases](#q-do-not-expect-xldalamudplugin-updates-on-patch-day-releases) <br>
 [I get an error message when trying to install/update/disable a plugin](#q-i-get-an-error-message-when-trying-to-installupdatedisable-a-plugin) <br>
 [Reshade and its variants don't work or Dalamud UI fails](#q-reshade-and-its-variants-dont-work-or-dalamud-ui-fails) <br>
@@ -25,14 +26,22 @@ While some plugins will list their command from the plugin install window, use `
 You can also check out the [Plugin Gallery](https://github.com/goatcorp/DalamudPlugins/wiki/Plugin-Gallery) to see if there's some quick documentation, or check the plugin's repo for a readme.
 <hr>
 
-### Q: How do I enable/disable Dalamud Testing or Plugin Testing?
-1. Type /xlsettings in game
+### Q: How do I turn Plugin Testing on or off?
+1. Type `/xlsettings` in game
 2. Click on the Experimental tab
 3. Select/Unselect the settings as wanted.
 4. Click on "Save and Close" to apply.
 
-* Only testing plugins show up in /xlplugins when testing is enabled. They'll still load as normal.
-* You may need to relaunch the game to receive another version of Dalamud.
+* You will see TESTING and normal plugins in the plugin installer now. 
+<hr>
+
+### Q: How do I turn Dalamud Staging on or off?
+1. Type `/xldev` in game.
+2. Click on the Dalamud menu on the top of the screen.
+3. Select/Unselect the settings as wanted.
+4. Relaunch the game
+
+* Only enable this if you absolutely need to. It is for developers, not users or plugin testers unless specifically stated. 
 <hr>
 
 ### Q: Do not expect XL/Dalamud/Plugin updates on patch day releases.
