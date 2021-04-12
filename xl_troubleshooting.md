@@ -21,7 +21,8 @@ Put XIVLauncher related FAQs here
 [How do I migrate ffxiv and\\or xivlauncher files from an old installation to a new one? \[Windows\]](#q-how-do-i-migrate-ffxiv-andor-xivlauncher-files-from-an-old-installation-to-a-new-one-windows) <br>
 [I'm on Linux and I keep getting \"XIVLauncher failed to update\" errors](#q-im-on-linux-and-i-keep-getting-xivlauncher-failed-to-update-errors) <br>
 [How do I get started with development?](#q-how-do-i-get-started-with-development) <br>
-[Why do people keep asking about Steam so much?](#q-Why-do-people-keep-asking-about-Steam-so-much) <br>
+[Why do people keep asking about Steam so much?](#q-why-do-people-keep-asking-about-steam-so-much) <br>
+[Can I repair my FFXIV installion?](#q-can-i-repair-my-ffxiv-installion) <br>
 <hr>
 
 ### Q: How come the in-game addon (Dalamud) doesn't work and/or plugins don't display?
@@ -135,7 +136,7 @@ The "wait for maintenance to be over" feature can also check for servers to be l
 As with any patch, **in-game addons will be automatically disabled until Dalamud is updated for new patch content**. Do not manually inject Dalamud as a startup application unless you'd like to crash your client  
 <hr>
 
-### Q: **XL Environment Variables**
+### Q: XL Environment Variables
 
 You can set `XL_PRERELEASE=true` for testing a new release of xivlauncher if applicable.
 
@@ -175,7 +176,7 @@ The release from the 7th seemingly introduced a change or bug that will cause FF
 We are still looking into this.
 <hr>
 
-### Q: **How to set an an injection delay in rivaTuner\/RTSS**
+### Q: How to set an an injection delay in rivaTuner\/RTSS
 
 1. Go to `C:\Program Files (x86)\RivaTuner Statistics Server\Profiles\\`
 2. Open the **ffxiv_dx11.exe.cfg** file in your text editor of choice.
@@ -188,7 +189,7 @@ If they are not present, add them
 
 <hr>
 
-### Q: **Where can I find my FFXIV Installation?**
+### Q: Where can I find my FFXIV Installation?
 (AKA: What does XIVLauncher mean by GamePath?)
 
 FFXIV installs to a few different locations depending on whether you used the official installer or steam, when you installed it, and potentionally if you installed the free trial or not. Here are some of the common paths.
@@ -205,7 +206,7 @@ __NOTE__: If your steam library is on another drive, it will have a different, b
 ![Example](images/xivlaunchersSettings.png)
 <hr>
 
-### Q: **How do I migrate ffxiv and\/or xivlauncher files from an old Wine prefix to a new one? \[Linux\]**
+### Q: How do I migrate ffxiv and\/or xivlauncher files from an old Wine prefix to a new one? \[Linux\]
 
 Once you've made your new xivlauncher-based prefix, you can copy files from your old ffxiv prefix for the following:
 
@@ -254,7 +255,7 @@ Thank you to kainz0r for this tip!
 ![Example](images/LinuxConfigScreenshot.png)
 <hr>
 
-### Q: **How do I get started with development?**
+### Q: How do I get started with development?
 This post is a work in progress and will be edited as new information and resources become available. It's generally easier to just ask in the <#Dev> channel.
 
 __XIVLauncher__
@@ -296,10 +297,44 @@ When your plugin is ready for testing/release, it should be PRed over to the Dal
 <https://github.com/goatcorp/DalamudPlugins>
 <hr>
 
-### Q: **Why do people keep asking about Steam so much?**
+### Q: Why do people keep asking about Steam so much?
 Steam Integration = "I want the steam program to see I'm playing FFXIV and do the overlay thing"
 
 Use Steam service account = "I bought FFXIV through Steam, which is not the same as the Windows platform."
+<hr>
+
+### Q: Can I repair my FFXIV installion?
+
+Short answer: No, not without reinstalling the game.
+
+#### General steps  to reinstall the entire game
+1. Go to your ffxiv installation folder (refer to your gamepath)
+2. Delete the `boot` and `game` folders
+3. Open xivlauncher and login. It should ask to patch
+
+Fun answer: XIVLauncher can asisst you in selectively reinstalling only certain portions of the FFXIV game client if needed. Or the entire game.
+
+#### General steps to reinstall just ARR:
+
+1. Go to your ffxiv installation folder (refer to your gamepath)
+2. Go to the `game` folder
+3. Select all the files except the `sqpack` folder
+4. If you have reshade/reshade, unselect those files to preserve them (gshade-presets, gshade-shaders, GShade.ini, dxgi/d3d11)
+5. Delete the selected files so only the sqpack folder remains (and reshade/gshade files if applicable)
+6. Go to the `sqpack` folder now
+7. Delete the `ffxiv` folder there
+8. Open xivlauncher and login. It should ask to patch
+
+#### General steps to reinstall one or more expansions:
+1. Go to your ffxiv installation folder (refer to your gamepath)
+2. Go to the `game` folder
+3. Go to the `sqpack` folder now
+4. Delete the corresponding expac folder[s] you want to reinstall.
+    4a. ex1 = heavensward
+	4b. ex2 = stormblood
+	4c. ex3 = shadowbringers
+5. Open xivlauncher and login. It should ask to patch
+
 <hr>
 
 Want to add a new FAQ entry? Please use the template below and PR to the main [FAQ repo](https://github.com/goatcorp/faq)
