@@ -3,7 +3,7 @@ Put Dalamud and plugin-related FAQs here
 ### Table of Contents
 [How do I install/enable plugins?](#q-how-do-i-installenable-plugins) <br>
 [What is the command for \<insert plugin here\>?](#q-what-is-the-command-for-insert-plugin-here) <br>
-[How do I turn Plugin Testing on or off?(#q-how-do-i-turn-plugin-testing-on-or-off) <br>
+[How do I turn Plugin Testing on or off?](#q-how-do-i-turn-plugin-testing-on-or-off) <br>
 [How do I turn Dalamud Staging on or off?](#q-how-do-i-turn-dalamud-staging-on-or-off) <br>
 [Do not expect XL/Dalamud/Plugin updates on patch day releases](#q-do-not-expect-xldalamudplugin-updates-on-patch-day-releases) <br>
 [I get an error message when trying to install/update/disable a plugin](#q-i-get-an-error-message-when-trying-to-installupdatedisable-a-plugin) <br>
