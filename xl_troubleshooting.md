@@ -25,7 +25,6 @@ Put XIVLauncher related FAQs here
 [Can I repair my FFXIV installion?](#q-can-i-repair-my-ffxiv-installion) <br>
 [How do I fix a version check error when trying to update FFXIV?](#q-how-do-i-fix-a-version-check-error-when-trying-to-update-ffxiv) <br>
 [I updated my game with TexTools mods installed. How do I fix crashes?](#q-i-updated-my-game-with-tex-tools-mods-installed-how-do-i-fix-crashes) <br>
-[]() <br>
 <hr>
 
 ### Q: How come the in-game addon (Dalamud) doesn't work and/or plugins don't display?
