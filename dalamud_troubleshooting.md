@@ -12,6 +12,7 @@ Put Dalamud and plugin-related FAQs here
 [Outdated Plugins List](#q-outdated-plugins-list) <br>
 [All my plugins basically stopped working](#q-all-my-plugins-basically-stopped-working) <br>
 [Remember the patches, no matter how small, can break plugins](#q-remember-the-patches-no-matter-how-small-can-break-plugins) <br>
+[How do I reset dalamud/plugin window locations?](#q-how-do-i-reset-dalamud-plugin-window-locations) <br>
 <hr>
 
 ### Q: How do I install/enable plugins?
@@ -105,6 +106,15 @@ Otherwise, please follow these steps:
 If you're experiencing crashes once Dalamud is whitelisted fora patch, you will want to disable/delete plugins and wait for updates.
 
 Plugins that rely on opcodes may take a little longer than ones ones that rely on hooks in some cases, but it ultimately depends on how much the ffxiv client changed.
+<hr>
+
+
+### Q: How do I reset dalamud/plugin window locations?
+1. Close the game 
+2. Go to %appdata%\xivlauncher
+3. Delete dalamudUI.ini
+4. Start the game
+
 <hr>
 
 Want to add a new FAQ entry? Please use the template below and PR to the main [FAQ repo](https://github.com/goatcorp/faq)
