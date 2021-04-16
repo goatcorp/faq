@@ -23,6 +23,9 @@ Put XIVLauncher related FAQs here
 [How do I get started with development?](#q-how-do-i-get-started-with-development) <br>
 [Why do people keep asking about Steam so much?](#q-why-do-people-keep-asking-about-steam-so-much) <br>
 [Can I repair my FFXIV installion?](#q-can-i-repair-my-ffxiv-installion) <br>
+[How do I fix a version check error when trying to update FFXIV?](#q-how-do-i-fix-a-version-check-error-when-trying-to-update-ffxiv) <br>
+[I updated my game with TexTools mods installed. How do I fix crashes?](#q-i-updated-my-game-with-tex-tools-mods-installed-how-do-i-fix-crashes) <br>
+[]() <br>
 <hr>
 
 ### Q: How come the in-game addon (Dalamud) doesn't work and/or plugins don't display?
@@ -61,6 +64,7 @@ Please make exceptions (or whitelist) the following folders:
  - `%localappdata%\XIVLauncher`
  - `%localappdata%\goatsoft`
  - `%appdata%\XIVLauncher`
+ - `Your FFXIV game installation folder`
 
 ## Please also restart your computer afterwards
 
@@ -335,6 +339,26 @@ Fun answer: XIVLauncher can asisst you in selectively reinstalling only certain 
 	4c. ex3 = shadowbringers
 5. Open xivlauncher and login. It should ask to patch
 
+<hr>
+
+### Q: How do I fix a version check error when trying to update FFXIV?
+1. Go to `<your user folder>\Documents\My Games\FINAL FANTASY XIV - A Realm Reborn`
+2. Open the `FFXIV_BOOT.cfg` file in your text editor of choice.
+3. Change `BootVersionCheckMode` to `1`
+4. Relaunch.
+
+<hr>
+
+### Q: I updated my game with TexTools mods installed. How do I fix crashes?
+You'll know if you're affected by this because the official launcher will crash the game too. This issue is not caused by XIVLauncher.
+
+While the last few game patches have been relatively fine to keep your Textools mods enabled as it will do minor adjustments to fix things up, please refer to the Textools Discord for best practices.
+
+To fix the crash, open Textools, and "Start Over" to disable everything. Then download their index backups
+<hr>
+
+### Basic Title
+FAQ content
 <hr>
 
 Want to add a new FAQ entry? Please use the template below and PR to the main [FAQ repo](https://github.com/goatcorp/faq)
