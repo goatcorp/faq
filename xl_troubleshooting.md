@@ -67,6 +67,9 @@ Please make exceptions (or whitelist) the following folders:
 
 ## Please also restart your computer afterwards
 
+#### You may also need to reset Dalamud (the plugin system)
+To reset dalamud, remove your `%appdata%\XIVLauncher\addon\Hooks` folder. Or type `f!faq delete dalamud` in the XIVLauncher discord and Franzbot will guide you through.
+
 Want to help us out? If your antivirus complains about XIVLauncher or Dalamud, please submit the files it complains about on the whitelist link. Include "this is not harmful" and the type of malware your Av program flagged it as.
 
 **Avast**
