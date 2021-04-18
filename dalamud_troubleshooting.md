@@ -12,7 +12,7 @@ Put Dalamud and plugin-related FAQs here
 [Outdated Plugins List](#q-outdated-plugins-list) <br>
 [All my plugins basically stopped working](#q-all-my-plugins-basically-stopped-working) <br>
 [Remember the patches, no matter how small, can break plugins](#q-remember-the-patches-no-matter-how-small-can-break-plugins) <br>
-[How do I reset dalamud/plugin window locations?](#q-how-do-i-reset-dalamud-plugin-window-locations) <br>
+[How do I reset dalamud/plugin window locations?](#q-how-do-i-reset-dalamudplugin-window-locations) <br>
 <hr>
 
 ### Q: How do I install/enable plugins?
