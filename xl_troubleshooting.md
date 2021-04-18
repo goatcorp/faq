@@ -85,6 +85,18 @@ Whitelist form: <https://www.avg.com/en-us/false-positive-file-form>
 Whitelist form: <https://www.bitdefender.com/submit>
 **NOTE**: BitDefender users may also need to whitelist xivlauncher's program files (local appdata stuff) through the BitDefender firewall. You'll know this is the case if it fails to check for updates/open.
 
+**McAfee**
+NOTE: McAfee doesn't allow you to whitelist folders. Instead, you'll need to whitelist files, which is more annoying and also version-specific. We'd recommend switching back to Windows Defender if you're on a free version, as it's less headache for all involved.
+
+You should try to whitelist the following files if possible:
+1. `<your ffxiv installation>\game\ffxiv_dx11.exe`
+2. `%localappdata%\XIVLauncher\XIVLauncher.exe`
+3. `%localappdata%\XIVLauncher\app-X.Y.Z\XIVLauncher.exe` NOTE: replace X.Y.Z with the latest version available. **This changes with every launcher update**
+4. `%appdata%\XIVLauncher\addon\Hooks\W.X.Y.Z\Dalamud.Injector.exe` NOTE: replace W.X.Y.Z with the latest version available. **This changes with every dalamud update**
+5. `%appdata%\XIVLauncher\addon\Hooks\W.X.Y.Z\Dalamud.dll` NOTE: replace W.X.Y.Z with the latest version available. **This changes with every dalamud update**
+
+<https://service.mcafee.com/webcenter/portal/cp/home/articleview?articleId=TS102056> <br>
+Whitelist steps: <https://service.mcafee.com/webcenter/portal/cp/home/articleview?articleId=TS103032>
 **Norton**
 <https://support.norton.com/sp/en/us/home/current/solutions/v3672136> <br>
 Whitelist form: <https://submit.norton.com/>
