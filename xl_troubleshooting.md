@@ -180,7 +180,9 @@ This is an issue with Square Enix servers that has been affecting players in the
 
 To remedy it, you can either wait a while and try again then, or set your VPN to Japan until you are on the title screen. Then you should be able to play normally without a VPN. DNS changes have also been said to help.
 
-We can recommend mudfish as a VPN for FFXIV as it's cheap and seems to work reliably.
+We can recommend mudfish as a VPN for playing FFXIV as it's cheap and seems to work reliably.
+If you get errors when patching, we recommend ProtonVPN.
+
 To troubleshoot, you can ping frontier.ffxiv.com, SE's Japanese login server.
 <hr>
 
@@ -196,7 +198,7 @@ The release from the 7th seemingly introduced a change or bug that will cause FF
 We are still looking into this.
 <hr>
 
-### Q: How to set an an injection delay in rivaTuner\/RTSS
+### Q: How to set an an injection delay in rivaTuner/RTSS
 
 1. Go to `C:\Program Files (x86)\RivaTuner Statistics Server\Profiles\\`
 2. Open the **ffxiv_dx11.exe.cfg** file in your text editor of choice.
