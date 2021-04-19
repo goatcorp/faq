@@ -78,37 +78,37 @@ If you need to refresh your opcode information after it was updated, please rela
 ### Q: Outdated Plugins List
 Between patches breaking them, time, and/or interest, these plugins are not currently updated and the developers are aware. If you'd like to help maintain a plugin, we can help you find their repo and contact if they're still active.
 
-Adventurer in Need
-Broken in: 5.5
-Status: not updated
+**Adventurer in Need** <br>
+Broken in: 5.5 <br>
+Status: not updated <br>
 
-AutoSweep (aka PaissaHouse)
-Broken in: 5.5
-Status: Intentionally not being updated until new features can be implemented and tested first.
+**AutoSweep (aka PaissaHouse)** <br>
+Broken in: 5.5 <br>
+Status: Intentionally not being updated until new features can be implemented and tested first. <br>
 
-Browser Host
-Broken in: 5.5
-Status: not updated
+**Browser Host** <br>
+Broken in: 5.5 <br>
+Status: not updated <br>
 
-Chat Extender:
-Broken in: 5.4
-Status: Being split into multiple separate plugins that can be maintained separately. (ChatBubbles and Chat Translator are two of these plugins)
+**Chat Extender** <br>
+Broken in: 5.4 <br>
+Status: Being split into multiple separate plugins that can be maintained separately. (ChatBubbles and Chat Translator are two of these plugins) <br>
 
-DeepDungeonDex
-Broken in: 5.5
-Status: not updated
+**DeepDungeonDex** <br>
+Broken in: 5.5 <br>
+Status: not updated <br>
 
-Fantasy Player
-Broken in: 5.5
-Status: not updated
+**Fantasy Player** <br>
+Broken in: 5.5 <br>
+Status: not updated <br>
 
-VoidList:
-Broken in 5.4
-Status: Replaced completely with Visibility by SheepGoMeh. Install that instead using the /xlplugins command ingame.
+**VoidList** <br>
+Broken in 5.4 <br>
+Status: Replaced completely with Visibility by SheepGoMeh. Install that instead using the /xlplugins command ingame. <br>
 <hr>
 
 ### Q: All my plugins basically stopped working
-Did you have Dalamud test releases enabled? (Currently version 5.2.4.2 as of post)
+Did you have Dalamud test releases enabled?
 
 Don't do that. It's for testing. Specifically for breaking feature changes.
 
