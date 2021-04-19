@@ -78,13 +78,33 @@ If you need to refresh your opcode information after it was updated, please rela
 ### Q: Outdated Plugins List
 Between patches breaking them, time, and/or interest, these plugins are not currently updated and the developers are aware. If you'd like to help maintain a plugin, we can help you find their repo and contact if they're still active.
 
+Adventurer in Need
+Broken in: 5.5
+Status: not updated
+
+AutoSweep (aka PaissaHouse)
+Broken in: 5.5
+Status: Intentionally not being updated until new features can be implemented and tested first.
+
+Browser Host
+Broken in: 5.5
+Status: not updated
+
 Chat Extender:
 Broken in: 5.4
 Status: Being split into multiple separate plugins that can be maintained separately. (ChatBubbles and Chat Translator are two of these plugins)
 
+DeepDungeonDex
+Broken in: 5.5
+Status: not updated
+
+Fantasy Player
+Broken in: 5.5
+Status: not updated
+
 VoidList:
 Broken in 5.4
-Status: Replaced completely with Visibility by SheepGoMeh. Install viz the /xlplugins command ingame.
+Status: Replaced completely with Visibility by SheepGoMeh. Install that instead using the /xlplugins command ingame.
 <hr>
 
 ### Q: All my plugins basically stopped working
