@@ -86,10 +86,6 @@ Status: not updated <br>
 Broken in: 5.5 <br>
 Status: Intentionally not being updated until new features can be implemented and tested first. <br>
 
-**Browser Host** <br>
-Broken in: 5.5 <br>
-Status: not updated <br>
-
 **Chat Extender** <br>
 Broken in: 5.4 <br>
 Status: Being split into multiple separate plugins that can be maintained separately. (ChatBubbles and Chat Translator are two of these plugins) <br>
