@@ -92,12 +92,15 @@ Whitelist steps: <https://service.mcafee.com/webcenter/portal/cp/home/articlevie
 
 You should try to whitelist the following files if possible:
 1. `<your ffxiv installation>\game\ffxiv_dx11.exe`
+
+**and**
+
 2. `%localappdata%\XIVLauncher\XIVLauncher.exe`
 3. `%localappdata%\XIVLauncher\app-X.Y.Z\XIVLauncher.exe` NOTE: replace X.Y.Z with the latest version available. **This changes with every launcher update**
 4. `%appdata%\XIVLauncher\addon\Hooks\W.X.Y.Z\Dalamud.Injector.exe` NOTE: replace W.X.Y.Z with the latest version available. **This changes with every dalamud update**
 5. `%appdata%\XIVLauncher\addon\Hooks\W.X.Y.Z\Dalamud.dll` NOTE: replace W.X.Y.Z with the latest version available. **This changes with every dalamud update**
 
-
+If your antivirus program supports it, you may also whitelist the folders ``%localappdata%\XIVLauncher\`` and ``%appdata%\XIVLauncher\``
 
 **Norton**
 <https://support.norton.com/sp/en/us/home/current/solutions/v3672136> <br>
