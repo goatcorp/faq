@@ -65,32 +65,12 @@ Please make exceptions (or whitelist) the following folders:
  - `%appdata%\XIVLauncher`
  - `Your FFXIV game installation folder`
 
-## Please also restart your computer afterwards
+### Please also restart your computer afterwards
 
 #### You may also need to reset Dalamud (the plugin system)
 To reset dalamud, remove your `%appdata%\XIVLauncher\addon\Hooks` folder. Or type `f!faq delete dalamud` in the XIVLauncher discord and Franzbot will guide you through.
 
-Want to help us out? If your antivirus complains about XIVLauncher or Dalamud, please submit the files it complains about on the whitelist link. Include "this is not harmful" and the type of malware your Av program flagged it as.
-
-**Avast**
-<https://support.avast.com/en-ww/article/Antivirus-scan-exclusions> <br>
-Whitelist form: <https://www.avast.com/en-us/false-positive-file-form.php> <br>
-
-**AVG**
-<https://support.avg.com/SupportArticleView?l=en&urlname=AVG-Antivirus-scan-exclusions> <br>
-Whitelist form: <https://www.avg.com/en-us/false-positive-file-form> <br>
-
-**Bitdefender**
-<https://www.bitdefender.com/consumer/support/answer/8886/> <br>
-Whitelist form: <https://www.bitdefender.com/submit> <br>
-**NOTE**: BitDefender users may also need to whitelist xivlauncher's program files (local appdata stuff) through the BitDefender firewall. You'll know this is the case if it fails to check for updates/open.
-
-**McAfee**
-<https://service.mcafee.com/webcenter/portal/cp/home/articleview?articleId=TS102056> <br>
-Whitelist steps: <https://service.mcafee.com/webcenter/portal/cp/home/articleview?articleId=TS103032> <br>
-**NOTE**: McAfee doesn't allow you to whitelist folders. Instead, you'll need to whitelist files, which is more annoying and also version-specific. We'd recommend switching back to Windows Defender if you're on a free version, as it's less headache for all involved.
-
-You should try to whitelist the following files if possible:
+You should also try to whitelist the following files if possible:
 1. `<your ffxiv installation>\game\ffxiv_dx11.exe`
 
 **and**
@@ -102,13 +82,27 @@ You should try to whitelist the following files if possible:
 
 If your antivirus program supports it, you may also whitelist the folders ``%localappdata%\XIVLauncher\`` and ``%appdata%\XIVLauncher\``
 
-**Norton**
-<https://support.norton.com/sp/en/us/home/current/solutions/v3672136> <br>
-Whitelist form: <https://submit.norton.com/> <br>
+### Instructions for individual AV
 
-**Windows Defender**
-<https://support.microsoft.com/en-us/help/4028485/windows-10-add-an-exclusion-to-windows-security> <br>
-Whitelist form: <https://www.microsoft.com/en-us/wdsi/filesubmission>
+**Avast:**
+https://support.avast.com/en-ww/article/Antivirus-scan-exclusions <br>
+
+**AVG:**
+https://support.avg.com/SupportArticleView?l=en&urlname=AVG-Antivirus-scan-exclusions <br>
+
+**Bitdefender:**
+https://www.bitdefender.com/consumer/support/answer/8886/ <br>
+**NOTE**: BitDefender users may also need to whitelist xivlauncher's program files (local appdata stuff) through the BitDefender firewall. You'll know this is the case if it fails to check for updates/open.
+
+**McAfee:**
+https://service.mcafee.com/webcenter/portal/cp/home/articleview?articleId=TS102056 <br>
+**NOTE**: McAfee doesn't allow you to whitelist folders. Instead, you'll need to whitelist files, which is more annoying and also version-specific.
+
+**Norton:**
+https://support.norton.com/sp/en/us/home/current/solutions/v3672136 <br>
+
+**Windows Defender:**
+https://support.microsoft.com/en-us/help/4028485/windows-10-add-an-exclusion-to-windows-security <br>
 
 (**PLEASE PROCEED WITH CAUTION**. If you're installing dev plugins, third-party plugins, or something outside of the normal /xlplugins method, we cannot be sure that the plugins will work, be undetected in-game, and not cause harm to your computer)
 <hr>
