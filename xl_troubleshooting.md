@@ -85,21 +85,23 @@ If your antivirus program supports it, you may also whitelist the folders ``%loc
 ### Instructions for individual AV
 
 **Avast:**
-https://support.avast.com/en-ww/article/Antivirus-scan-exclusions <br>
+<https://support.avast.com/en-ww/article/Antivirus-scan-exclusions> <br>
 
 **AVG:**
-https://support.avg.com/SupportArticleView?l=en&urlname=AVG-Antivirus-scan-exclusions <br>
+<https://support.avg.com/SupportArticleView?l=en&urlname=AVG-Antivirus-scan-exclusions> <br>
 
 **Bitdefender:**
-https://www.bitdefender.com/consumer/support/answer/8886/ <br>
+<https://www.bitdefender.com/consumer/support/answer/8886/> <br>
 **NOTE**: BitDefender users may also need to whitelist xivlauncher's program files (local appdata stuff) through the BitDefender firewall. You'll know this is the case if it fails to check for updates/open.
 
 **McAfee:**
-https://service.mcafee.com/webcenter/portal/cp/home/articleview?articleId=TS102056 <br>
+<https://service.mcafee.com/webcenter/portal/cp/home/articleview?articleId=TS102056> <br>
 **NOTE**: McAfee doesn't allow you to whitelist folders. Instead, you'll need to whitelist files, which is more annoying and also version-specific.
 
 **Norton:**
-https://support.norton.com/sp/en/us/home/current/solutions/v3672136 <br>
+<https://support.norton.com/sp/en/us/home/current/solutions/v3672136> <br>
+or <https://www.lifewire.com/exclude-files-from-norton-antivirus-scans-153348> <br>
+NOTE: You may also need to make exclusions from active detection or another similarly named feature.
 
 **Windows Defender:**
 https://support.microsoft.com/en-us/help/4028485/windows-10-add-an-exclusion-to-windows-security <br>
