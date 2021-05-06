@@ -371,7 +371,7 @@ You'll know if you're affected by this because the official launcher will crash 
 
 While the last few game patches have been relatively fine to keep your Textools mods enabled as it will do minor adjustments to fix things up, please refer to the Textools Discord for best practices.
 
-To fix the crash, open Textools, and "Start Over" to disable everything. Then download their index backups
+To fix the crash, open Textools, click on the Help menu, and select "Download Index Backups" and then "Start Over" to repair files broken from updating with Textools modifications.
 <hr>
 
 ### Basic Title
