@@ -78,23 +78,11 @@ If you need to refresh your opcode information after it was updated, please rela
 ### Q: Outdated Plugins List
 Between patches breaking them, time, and/or interest, these plugins are not currently updated and the developers are aware. If you'd like to help maintain a plugin, we can help you find their repo and contact if they're still active.
 
-**Adventurer in Need** <br>
-Broken in: 5.5 <br>
-Status: not updated <br>
-
-**AutoSweep (aka PaissaHouse)** <br>
-Broken in: 5.5 <br>
-Status: Intentionally not being updated until new features can be implemented and tested first. <br>
-
 **Chat Extender** <br>
 Broken in: 5.4 <br>
 Status: Being split into multiple separate plugins that can be maintained separately. (ChatBubbles and Chat Translator are two of these plugins) <br>
 
 **DeepDungeonDex** <br>
-Broken in: 5.5 <br>
-Status: not updated <br>
-
-**Fantasy Player** <br>
 Broken in: 5.5 <br>
 Status: not updated <br>
 
