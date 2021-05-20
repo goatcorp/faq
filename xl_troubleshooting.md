@@ -70,19 +70,15 @@ Please make exceptions (or whitelist) the following folders:
 #### You may also need to reset Dalamud (the plugin system)
 To reset dalamud, remove your `%appdata%\XIVLauncher\addon\Hooks` folder. Or type `f!faq delete dalamud` in the XIVLauncher discord and Franzbot will guide you through.
 
-You should also try to whitelist the following files if possible:
+#### You should also try to whitelist the following files if possible:
 1. `<your ffxiv installation>\game\ffxiv_dx11.exe`
-
 **and**
-
 2. `%localappdata%\XIVLauncher\XIVLauncher.exe`
 3. `%localappdata%\XIVLauncher\app-X.Y.Z\XIVLauncher.exe` NOTE: replace X.Y.Z with the latest version available. **This changes with every launcher update**
 4. `%appdata%\XIVLauncher\addon\Hooks\W.X.Y.Z\Dalamud.Injector.exe` NOTE: replace W.X.Y.Z with the latest version available. **This changes with every dalamud update**
 5. `%appdata%\XIVLauncher\addon\Hooks\W.X.Y.Z\Dalamud.dll` NOTE: replace W.X.Y.Z with the latest version available. **This changes with every dalamud update**
 
-If your antivirus program supports it, you may also whitelist the folders ``%localappdata%\XIVLauncher\`` and ``%appdata%\XIVLauncher\``
-
-### Instructions for individual AV
+#### Instructions for individual AV
 
 **Avast:**
 <https://support.avast.com/en-ww/article/Antivirus-scan-exclusions> <br>
@@ -96,7 +92,7 @@ If your antivirus program supports it, you may also whitelist the folders ``%loc
 
 **McAfee:**
 <https://service.mcafee.com/webcenter/portal/cp/home/articleview?articleId=TS102056> <br>
-**NOTE**: McAfee doesn't allow you to whitelist folders. Instead, you'll need to whitelist files, which is more annoying and also version-specific.
+**NOTE**: McAfee doesn't allow you to whitelist folders. Instead, you'll need to whitelist files, which is more annoying and also version-specific. See the list above.
 
 **Norton:**
 <https://support.norton.com/sp/en/us/home/current/solutions/v3672136> <br>
