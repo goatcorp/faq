@@ -79,12 +79,8 @@ If you need to refresh your opcode information after it was updated, please rela
 Between patches breaking them, time, and/or interest, these plugins are not currently updated and the developers are aware. If you'd like to help maintain a plugin, we can help you find their repo and contact if they're still active.
 
 **Chat Extender** <br>
-Broken in: 5.4 <br>
+Broken in: 5.3 <br>
 Status: Being split into multiple separate plugins that can be maintained separately. (ChatBubbles and Chat Translator are two of these plugins) <br>
-
-**DeepDungeonDex** <br>
-Broken in: 5.5 <br>
-Status: not updated <br>
 
 **VoidList** <br>
 Broken in 5.4 <br>
@@ -92,18 +88,13 @@ Status: Replaced completely with Visibility by SheepGoMeh. Install that instead 
 <hr>
 
 ### Q: All my plugins basically stopped working
-Did you have Dalamud test releases enabled?
-
-Don't do that. It's for testing. Specifically for breaking feature changes.
-
-You can still access test plugins on the normal dalamud unless they specifically say they need the test version.
-
-You can turn off Dalamud Testing in the `/xldev` menu. It's no longer part of the settings window to help make sure people don't select it unintentionally.
-
-Otherwise, please follow these steps:
-1. Close the game and xivlauncher if open.
-2. Go to %appdata%\xivlauncher\ and open dalamudConfig.json in your text editor of choice.
-3. Change the value of DoDalamudTest to false.
+There can be a number of things causing this, and we'll need to get more information from you!
+  
+If possible, please join our [Discord Server](https://discord.gg/3NMcUV5) and ask in the #xivlauncher_issues channel for support.
+  
+We'll probably need your `output.log` and/or `dalamud.log` file to investigate the cause. 
+  
+It is also helpful to know if you have any additional addons/injectors/mods such as reshade/gshade, rivatuner/rtss/msi afterburner, any on-screen-displays/overlays, or mods instealled via textools, as these can also contribute to crashing or conflicts.
 <hr>
 
 ### Q: Remember the patches, no matter how small, can break plugins
