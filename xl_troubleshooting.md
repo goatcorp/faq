@@ -8,7 +8,7 @@ Put XIVLauncher related FAQs here
 [XIV isn't saving my new password / how do I clear my saved password?](#q-xiv-isnt-saving-my-new-password--how-do-i-clear-my-saved-password) <br>
 [I think XIVLauncher is giving me a Blue Screen of Death. What information would help narrow this down?](#q-i-think-xivlauncher-is-giving-me-a-blue-screen-of-death-what-information-would-help-narrow-this-down) <br>
 [How can I fix crashes on startup?](#q-how-can-i-fix-crashes-on-startup) <br>
-[Q: Do not expect Dalamud and/or Plugins to work on updates/patch day releases.](#q-do-not-expect-dalamud-and-or-plugins-to-work-on-updates-patch-day-releases) <br>
+[Do not expect Dalamud and/or Plugins to work on updates/patch day releases.](#q-do-not-expect-dalamud-andor-plugins-to-work-on-updatespatch-day-releases) <br>
 [CAN I LOGIN EARLY TO TITLESCREEN BEFORE PATCH LIVE????](#q-can-i-login-early-to-titlescreen-before-patch-live) <br>
 [XL Environment Variables](#q-xl-environment-variables) <br>
 [Outdated Plugins List](#q-outdated-plugins-list) <br>
