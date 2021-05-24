@@ -8,7 +8,7 @@ Put XIVLauncher related FAQs here
 [XIV isn't saving my new password / how do I clear my saved password?](#q-xiv-isnt-saving-my-new-password--how-do-i-clear-my-saved-password) <br>
 [I think XIVLauncher is giving me a Blue Screen of Death. What information would help narrow this down?](#q-i-think-xivlauncher-is-giving-me-a-blue-screen-of-death-what-information-would-help-narrow-this-down) <br>
 [How can I fix crashes on startup?](#q-how-can-i-fix-crashes-on-startup) <br>
-[Do not expect XL/Dalamud/Plugin updates on patch day releases.](#q-do-not-expect-xldalamudplugin-updates-on-patch-day-releases) <br>
+[Q: Do not expect Dalamud and/or Plugins to work on updates/patch day releases.](#q-do-not-expect-dalamud-and-or-plugins-to-work-on-updates-patch-day-releases) <br>
 [CAN I LOGIN EARLY TO TITLESCREEN BEFORE PATCH LIVE????](#q-can-i-login-early-to-titlescreen-before-patch-live) <br>
 [XL Environment Variables](#q-xl-environment-variables) <br>
 [Outdated Plugins List](#q-outdated-plugins-list) <br>
@@ -135,8 +135,23 @@ Please try to install the VC Redist from Microsoft at <https://github.com/abbodi
 If you are still facing issues, please message us in #xivlauncher_issues
 <hr>
 
-### Q: Do not expect XL\/Dalamud\/Plugin updates on patch day releases.
+### Q: Do not expect Dalamud and/or Plugins to work on updates/patch day releases.
 Please remember that many of the developers have school/jobs/both and live across a variety of timezones. Things will be updated when they can be. The notion that "XL could be gone at any time" still exists.
+
+XIVLauncher:
+- Users do not need to take any preemptive actions for XIVLauncher compatibility with a new patch.
+- Unless SE decides to completely change how authentication or patch download/updating works, the launcher will work just fine on patch days.
+
+Dalamud:
+- Damaud has an internal mechanism that checks the client version and a whitelisted compatibility file.
+- If the client version does not match what's whitelisted, Dalamud will not load.
+- Once Dalamud has been whitelisted, it will load the next time you launch with XIVLauncher. (We'll also make an annoucement on Discord)
+- Dalamud may or may not require updates to be made compatible with the current client. This ultimately depends on how much changed internally and we cannot provide any estimates on how long it may take to whitelist as compatible.
+
+Plugins:
+- Expect all plugins to stop working every patch.
+- Once Dalamud has been whitelisted for a new patch, it will try to load plugins.
+- It's entirely possible that a patch will be fine for Dalamud, but break a plugin. (If this happens, you'll want to disable/remove the plugin until it's updated)
 <hr>
 
 ### Q: CAN I LOGIN EARLY TO TITLESCREEN BEFORE PATCH LIVE????
