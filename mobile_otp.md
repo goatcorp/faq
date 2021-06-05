@@ -44,6 +44,12 @@ On the following screen, make sure "Enable XL Authenticator app/OTP macro suppor
 ### 5. Done!
 Congratulations! From now on, when XIVLauncher is waiting for you to enter an OTP code, you will be able to just open the app and log yourself in automatically.
 
+<br>
+<br>
+<br>
+<br>
+<br>
+
 # OTP Macros
 If you don't want to use the app, you can also use macros on iOS and via MacroDroid on Android.
 
