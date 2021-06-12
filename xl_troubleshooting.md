@@ -1,5 +1,3 @@
-Put XIVLauncher related FAQs here
-
 ### Table of Contents
 [How come the in-game addon \(Dalamud\) doesn't work and/or plugins don't display?](#q-how-come-the-in-game-addon-dalamud-doesnt-work-andor-plugins-dont-display) <br>
 [How do I uninstall XIV Launcher?](#q-how-do-i-uninstall-xiv-launcher) <br>
@@ -20,7 +18,6 @@ Put XIVLauncher related FAQs here
 [How do I migrate ffxiv and/or xivlauncher files from an old Wine prefix to a new one? \[Linux\]](#q-how-do-i-migrate-ffxiv-andor-xivlauncher-files-from-an-old-wine-prefix-to-a-new-one-linux) <br>
 [How do I migrate ffxiv and\\or xivlauncher files from an old installation to a new one? \[Windows\]](#q-how-do-i-migrate-ffxiv-andor-xivlauncher-files-from-an-old-installation-to-a-new-one-windows) <br>
 [I'm on Linux and I keep getting \"XIVLauncher failed to update\" errors](#q-im-on-linux-and-i-keep-getting-xivlauncher-failed-to-update-errors) <br>
-[How do I get started with development?](#q-how-do-i-get-started-with-development) <br>
 [Why do people keep asking about Steam so much?](#q-why-do-people-keep-asking-about-steam-so-much) <br>
 [Can I repair my FFXIV installion?](#q-can-i-repair-my-ffxiv-installion) <br>
 [How do I fix a version check error when trying to update FFXIV?](#q-how-do-i-fix-a-version-check-error-when-trying-to-update-ffxiv) <br>
@@ -287,48 +284,6 @@ Thank you to kainz0r for this tip!
 ![Example](images/LinuxConfigScreenshot.png)
 <hr>
 
-### Q: How do I get started with development?
-This post is a work in progress and will be edited as new information and resources become available. It's generally easier to just ask in the <#Dev> channel.
-
-__XIVLauncher__
-The launcher itself.
-
-The XIVLauncher source code can be found on the main project repo.
-<https://github.com/goatcorp/FFXIVQuickLauncher>
-
-__Dalamud__
-Dalamud is the core addon/plugin system.
-
-The Dalamud source code can be found on the main project repo.
-<https://github.com/goatcorp/Dalamud>
-
-Other assets required by Dalamud can be found here:
-<https://github.com/goatcorp/DalamudAssets>
-
-You can find the Dalamud API page below, which also lists functions you can use in plugins.
-<https://goatcorp.github.io/Dalamud/api/index.html>
-
-__Dalamud Plugins__
-Karashiiro has a good starting document here:
-<https://github.com/karashiiro/DalamudPluginGuide>
-
-We also have a number of sample plugin templates to choose from:
-<https://github.com/goatcorp/SamplePlugin>
-<https://github.com/karashiiro/DalamudPluginProjectTemplate>
-<https://github.com/lmcintyre/PluginTemplate>
-
-You might also find the LivePluginLoad plugin to be handy, as it allows you to do rapid plugin testing and reload dynamically. It's available by source or Caraxi's repo.
-<https://github.com/Caraxi/LivePluginLoad>
-<http://repo.caraxian.com/>
-
-To distribute a plugin, it does need to be packaged correctly. This can be done manually or with DalamudPackager.
-<https://github.com/goatcorp/DalamudPackager>
-
-When your plugin is ready for testing/release, it should be PRed over to the DalamudPlugins repo.
-*Please place testing plugins in the testing folder*
-<https://github.com/goatcorp/DalamudPlugins>
-<hr>
-
 ### Q: Why do people keep asking about Steam so much?
 Steam Integration = "I want the steam program to see I'm playing FFXIV and do the overlay thing"
 
@@ -383,10 +338,6 @@ You'll know if you're affected by this because the official launcher will crash 
 While the last few game patches have been relatively fine to keep your Textools mods enabled as it will do minor adjustments to fix things up, please refer to the Textools Discord for best practices.
 
 To fix the crash, open Textools, click on the Help menu, and select "Download Index Backups" and then "Start Over" to repair files broken from updating with Textools modifications.
-<hr>
-
-### Basic Title
-FAQ content
 <hr>
 
 Want to add a new FAQ entry? Please use the template below and PR to the main [FAQ repo](https://github.com/goatcorp/faq)
