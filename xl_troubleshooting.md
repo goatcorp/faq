@@ -14,13 +14,13 @@
 [The launcher shows a red world icon and an error message when trying to log in, and the official launcher doesn't open](#q-the-launcher-shows-a-red-world-icon-and-an-error-message-when-trying-to-log-in-and-the-official-launcher-doesnt-open) <br>
 [WTFast Config](#q-wtfast-config) <br>
 [NVIDIA Driver issue \(7th of January\)](#q-nvidia-driver-issue-7th-of-january) <br>
-[How to set an an injection delay in rivaTuner/RTSS](#q-how-to-set-an-an-injection-delay-in-rivatunerrtss) <br>
+[How to set an injection delay in rivaTuner/RTSS](#q-how-to-set-an-injection-delay-in-rivatunerrtss) <br>
 [Where can I find my FFXIV Installation?](#q-where-can-i-find-my-ffxiv-installation) <br>
 [How do I migrate ffxiv and/or xivlauncher files from an old Wine prefix to a new one? \[Linux\]](#q-how-do-i-migrate-ffxiv-andor-xivlauncher-files-from-an-old-wine-prefix-to-a-new-one-linux) <br>
 [How do I migrate ffxiv and\\or xivlauncher files from an old installation to a new one? \[Windows\]](#q-how-do-i-migrate-ffxiv-andor-xivlauncher-files-from-an-old-installation-to-a-new-one-windows) <br>
 [I'm on Linux and I keep getting \"XIVLauncher failed to update\" errors](#q-im-on-linux-and-i-keep-getting-xivlauncher-failed-to-update-errors) <br>
 [Why do people keep asking about Steam so much?](#q-why-do-people-keep-asking-about-steam-so-much) <br>
-[Can I repair my FFXIV installion?](#q-can-i-repair-my-ffxiv-installion) <br>
+[Can I repair my FFXIV installation?](#q-can-i-repair-my-ffxiv- installation) <br>
 [How do I fix a version check error when trying to update FFXIV?](#q-how-do-i-fix-a-version-check-error-when-trying-to-update-ffxiv) <br>
 [I updated my game with TexTools mods installed. How do I fix crashes?](#q-i-updated-my-game-with-textools-mods-installed-how-do-i-fix-crashes) <br>
 <hr>
@@ -39,15 +39,15 @@ If you have any questions about XIVLauncher, Dalamud, or Dalamud Plugins, please
 Here are some additional details about XIVLauncher itself.
 
 1. XIVLauncher is open source. You can audit the code in the main [XIVLauncher GitHub Repo](https://github.com/goatcorp/FFXIVQuickLauncher/)
-2. XIVLauncher releases are now built directly on GitHub and the launcher is hashed and validates that it matches the current up to date release. This means you don't need to worry about whether or not the launcher has been tampered with. In the event that the launcher has been modified, it will clearly denote that it is a debug build or otherwise a test/unsupported release. ![unsupportted xivlauncher build](images/xivlauncher_unsupported.png)
-3. XIVLauncher uses the Windows Credential Manager to safely store your account credentials, if you choose to save them. Your passwords are encrytped and can only be accessed by authorized programs. However, that does mean if someone manages to gain access to your computer, they can technically extract your password. (But at that point, you likely have bigger issues)
+2. XIVLauncher releases are now built directly on GitHub and the launcher is hashed and validates that it matches the current up to date release. This means you don't need to worry about whether or not the launcher has been tampered with. In the event that the launcher has been modified, it will clearly denote that it is a debug build or otherwise a test/unsupported release. ![unsupported xivlauncher build](images/xivlauncher_unsupported.png)
+3. XIVLauncher uses the Windows Credential Manager to safely store your account credentials, if you choose to save them. Your passwords are encrypted and can only be accessed by authorized programs. However, that does mean if someone manages to gain access to your computer, they can technically extract your password. (But at that point, you likely have bigger issues)
 4. XIVLauncher only communicates with GitHub and official FFXIV websites.
 5. XIVLauncher has been designed to fully replicate the same login and authorization process as the official launcher. Steps have been taken to ensure that it will always match retail, down to experiencing the same login issues. Patch downloads are obtained from the same patchlist that SE provides the retail launcher, and all patch files are verified to be correct before they are applied.
 
 #### Dalamud Security Specifics
 Here are some additional details about Dalamud.
 
-1. Dalamud **is** a code injection framework. By definition, it's going to look and act like a virus-like program. Your antivirus might even consider it harmful or potentially harmful software! You can read more about [whitelisting Dalamud]((#q-how-do-i-whitelist-xivlauncher-and-dalamud-so-my-antivirus-leaves-them-alone) elsewhere on the FAQ. __We recommend whitelisting for the best experience, but your computing environment may not require it.__
+1. Dalamud **is** a code injection framework. By definition, it's going to look and act like a virus-like program. Your antivirus might even consider it harmful or potentially harmful software! You can read more about [whitelisting Dalamud](#q-how-do-i-whitelist-xivlauncher-and-dalamud-so-my-antivirus-leaves-them-alone) elsewhere on the FAQ. __We recommend whitelisting for the best experience, but your computing environment may not require it.__
 2. Dalamud allows you to read game memory and read incoming game packets. Compare this to using ACT or Teamcraft Desktop. 
 3. Dalamud does have an API for modifying game memory/hooking into game client memory and functions. We take special care to only provide safe access in the [Dalamud API Reference](https://goatcorp.github.io/Dalamud/api/index.html).
 
@@ -59,7 +59,7 @@ Here are some additional details about Dalamud Plugins.
 3. Dalamud does support third party plugin repositories, with limited support
 	- We cannot provide support for unofficial plugins
 	- While many unofficial plugins are safe to use, others may do things that exploit the game or create unsafe conditions that could send invalid data to the game servers or could result in bans. Please exercise caution before using an unsupported plugin.
-	- Unsupported plugin troubleshootings should be taken to the plugin developrt or their relevant communities. Please do not ask for support on the XIVLauncher support discord for these plugins if they have proper support channels elsewhere. 
+	- Unsupported plugin troubleshooting should be taken to the plugin developer or their relevant communities. Please do not ask for support on the XIVLauncher support discord for these plugins if they have proper support channels elsewhere. 
 
 <hr>
 
@@ -172,16 +172,16 @@ If you are still facing issues, please message us in #xivlauncher_issues
 <hr>
 
 ### Q: Do not expect Dalamud and/or Plugins to work on updates/patch day releases.
-Please remember that many of the developers have school/jobs/both and live across a variety of timezones. Things will be updated when they can be. The notion that "XL could be gone at any time" still exists.
+Please remember that many of the developers have school/jobs/both and live across a variety of time zones. Things will be updated when they can be. The notion that "XL could be gone at any time" still exists.
 
 XIVLauncher:
 - Users do not need to take any preemptive actions for XIVLauncher compatibility with a new patch.
 - Unless SE decides to completely change how authentication or patch download/updating works, the launcher will work just fine on patch days.
 
 Dalamud:
-- Damaud has an internal mechanism that checks the client version and a whitelisted compatibility file.
+- Dalamud has an internal mechanism that checks the client version and a whitelisted compatibility file.
 - If the client version does not match what's whitelisted, Dalamud will not load.
-- Once Dalamud has been whitelisted, it will load the next time you launch with XIVLauncher. (We'll also make an annoucement on Discord)
+- Once Dalamud has been whitelisted, it will load the next time you launch with XIVLauncher. (We'll also make an announcement on Discord)
 - Dalamud may or may not require updates to be made compatible with the current client. This ultimately depends on how much changed internally and we cannot provide any estimates on how long it may take to whitelist as compatible.
 
 Plugins:
@@ -193,7 +193,7 @@ Plugins:
 ### Q: CAN I LOGIN EARLY TO TITLESCREEN BEFORE PATCH LIVE????
 In theory, yes. But you'll probably have expired authorization and have to login again anyways.
 
-Like every patch maintenance, the lobby server will likely be taken offline as usual. Even assuming you get the patch downloaded and applied mid-mainteance, your authorization will almost assuredly be expired before things are back up.  **Especially for housing patches as SE never ends those early.**
+Like every patch maintenance, the lobby server will likely be taken offline as usual. Even assuming you get the patch downloaded and applied mid-maintenance, your authorization will almost assuredly be expired before things are back up.  **Especially for housing patches as SE never ends those early.**
 
 You can make use of XL's "wait for maintenance to be over" features to sit and check for boot patches (no login required) and then prompt you to login for game patches as soon as they are generally available.
 
@@ -244,7 +244,7 @@ The release from the 7th seemingly introduced a change or bug that will cause FF
 We are still looking into this.
 <hr>
 
-### Q: How to set an an injection delay in rivaTuner/RTSS
+### Q: How to set an injection delay in RivaTuner/RTSS
 
 1. Go to `C:\Program Files (x86)\RivaTuner Statistics Server\Profiles\\`
 2. Open the **ffxiv_dx11.exe.cfg** file in your text editor of choice.
@@ -260,7 +260,7 @@ If they are not present, add them
 ### Q: Where can I find my FFXIV Installation?
 (AKA: What does XIVLauncher mean by GamePath?)
 
-FFXIV installs to a few different locations depending on whether you used the official installer or steam, when you installed it, and potentionally if you installed the free trial or not. Here are some of the common paths.
+FFXIV installs to a few different locations depending on whether you used the official installer or steam, when you installed it, and potentially if you installed the free trial or not. Here are some of the common paths.
 
 Whatever you do, DO NOT SELECT THE `BOOT` OR `GAME` FOLDER. But if you already have a copy of FFXIV installed, you'll want the folder that contains them.
 
@@ -300,8 +300,8 @@ to:
 ### Q: **How do I migrate ffxiv and\/or xivlauncher files from an old installation to a new one? \[Windows\]**
 
 **Copy a FFXIV Install**
-For the most part, FFXIV is portable. You just need to make sure you've installed Directx as needed. I recommend installing the launcher with SE's installer first, and then replacing the files with a backup if you don't want to patch.
-__NOTE__: You shouldn't do this if you had textools installed. Or at least, make sure to restore indexes first as it probably broke your client.
+For the most part, FFXIV is portable. You just need to make sure you've installed DirectX as needed. I recommend installing the launcher with SE's installer first, and then replacing the files with a backup if you don't want to patch.
+__NOTE__: You shouldn't do this if you had Textools installed. Or at least, make sure to restore indexes first as it probably broke your client.
 
 **Copy your user\character settings:**
 `%USERPROFILE%\Documents\My Games\FINAL FANTASY XIV - A Realm Reborn`
@@ -315,7 +315,7 @@ __NOTE__: do not copy other config or folders as those are unique to that partic
 
 On some more recent Linux distributions, TLS 1.0 and 1.1 has been disabled. This causes an issue with Wine and FFXIV/XIVLauncher because it may not always negotiate TLS correctly.
 
-You can fix this by seting your `dssenh` DLL override to native if it isn't already. (dssenh=n as an environment variable or in Lutris)
+You can fix this by setting your `dssenh` DLL override to native if it isn't already. (dssenh=n as an environment variable or in Lutris)
 
 This has also been added to the xivlauncher Lutris script as well.
 
@@ -329,7 +329,7 @@ Steam Integration = "I want the steam program to see I'm playing FFXIV and do th
 Use Steam service account = "I bought FFXIV through Steam, which is not the same as the Windows platform."
 <hr>
 
-### Q: Can I repair my FFXIV installion?
+### Q: Can I repair my FFXIV installation?
 
 Short answer: No, not without reinstalling the game.
 
@@ -338,7 +338,7 @@ Short answer: No, not without reinstalling the game.
 2. Delete the `boot` and `game` folders
 3. Open xivlauncher and login. It should ask to patch
 
-Fun answer: XIVLauncher can asisst you in selectively reinstalling only certain portions of the FFXIV game client if needed. Or the entire game.
+Fun answer: XIVLauncher can assist you in selectively reinstalling only certain portions of the FFXIV game client if needed. Or the entire game.
 
 #### General steps to reinstall just ARR:
 
