@@ -20,7 +20,7 @@
 [How do I migrate ffxiv and\\or xivlauncher files from an old installation to a new one? \[Windows\]](#q-how-do-i-migrate-ffxiv-andor-xivlauncher-files-from-an-old-installation-to-a-new-one-windows) <br>
 [I'm on Linux and I keep getting \"XIVLauncher failed to update\" errors](#q-im-on-linux-and-i-keep-getting-xivlauncher-failed-to-update-errors) <br>
 [Why do people keep asking about Steam so much?](#q-why-do-people-keep-asking-about-steam-so-much) <br>
-[Can I repair my FFXIV installation?](#q-can-i-repair-my-ffxiv- installation) <br>
+[Can I repair my FFXIV installation?](#q-can-i-repair-my-ffxiv-installation) <br>
 [How do I fix a version check error when trying to update FFXIV?](#q-how-do-i-fix-a-version-check-error-when-trying-to-update-ffxiv) <br>
 [I updated my game with TexTools mods installed. How do I fix crashes?](#q-i-updated-my-game-with-textools-mods-installed-how-do-i-fix-crashes) <br>
 <hr>
