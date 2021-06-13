@@ -31,7 +31,7 @@ Yes! Here at Goatcorp, we take security extremely seriously. Using our software 
 
 
 #### General Disclaimer
-You shouldn't mention using XIVLauncher or plugins in-game, just like you should admit to using *any* third party modifications, as it is technically against the FFXIV Terms of Service. We have no reported cases of a user being banned for using XIVLauncher, Dalamud, or Dalamud Plugins, but you should still exercise caution. All officially supported plugins go through code review to ensure that they are not exploiting the game or doing anything in such a manner that would result in your game client sending invalid data to the game servers. __We cannot endorse any unofficial plugins from third party plugin repositories. You use those at your own risk.__
+You shouldn't mention using XIVLauncher or plugins in-game, just like you shouldn't admit to using *any* third party modifications, as it is technically against the FFXIV Terms of Service. We have no reported cases of a user being banned for using XIVLauncher, Dalamud, or Dalamud Plugins, but you should still exercise caution. All officially supported plugins go through code review to ensure that they are not exploiting the game or doing anything in such a manner that would result in your game client sending invalid data to the game servers. __We cannot endorse any unofficial plugins from third party plugin repositories. You use those at your own risk.__
 
 If you have any questions about XIVLauncher, Dalamud, or Dalamud Plugins, please feel free to ask questions in our [support discord](https://discord.gg/3NMcUV5). We are a primarily English-speaking community and support in other languages may be limited.
 
