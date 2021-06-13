@@ -1,5 +1,5 @@
 ### Table of Contents
-[Are XIVLauncher, Dalamud, and Dalamud Plugins safe to use?](#q-are-xiv-launcher-dalamud-and-dalamud-plugins-safe-to-use) <br>
+[Are XIVLauncher, Dalamud, and Dalamud Plugins safe to use?](#q-are-xivlauncher-dalamud-and-dalamud-plugins-safe-to-use) <br>
 [How come the in-game addon \(Dalamud\) doesn't work and/or plugins don't display?](#q-how-come-the-in-game-addon-dalamud-doesnt-work-andor-plugins-dont-display) <br>
 [How do I uninstall XIV Launcher?](#q-how-do-i-uninstall-xiv-launcher) <br>
 [How do I fix plugins that rely on Dalamud provided opcodes?](#q-how-do-i-fix-plugins-that-rely-on-dalamud-provided-opcodes) <br>
