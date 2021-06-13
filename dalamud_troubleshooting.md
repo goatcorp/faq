@@ -47,7 +47,7 @@ You can also check out the [Plugin Gallery](https://github.com/goatcorp/DalamudP
 
 ### Q: Do not expect XL/Dalamud/Plugin updates on patch day releases.
 
-Please remember that many of the developers have school/jobs/both and live across a variety of timezones. Things will be updated when they can be. The notion that "XL could be gone at any time" still exists.
+Please remember that many of the developers have school/jobs/both and live across a variety of time zones. Things will be updated when they can be. The notion that "XL could be gone at any time" still exists.
 <hr>
 
 ### Q: I get an error message when trying to install/update/disable a plugin
@@ -94,7 +94,7 @@ If possible, please join our [Discord Server](https://discord.gg/3NMcUV5) and as
   
 We'll probably need your `output.log` and/or `dalamud.log` file to investigate the cause. 
   
-It is also helpful to know if you have any additional addons/injectors/mods such as reshade/gshade, rivatuner/rtss/msi afterburner, any on-screen-displays/overlays, or mods instealled via textools, as these can also contribute to crashing or conflicts.
+It is also helpful to know if you have any additional addons/injectors/mods such as reshade/gshade, rivatuner/rtss/msi afterburner, any on-screen-displays/overlays, or mods installed via Textools, as these can also contribute to crashing or conflicts.
 <hr>
 
 ### Q: Remember the patches, no matter how small, can break plugins
