@@ -123,7 +123,7 @@ To reset dalamud, remove your `%appdata%\XIVLauncher\addon\Hooks` folder. Or typ
 <https://support.avg.com/SupportArticleView?l=en&urlname=AVG-Antivirus-scan-exclusions> <br>
 
 **Bitdefender:**
-<https://www.bitdefender.com/consumer/support/answer/8886/> <br>
+<https://www.bitdefender.com/consumer/support/answer/13427/> <br>
 **NOTE**: BitDefender users may also need to whitelist xivlauncher's program files (local appdata stuff) through the **[BitDefender firewall](https://www.bitdefender.com/consumer/support/answer/13425/)**. You'll know this is the case if it fails to check for updates/open.
 
 **McAfee:**
