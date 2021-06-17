@@ -38,6 +38,8 @@ On the XIVLauncher app settings page, tap "Set XIVLauncher IP" and enter the IP 
 In XIVLauncher, click the settings "gear" icon on the main screen. If you have Auto-Login enabled, you will have to hold shift while starting to get back to the XIVLauncher main screen.
 <br>
 On the following screen, make sure "Enable XL Authenticator app/OTP macro support" is ticked.
+<br>
+#### NOTE: If you're on the stable build of XIVLauncher 5.5.3 or prior, you won't see this setting because it's always on.
 
 ![Make sure to tick this box](https://goatcorp.github.io/faq/asset/otp_checkbox.png)
 
