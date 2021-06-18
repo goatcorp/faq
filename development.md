@@ -137,7 +137,7 @@ Once you have your disassembler ready, you'll need to disassemble the `ffxiv_dx1
 
 After that, well... it's time for you to work on the puzzle. You'll want to find resources for how to reverse-engineer things online; there are tutorials that specifically look at reversing games, which may help you build up an intuition for the thought process you'll need.
 
-Another approach you can take is _dynamic analysis_. You can attach a debugger to the game, like [x64dbg](https://x64dbg.com/) or [Cheat Engine](https://www.cheatengine.org/), and use these to explore the game's memory and execution at runtime (e.g. searching for a value and finding what changes it in the code). Both approaches are valid, but you'll likely need to use both to 
+Another approach you can take is _dynamic analysis_. You can attach a debugger to the game, like [x64dbg](https://x64dbg.com/) or [Cheat Engine](https://www.cheatengine.org/), and use these to explore the game's memory and execution at runtime (e.g. searching for a value and finding what changes it in the code). Both approaches are valid, but you'll likely need to use both to make headway as they can provide context for each other.
 
 Reversing is a large and complex field, and it takes years to get proficient and recognise patterns. Asking the Discord for help is encouraged, but be aware that you have a long journey ahead of you regardless.
 
