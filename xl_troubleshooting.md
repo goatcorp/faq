@@ -279,6 +279,7 @@ __NOTE__: If your steam library is on another drive, it will have a different, b
 Once you've made your new xivlauncher-based prefix, you can copy files from your old ffxiv prefix for the following:
 
 **Copy a FFXIV Install from one prefix to another \(or move/symlink as desired\)**
+
 from:
 `~/Games/<old prefix>/drive_c/Program Files (x86)/SquareEnix/FINAL FANTASY XIV - A Realm Reborn`
 <br>
@@ -286,6 +287,7 @@ to:
 `~/Games/<new prefix>/drive_c/Program Files (x86)/SquareEnix/FINAL FANTASY XIV - A Realm Reborn`
 
 **Copy your user/character settings:**
+
 from:
 `~/Games/<old prefix>/drive_c/users/<username>/My Documents/My Games/FINAL FANTASY XIV - A Realm Reborn`
 <br>
@@ -293,6 +295,7 @@ to:
 `~/Games/<new prefix>/drive_c/users/<username>/My Documents/My Games/FINAL FANTASY XIV - A Realm Reborn`
 
 **Copy XIV Launcher config \(please reinstall plugins\)**:
+
 from:
 `~/Games/<old prefix>/drive_c/users/<username>/Application Data/XIVLauncher/pluginConfigs`
 <br>
