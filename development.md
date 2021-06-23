@@ -2,6 +2,7 @@
 [How do I get started?](#q-how-do-i-get-started) <br>
 [Where do I ask for help?](#q-where-do-i-ask-for-help) <br>
 [How do I hot-reload my plugin?](#q-how-do-i-hot-reload-my-plugin) <br>
+[How do I debug my plugin and/or the game?](#q-how-do-i-debug-my-plugin-andor-the-game) <br>
 [How do I use FFXIVClientStructs in my own code?](#q-how-do-i-use-ffxivclientstructs-in-my-own-code) <br>
 [What happens when there's an API version bump?](#q-what-happens-when-theres-an-api-version-bump) <br>
 [How can I stay up to date with API changes?](#q-how-can-i-stay-up-to-date-with-api-changes) <br>
@@ -71,6 +72,17 @@ To use it, open up Dalamud settings in-game with `/xlplugins`, click on Settings
 LivePluginLoad can then be installed from the primary plugin list. After installing it, you can add your plugin to its list of tracked plugins. It will then be automatically loaded and reloaded when your plugin changes (e.g. is recompiled).
 
 Note that `System.Reflection.Assembly.GetExecutingAssembly().Location` will return the wrong value if loaded through LPL. As a workaround, provide an `AssemblyLocation` property for LPL to fill in [as done in the SamplePlugin](https://github.com/goatcorp/SamplePlugin/blob/5251959ac02f0a57d76417a5abfbff680bfab4bf/SamplePlugin/Plugin.cs#L19).
+
+<hr>
+
+### Q: How do I debug my plugin and/or the game?
+To debug, you'll need to attach a debugger to the game. This will usually be from your development environment, such as Visual Studio.
+
+However, the game has antidebug protection on by default. To turn this off, use the Dalamud dev menu (`/xldev`), then go to Dalamud > Enable AntiDebug; you will have to do this every time you want to debug. Alternatively, if you want to always have the anti-antidebug on, add [Caraxi's anti-antidebug plugin](https://github.com/Caraxi/AllowDebug) to your loaded plugins (you may have to manually install it.)
+
+Once you've done this, you can attach to the game with your debugger. In Visual Studio, you can go to Debug > Attach to Process (Ctrl+Alt+P), and then select the FF14 process. For the full debugging experience, make sure to change "Attach to" to include both `Native code` and `Managed (.NET 4.x) code`; this will ensure that the debugger will work for both the game and for Dalamud plugins.
+
+This functionality is only supported for debugging your plugins. You will not receive support if you use it for anything else.
 
 <hr>
 
