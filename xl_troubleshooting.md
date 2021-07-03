@@ -327,6 +327,8 @@ This has also been added to the xivlauncher Lutris script as well.
 
 Thank you to kainz0r for this tip!
 ![Example](images/LinuxConfigScreenshot.png)
+
+On **Fedora**? You will need to run `sudo update-crypto-policies --set DEFAULT:FEDORA32` in order to lighten up the security policies as Fedora 33 and later have stricter SSL/TLS settings. `FEDORA32` didn't work? Try instead: `sudo update-crypto-policies --set LEGACY`
 <hr>
 
 ### Q: Why do people keep asking about Steam so much?
