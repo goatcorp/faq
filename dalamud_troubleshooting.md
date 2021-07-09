@@ -1,4 +1,4 @@
-Put Dalamud and plugin-related FAQs here
+# Dalamud FAQ
 
 ### Table of Contents
 [How do I install/enable plugins?](#q-how-do-i-installenable-plugins) <br>
