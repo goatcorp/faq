@@ -1,3 +1,5 @@
+# Development FAQ
+
 ### Table of Contents
 [How do I get started?](#q-how-do-i-get-started) <br>
 [Where do I ask for help?](#q-where-do-i-ask-for-help) <br>
