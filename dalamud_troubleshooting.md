@@ -37,10 +37,18 @@ You can also check out the [Plugin Gallery](https://github.com/goatcorp/DalamudP
 <hr>
 
 ### Q: How do I turn Dalamud Staging on or off?
+#### In game (if you can still launch)
 1. Type `/xldev` in game.
 2. Click on the Dalamud menu on the top of the screen.
 3. Select/Unselect the settings as wanted.
 4. Relaunch the game
+
+#### Out of game (when you get crashes)
+1. Close the game
+2. Go to `%appdata%\XIVLauncher\` and open `dalamudConfig.json` in your text editor of choice
+3. Change the line that says `"DoDalamudTest": true,` to `"DoDalamudTest": false,`
+4. Save
+5. Launch the game. NOTE: You may have to wait for Dalamud to be redownloaded.
 
 * Only enable this if you absolutely need to. It is for developers, not users or plugin testers unless specifically stated. 
 <hr>
