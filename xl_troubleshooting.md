@@ -79,12 +79,23 @@ If you've made a lot of queries to github recently, it's possible they may have 
 3. If you've hit the limit, grab the timestamp number from resources.core.reset and convert the UTC timestamp into a human-readable date. https://www.unixtimestamp.com/ works great for this.
 4. Wait the alloted time before launching again, or the timeout period could be extended (if you absolutely need to get in game, use the official launcher during this time)
 
-#### I use Linux/Wine
-See [I'm on Linux and I keep getting \"XIVLauncher failed to update\" errors](#q-im-on-linux-and-i-keep-getting-xivlauncher-failed-to-update-errors) because this is a pretty common thing, but different distributions need to handle it differently.
-<hr>
-
 #### Not sure?
 For the fastest support, head over to the XIVLauncher Discord and post into the #xivlauncher-issues channel with the error you're getting, a screenshot (if possible), and your `output.log` file which can be found in `%appdata%\xivlauncher` (Use `f!faq logxl` in the XIVLauncher discord for more details there). 
+<hr>
+
+### Q: **I'm on Linux and I keep getting \"XIVLauncher failed to update\" errors**
+
+On some more recent Linux distributions, TLS 1.0 and 1.1 has been disabled. This causes an issue with Wine and FFXIV/XIVLauncher because it may not always negotiate TLS correctly.
+
+You can fix this by setting your `dssenh` DLL override to native if it isn't already. (dssenh=n as an environment variable or in Lutris)
+
+This has also been added to the xivlauncher Lutris script as well.
+
+Thank you to kainz0r for this tip!
+![Example](images/LinuxConfigScreenshot.png)
+
+On **Fedora**? You will need to run `sudo update-crypto-policies --set DEFAULT:FEDORA32` in order to lighten up the security policies as Fedora 33 and later have stricter SSL/TLS settings. `FEDORA32` didn't work? Try instead: `sudo update-crypto-policies --set LEGACY`
+<hr>
 
 ### Q: How come the in-game addon (Dalamud) doesn't work and/or plugins don't display?
 
@@ -338,20 +349,6 @@ __NOTE__: You shouldn't do this if you had Textools installed. Or at least, make
 **Copy XIV Launcher config (please reinstall plugins)**:
 __NOTE__: do not copy other config or folders as those are unique to that particular computer. You should set them up per machine.
 `%appdata%\XIVLauncher\pluginConfigs`
-<hr>
-
-### Q: **I'm on Linux and I keep getting \"XIVLauncher failed to update\" errors**
-
-On some more recent Linux distributions, TLS 1.0 and 1.1 has been disabled. This causes an issue with Wine and FFXIV/XIVLauncher because it may not always negotiate TLS correctly.
-
-You can fix this by setting your `dssenh` DLL override to native if it isn't already. (dssenh=n as an environment variable or in Lutris)
-
-This has also been added to the xivlauncher Lutris script as well.
-
-Thank you to kainz0r for this tip!
-![Example](images/LinuxConfigScreenshot.png)
-
-On **Fedora**? You will need to run `sudo update-crypto-policies --set DEFAULT:FEDORA32` in order to lighten up the security policies as Fedora 33 and later have stricter SSL/TLS settings. `FEDORA32` didn't work? Try instead: `sudo update-crypto-policies --set LEGACY`
 <hr>
 
 ### Q: Why do people keep asking about Steam so much?
