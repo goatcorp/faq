@@ -2,6 +2,7 @@
 
 ### Table of Contents
 [Are XIVLauncher, Dalamud, and Dalamud Plugins safe to use?](#q-are-xivlauncher-dalamud-and-dalamud-plugins-safe-to-use) <br>
+[I get an error saying XIVLauncher failed to check for updates when I open the program](#q-i-get-an-error-saying-xiv-launcher-failed-to-check-for-updates-when-i-open-the-program) <br>
 [How come the in-game addon \(Dalamud\) doesn't work and/or plugins don't display?](#q-how-come-the-in-game-addon-dalamud-doesnt-work-andor-plugins-dont-display) <br>
 [How do I uninstall XIV Launcher?](#q-how-do-i-uninstall-xiv-launcher) <br>
 [How do I fix plugins that rely on Dalamud provided opcodes?](#q-how-do-i-fix-plugins-that-rely-on-dalamud-provided-opcodes) <br>
@@ -64,6 +65,26 @@ Here are some additional details about Dalamud Plugins.
 	- Unsupported plugin troubleshooting should be taken to the plugin developer or their relevant communities. Please do not ask for support on the XIVLauncher support discord for these plugins if they have proper support channels elsewhere. 
 
 <hr>
+### Q: I get an error saying XIVLauncher failed to check for updates when I open the program
+There are a few different reasons that XIVLauncher will fail to open. Here are a few common ones.
+
+#### XIVLauncher is being blocked by my antivirus/firewall
+See the main [Antivirus](#) FAQ post for information on how to whitelist XIVLauncher. 
+
+#### GitHub Rate Limits
+If you've made a lot of queries to github recently, it's possible they may have rate-limited you. This is usually a combined effort of XIVLauncher, Dalamud, Dalamud plugin updates, Gshade, etc all being done in rapid succession, which shouldn't happen under normal circumstances.
+
+1. Try to visit https://api.github.com/rate_limit and see if the post loads (or downloads a json file)
+2. Look for `resources.core.remaining`. If it's 0, you've hit GitHub's rate limit
+3. If you've hit the limit, grab the timestamp number from resources.core.reset and convert the UTC timestamp into a human-readable date. https://www.unixtimestamp.com/ works great for this.
+4. Wait the alloted time before launching again, or the timeout period could be extended (if you absolutely need to get in game, use the official launcher during this time)
+
+#### I use Linux/Wine
+See [I'm on Linux and I keep getting \"XIVLauncher failed to update\" errors](#q-im-on-linux-and-i-keep-getting-xivlauncher-failed-to-update-errors) because this is a pretty common thing, but different distributions need to handle it differently.
+<hr>
+
+#### Not sure?
+For the fastest support, head over to the XIVLauncher Discord and post into the #xivlauncher-issues channel with the error you're getting, a screenshot (if possible), and your `output.log` file which can be found in `%appdata%\xivlauncher` (Use `f!faq logxl` in the XIVLauncher discord for more details there). 
 
 ### Q: How come the in-game addon (Dalamud) doesn't work and/or plugins don't display?
 
