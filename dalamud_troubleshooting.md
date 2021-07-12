@@ -73,7 +73,7 @@ It may help to change how you're injecting the hook for Reshade/GShade/etc.
 If you're using dgxi, try d3d11.
 If you're using d3d11, try dxgi.
 
-You can do this by renaming the hook file in your <ffxiv install>\game folder or by reinstalling your shader injector of choice, typically. (But make sure you don't have both!)
+You can do this by renaming the hook file in your `<ffxiv install>\game folder` or by uninstalling and reinstalling your shader injector of choice, typically. You'll run into issues if you have both, but XIVLauncher should catch that for you.
 <hr>
 
 ### Q: How do I fix plugins that rely on Dalamud provided opcodes?
