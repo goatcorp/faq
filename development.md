@@ -204,7 +204,7 @@ namespace SamplePlugin
             var Signature = "40 53 55 57 41 56 41 57 48 83 EC 60";
             var renderAddress = this.pi.TargetModuleScanner.ScanText(Signature);
 
-            this.renderDelegateHook = new Hook<RenderDelegate>(renderAddress, new RenderDelegate(this.RenderDetour), this);
+            this.renderDelegateHook = new Hook<RenderDelegate>(renderAddress, this.RenderDetour);
             this.renderDelegateHook.Enable();
         }
 
