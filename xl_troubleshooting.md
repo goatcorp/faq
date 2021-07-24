@@ -356,6 +356,11 @@ __NOTE__: do not copy other config or folders as those are unique to that partic
 Steam Integration = "I want the steam program to see I'm playing FFXIV and do the overlay thing"
 
 Use Steam service account = "I bought FFXIV through Steam, which is not the same as the Windows platform."
+
+#### How to override your FFXIV steam entry to open XIVLauncher instead
+1. Right Click on your game
+2. Go to Properties
+3. Set Launch Options...<br>Set the launch option to `"C:\Users\YOUR_USERNAME_HERE\AppData\Local\XIVLauncher\XIVLauncher.exe" %command%` (the quotes are important). If you're one of those monsters with your userprofile in a nonstandard location, you will be expected to adjust the full path accordingly.
 <hr>
 
 ### Q: Can I repair my FFXIV installation?
