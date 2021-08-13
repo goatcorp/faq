@@ -10,6 +10,7 @@
 [How can I stay up to date with API changes?](#q-how-can-i-stay-up-to-date-with-api-changes) <br>
 [What happens when the game is updated?](#q-what-happens-when-the-game-is-updated) <br>
 [What am I allowed to do in my plugin?](#q-what-am-i-allowed-to-do-in-my-plugin) <br>
+[Why do you discourage certain types of plugins?](#q-why-do-you-discourage-certain-types-of-plugins) <br>
 [Are there any performance constraints to be aware of?](#q-are-there-any-performance-constraints-to-be-aware-of) <br>
 [How do I get started with reverse-engineering the game so that I can do things Dalamud doesn't expose?](#q-how-do-i-get-started-with-reverse-engineering-the-game-so-that-i-can-do-things-dalamud-doesnt-expose) <br>
 [How do I hook a game function?](#q-how-do-i-hook-a-game-function) <br>
@@ -22,7 +23,7 @@ The majority of the XIVLauncher and Dalamud ecosystem is written in C# for its u
 To get started, you'll want to get the latest version of Visual Studio found [here](https://visualstudio.microsoft.com/downloads/); the Community edition will work fine. After doing so, you can clone any of the following projects and get to work with their Visual Studio solutions.
 
 #### Dalamud Plugins
-Plugins allow you to interact with the game and add features, modify functionality, and do much more. Note that you will need to be respectful of [our guidelines](#q-what-am-i-allowed-to-do-in-my-plugin) to ensure that your plugin is approved into the primary repository, and to minimise the risk of action by Square Enix.
+Plugins allow you to interact with the game and add features, modify functionality, and do much more. We ask you to be respectful of [our guidelines](#q-what-am-i-allowed-to-do-in-my-plugin) to ensure that your plugin is approved into the primary repository, and to minimise the risk of action by Square Enix. You can read more about this [here](#q-why-do-you-discourage-certain-types-of-plugins).
 
 Karashiiro's plugin guide is an excellent place to get started:
 - <https://github.com/karashiiro/DalamudPluginGuide>
@@ -128,6 +129,15 @@ Please make sure that your plugin does not interact with the game servers in a w
 - outside of specification, as in allowing the player to do submit things to the server that would not be possible by normal means
 
 Plugins that violate this will not be accepted into the Dalamud plugin repository, and you will not receive support from the Dalamud community. 
+
+<hr>
+
+### Q: Why do you discourage certain types of plugins?
+Dalamud and XIVLauncher were made by me with the goal to do cool stuff with a game I love, and give others the chance to do so while making the game itself more accessible. I don't want to cause harm to the game, its community or Square Enix. Plugins that fall outside of the definition of "acceptable" that we set as a collective create a divide and debate that we don't want to be a part of.<br>This stance of mine has narrowed down as XIVLauncher has gained popularity, as you may notice by going through some of the first plugins to be added.
+
+Obviously, this comes from a moral point of view, which may differ from yours - and the rules and decisions I make may sometimes seem unjustified - but I want to minimize the risk of Square Enix taking action and taking away the things we built, while degrading the general user experience of their game.
+
+I can't and don't want to control anyone that makes free software based on my work, but I would like to ask you to consider and empathize with my opinion when creating software that depends on Dalamud.
 
 <hr>
 
