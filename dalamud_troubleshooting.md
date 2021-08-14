@@ -18,7 +18,6 @@
 ### Q: How do I install/enable plugins?
 Not sure how to install plugins? Just type `/xlplugins` in-game after you see that the in-game hook has loaded.
 
-Note: Disabled plugins are not uninstalled. You'll need to manually delete them if you want to remove all traces of the plugin.
 <hr>
 
 ### Q: What is the command for \<insert plugin here\>?
