@@ -41,8 +41,8 @@ If you have any questions about XIVLauncher, Dalamud, or Dalamud Plugins, please
 #### XIVLauncher Security Specifics
 Here are some additional details about XIVLauncher itself.
 
-1. XIVLauncher is open source. You can audit the code in the main [XIVLauncher GitHub Repo](https://github.com/goatcorp/FFXIVQuickLauncher/)
-2. XIVLauncher releases are now built directly on GitHub and the launcher is hashed and validates that it matches the current up to date release. This means you don't need to worry about whether or not the launcher has been tampered with. In the event that the launcher has been modified, it will clearly denote that it is a debug build or otherwise a test/unsupported release. ![unsupported xivlauncher build](images/xivlauncher_unsupported.png)
+1. XIVLauncher is open source. You can audit the code in the main [XIVLauncher GitHub Repo](https://github.com/goatcorp/FFXIVQuickLauncher/).
+2. XIVLauncher releases are now built directly on GitHub, anything you download, you can be sure that it is from the version of the open source code that is listed on the GitHub repository. In the event that the launcher has been modified, or you are running a version intended for development, it will clearly denote that it is a debug build or otherwise a test/unsupported release. ![unsupported xivlauncher build](images/xivlauncher_unsupported.png)
 3. XIVLauncher uses the Windows Credential Manager to safely store your account credentials, if you choose to save them. Your passwords are encrypted and can only be accessed by authorized programs. However, that does mean if someone manages to gain access to your computer, they can technically extract your password. (But at that point, you likely have bigger issues)
 4. XIVLauncher only communicates with GitHub and official FFXIV websites.
 5. XIVLauncher has been designed to fully replicate the same login and authorization process as the official launcher. Steps have been taken to ensure that it will always match retail, down to experiencing the same login issues. Patch downloads are obtained from the same patchlist that SE provides the retail launcher, and all patch files are verified to be correct before they are applied.
@@ -52,17 +52,17 @@ Here are some additional details about Dalamud.
 
 1. Dalamud **is** a code injection framework. By definition, it's going to look and act like a virus-like program. Your antivirus might even consider it harmful or potentially harmful software! You can read more about [whitelisting Dalamud](#q-how-do-i-whitelist-xivlauncher-and-dalamud-so-my-antivirus-leaves-them-alone) elsewhere on the FAQ. __We recommend whitelisting for the best experience, but your computing environment may not require it.__
 2. Dalamud allows you to read game memory and read incoming game packets. Compare this to using ACT or Teamcraft Desktop. 
-3. Dalamud does have an API for modifying game memory/hooking into game client memory and functions. We take special care to only provide safe access in the [Dalamud API Reference](https://goatcorp.github.io/Dalamud/api/index.html).
+3. Dalamud's framework comes with the ability for modifying game memory/hooking into game client memory and functions that plugins can choose to use. We however only provide safe read-only(where it applies) access to game data in the official [Dalamud game data APIs](https://goatcorp.github.io/Dalamud/api/index.html).
 
 #### Plugin Security Specifics
 Here are some additional details about Dalamud Plugins.
 
-1. Dalamud Plugins on our official plugin repository have been deemed "safe to use" and near-undetectable by SE or other players. (While this could change in the future, it's pretty unlikely.)
+1. Dalamud Plugins on our official plugin repository have been deemed "safe to use" by us.
 2. Officially supported plugins should always be downloaded/installed directly in game from the `/xlplugins` plugin installer. You don't need to download them manually or install them manually.
 3. Dalamud does support third party plugin repositories, with limited support
 	- We cannot provide support for unofficial plugins
-	- While many unofficial plugins are safe to use, others may do things that exploit the game or create unsafe conditions that could send invalid data to the game servers or could result in bans. Please exercise caution before using an unsupported plugin.
-	- Unsupported plugin troubleshooting should be taken to the plugin developer or their relevant communities. Please do not ask for support on the XIVLauncher support discord for these plugins if they have proper support channels elsewhere. 
+	- While many unofficial plugins are safe to use, others may do things that exploit the game or create unsafe conditions that could send invalid data to the game servers or could result in bans. Please exercise caution before using an unsupported plugin. We cannot take any responsibility for them.
+	- Unsupported plugin troubleshooting should be taken to the plugin developer or their relevant communities. Please do not ask for support on the XIVLauncher support discord for these plugins, even if they don't have proper support channels elsewhere. 
 
 <hr>
 
