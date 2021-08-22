@@ -8,6 +8,7 @@
 [How do I use FFXIVClientStructs in my own code?](#q-how-do-i-use-ffxivclientstructs-in-my-own-code) <br>
 [What happens when there's an API version bump?](#q-what-happens-when-theres-an-api-version-bump) <br>
 [How can I stay up to date with API changes?](#q-how-can-i-stay-up-to-date-with-api-changes) <br>
+[What is the .NET5 upgrade?](#q-what-is-the-net5-upgrade) <br>
 [What happens when the game is updated?](#q-what-happens-when-the-game-is-updated) <br>
 [What am I allowed to do in my plugin?](#q-what-am-i-allowed-to-do-in-my-plugin) <br>
 [Why do you discourage certain types of plugins?](#q-why-do-you-discourage-certain-types-of-plugins) <br>
@@ -18,17 +19,14 @@
 <hr>
 
 ### Q: How do I get started?
-The majority of the XIVLauncher and Dalamud ecosystem is written in C# for its usability, convenience, and powerfulness. It is recommended that anything you work on is also in C#, unless you're working on something with a significant amount of interoperation with native code (in which C++/CLI may be useful) or you're experimenting with other .NET languages.
+The majority of the XIVLauncher and Dalamud ecosystem is written in C# for its usability, convenience, and robustness. It is recommended that anything you work on is also in C#, unless you're working on something with a significant amount of interoperation with native code (in which C++/CLI may be useful) or you're experimenting with other .NET languages.
 
-To get started, you'll want to get the latest version of Visual Studio found [here](https://visualstudio.microsoft.com/downloads/); the Community edition will work fine. After doing so, you can clone any of the following projects and get to work with their Visual Studio solutions.
+To get started, you'll want to get the latest version of Visual Studio found [here](https://visualstudio.microsoft.com/downloads/); the Community edition will work fine. After doing so, you can clone any of the following projects and get to work with their Visual Studio solutions. Alternatively, you may want to use another IDE such as [JetBrains Rider](https://www.jetbrains.com/rider/). 
 
 #### Dalamud Plugins
 Plugins allow you to interact with the game and add features, modify functionality, and do much more. We ask you to be respectful of [our guidelines](#q-what-am-i-allowed-to-do-in-my-plugin) to ensure that your plugin is approved into the primary repository, and to minimise the risk of action by Square Enix. You can read more about this [here](#q-why-do-you-discourage-certain-types-of-plugins).
 
-Karashiiro's plugin guide is an excellent place to get started:
-- <https://github.com/karashiiro/DalamudPluginGuide>
-
-However, if you'd prefer something you can get up and running with immediately, consider cloning one of the following sample plugin templates and using it as a base:
+We recommend that you start by cloning one of the following templates, and then customising it to your requirements. While `SamplePlugin` is the most actively maintained, the others are updated as required:
 - <https://github.com/goatcorp/SamplePlugin>
 - <https://github.com/karashiiro/DalamudPluginProjectTemplate>
 - <https://github.com/lmcintyre/PluginTemplate>
@@ -66,7 +64,10 @@ The best place to ask for help is the [#dev channel](https://discord.gg/wwYXnzWY
 <hr>
 
 ### Q: How do I hot-reload my plugin?
-Manually copying the plugin to the plugins directory is quite tedious, so Caraxi has developed the LivePluginLoad plugin that automatically reloads plugins when they change:
+**.NET 5:** This functionality will be provided by the upcoming version of Dalamud (see [What is the .NET5 upgrade?](#q-what-is-the-net5-upgrade)).
+
+**Current:**
+To avoid manually copying the plugin to the plugins directory, Caraxi has developed the LivePluginLoad plugin that automatically reloads plugins when they change:
 <https://github.com/Caraxi/LivePluginLoad>
 
 To use it, open up Dalamud settings in-game with `/xlplugins`, click on Settings, go to Experimental, and add the following custom repository:
@@ -81,7 +82,7 @@ Note that `System.Reflection.Assembly.GetExecutingAssembly().Location` will retu
 ### Q: How do I debug my plugin and/or the game?
 To debug, you'll need to attach a debugger to the game. This will usually be from your development environment, such as Visual Studio.
 
-However, the game has antidebug protection on by default. To turn this off, use the Dalamud dev menu (`/xldev`), then go to Dalamud > Enable AntiDebug; you will have to do this every time you want to debug. Alternatively, if you want to always have the anti-antidebug on, add [Caraxi's anti-antidebug plugin](https://github.com/Caraxi/AllowDebug) to your loaded plugins (you may have to manually install it.)
+However, the game has antidebug protection on by default. To turn this off, use the Dalamud dev menu (`/xldev`), then go to Dalamud > Enable AntiDebug; this setting is persisted between launches, so you do not need to turn it on each time. 
 
 Once you've done this, you can attach to the game with your debugger. In Visual Studio, you can go to Debug > Attach to Process (Ctrl+Alt+P), and then select the FF14 process. For the full debugging experience, make sure to change "Attach to" to include both `Native code` and `Managed (.NET 4.x) code`; this will ensure that the debugger will work for both the game and for Dalamud plugins.
 
@@ -90,13 +91,17 @@ This functionality is only supported for debugging your plugins. You will not re
 <hr>
 
 ### Q: How do I use FFXIVClientStructs in my own code?
+[FFXIVClientStructs](https://github.com/aers/FFXIVClientStructs) is a communal project to provide an interface to the game's classes, data, and more to C# users and reverse engineers.
+
 To use FFXIVClientStructs in your own code, you'll need to add a reference to it. This can be done by opening the `csproj` for your plugin and adding the reference with the other references:
 ```xml
     <Reference Include="FFXIVClientStructs">
       <HintPath>$(AppData)\XIVLauncher\addon\Hooks\dev\FFXIVClientStructs.dll</HintPath>
     </Reference>
 ```
-or through right-clicking the project in VS, going to Add, and then adding an Assembly Reference to the same path. Note that you will likely need to still open the `csproj` after doing this to ensure that the path uses `$(AppData)` and not the path specific to your system.  
+or through right-clicking the project in VS, going to Add, and then adding an Assembly Reference to the same path. Note that you will likely need to still open the `csproj` after doing this to ensure that the path uses `$(AppData)` and not the path specific to your system.
+
+However, the version of FFXIVClientStructs included with Dalamud is not updated very frequently, and may not feature the latest changes to the GitHub repository. To use the latest version, you'll need to pack it into your plugin using a tool like [ILRepack](https://github.com/gluck/il-repack).
 
 <hr>
 
@@ -106,9 +111,25 @@ When there's an API version bump, your plugin will no longer be loaded by Dalamu
 <hr>
 
 ### Q: How can I stay up to date with API changes?
-The best place to stay up to date with upcoming API changes is to frequent the [#dev channel](https://discord.gg/wwYXnzWYqY) of the Discord. Changes will be announced with notice so that you can adapt your plugin as appropriate.
+The best place to stay up to date with upcoming API changes is to frequent the [#dev channel of the Discord](https://discord.gg/wwYXnzWYqY). Changes will be announced with notice so that you can adapt your plugin as appropriate.
 
 After submitting your first plugin to the repository, you will be given a Plugin Developer role so that you will be pinged whenever breaking changes occur.
+
+<hr>
+
+### Q: What is the .NET5 upgrade?
+Currently, Dalamud is based on .NET Framework 4.7.2. .NET Framework is no longer seeing active development, with development efforts transitioning to .NET 5. Dalamud is adopting this new version of .NET which offers several benefits including, but not limited to, language and ecosystem improvements, simpler integrations, reduced friction with alternative execution environments (such as Linux), and more.
+
+This is also being used as an opportunity to iron out longstanding issues in the Dalamud API, so there may be additional changes to your plugin other than switching which version of .NET you're targeting.
+
+You can find more information about what to expect at the following links:
+- _Roadmap_: https://github.com/goatcorp/Dalamud/discussions/479
+- _General Breaking Changes_: https://github.com/goatcorp/Dalamud/discussions/458
+- _Plugin API Redesign_: https://github.com/goatcorp/Dalamud/discussions/474
+- _New Features_: https://github.com/goatcorp/Dalamud/discussions/471
+- _Plugin Manifest Changes_: https://github.com/goatcorp/Dalamud/discussions/457
+
+Additionally, the live-reloading functionaliy provided by LivePluginLoad has been integrated directly into Dalamud. More information on this can be found in the General Breaking Changes link above.
 
 <hr>
 
@@ -133,11 +154,12 @@ Plugins that violate this will not be accepted into the Dalamud plugin repositor
 <hr>
 
 ### Q: Why do you discourage certain types of plugins?
-Dalamud and XIVLauncher were made by me with the goal to do cool stuff with a game I love, and give others the chance to do so while making the game itself more accessible. I don't want to cause harm to the game, its community or Square Enix. Plugins that fall outside of the definition of "acceptable" that we set as a collective create a divide and debate that we don't want to be a part of.<br>This stance of mine has narrowed down as XIVLauncher has gained popularity, as you may notice by going through some of the first plugins to be added.
-
-Obviously, this comes from a moral point of view, which may differ from yours - and the rules and decisions I make may sometimes seem unjustified - but I want to minimize the risk of Square Enix taking action and taking away the things we built, while degrading the general user experience of their game.
-
-I can't and don't want to control anyone that makes free software based on my work, but I would like to ask you to consider and empathize with my opinion when creating software that depends on Dalamud.
+> Dalamud and XIVLauncher were made by me with the goal to do cool stuff with a game I love, and give others the chance to do so while making the game itself more accessible. I don't want to cause harm to the game, its community or Square Enix. Plugins that fall outside of the definition of "acceptable" that we set as a collective create a divide and debate that we don't want to be a part of.<br>This stance of mine has narrowed down as XIVLauncher has gained popularity, as you may notice by going through some of the first plugins to be added.
+> 
+> Obviously, this comes from a moral point of view, which may differ from yours - and the rules and decisions I make may sometimes seem unjustified - but I want to minimize the risk of Square Enix taking action and taking away the things we built, while degrading the general user experience of their game.
+> 
+> I can't and don't want to control anyone that makes free software based on my work, but I would like to ask you to consider and empathize with my opinion when creating software that depends on Dalamud.
+- [goat](https://github.com/goaaats), the lead developer of XIVLauncher/Dalamud
 
 <hr>
 
