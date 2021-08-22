@@ -123,11 +123,11 @@ Currently, Dalamud is based on .NET Framework 4.7.2. .NET Framework is no longer
 This is also being used as an opportunity to iron out longstanding issues in the Dalamud API, so there may be additional changes to your plugin other than switching which version of .NET you're targeting.
 
 You can find more information about what to expect at the following links:
-- _Roadmap_: https://github.com/goatcorp/Dalamud/discussions/479
-- _General Breaking Changes_: https://github.com/goatcorp/Dalamud/discussions/458
-- _Plugin API Redesign_: https://github.com/goatcorp/Dalamud/discussions/474
-- _New Features_: https://github.com/goatcorp/Dalamud/discussions/471
-- _Plugin Manifest Changes_: https://github.com/goatcorp/Dalamud/discussions/457
+- _Roadmap_: <https://github.com/goatcorp/Dalamud/discussions/479>
+- _General Breaking Changes_: <https://github.com/goatcorp/Dalamud/discussions/458>
+- _Plugin API Redesign_: <https://github.com/goatcorp/Dalamud/discussions/474>
+- _New Features_: <https://github.com/goatcorp/Dalamud/discussions/471>
+- _Plugin Manifest Changes_: <https://github.com/goatcorp/Dalamud/discussions/457>
 
 Additionally, the live-reloading functionaliy provided by LivePluginLoad has been integrated directly into Dalamud. More information on this can be found in the General Breaking Changes link above.
 
@@ -159,6 +159,7 @@ Plugins that violate this will not be accepted into the Dalamud plugin repositor
 > Obviously, this comes from a moral point of view, which may differ from yours - and the rules and decisions I make may sometimes seem unjustified - but I want to minimize the risk of Square Enix taking action and taking away the things we built, while degrading the general user experience of their game.
 > 
 > I can't and don't want to control anyone that makes free software based on my work, but I would like to ask you to consider and empathize with my opinion when creating software that depends on Dalamud.
+
 - [goat](https://github.com/goaaats), the lead developer of XIVLauncher/Dalamud
 
 <hr>
