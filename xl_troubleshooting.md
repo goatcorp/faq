@@ -153,36 +153,40 @@ To reset dalamud, remove your `%appdata%\XIVLauncher\addon\Hooks` folder. Or typ
 
 #### Instructions for individual AV
 
-**Avast:**
+#### Avast:
 <https://support.avast.com/en-ww/article/Antivirus-scan-exclusions> <br>
 
-**AVG:**
+#### AVG:
 <https://support.avg.com/SupportArticleView?l=en&urlname=AVG-Antivirus-scan-exclusions> <br>
 
-**Bitdefender:**
+#### Bitdefender:
 <https://www.bitdefender.com/consumer/support/answer/13427/> <br>
-**NOTE**: BitDefender users may also need to whitelist xivlauncher's program files (local appdata stuff) through the **[BitDefender firewall](https://www.bitdefender.com/consumer/support/answer/13425/)**. You'll know this is the case if it fails to check for updates/open.
+**NOTE**: BitDefender users will also need to whitelist xivlauncher's program files (local appdata stuff) through the **[BitDefender firewall](https://www.bitdefender.com/consumer/support/answer/13425/)**. Otherwise, XIVLauncher will fail to check for updates, possibly fail to apply patches, and won't be able to download plugins.
 
-**Kaspersky Internet Security**
+#### Kaspersky Internet Security
 <https://usa.kaspersky.com/blog/kaspersky-add-exclusion/11075/> <br>
 **NOTE 1**: Please add **file and folder** exclusion in the `Threats and Exclusions` section for the Antivirus component. See the lists above for all details. You may also need to explicitly manager which AV scanners need to be disabled. 
+
+
 <details>
-  <summary>Example screenshot of settings</summary>
+  <summary>Example screenshot of AV settings</summary>
 	
   ![image](https://user-images.githubusercontent.com/10376708/131000436-35097d20-f186-4942-ab43-73e51ff77609.png)
+	
 </details>
-**NOTE 2**: You may need to whitelist xivlauncher's program files in the **[Kaspersky firewall \(application rules\)](https://support.kaspersky.com/15163#block2)** as well. You'll know if you need to do this if you receive error messages related to checking for updates, applying patches, or downloading plugins and your logs indicate an access permission issue.
 
-**McAfee:**
+**NOTE 2**: You may need to whitelist xivlauncher's program files in the **[Kaspersky firewall](https://support.kaspersky.com/15163)** Application Rules as well. You'll know if you need to do this if you receive error messages related to checking for updates, applying patches, or downloading plugins and your logs indicate an access permission issue.
+
+#### McAfee:
 <https://service.mcafee.com/webcenter/portal/cp/home/articleview?articleId=TS102056> <br>
 **NOTE**: McAfee doesn't allow you to whitelist folders. Instead, you'll need to whitelist files, which is more annoying and also version-specific. See the list above.
 
-**Norton:**
+#### Norton:
 <https://support.norton.com/sp/en/us/home/current/solutions/v3672136> <br>
 or <https://www.lifewire.com/exclude-files-from-norton-antivirus-scans-153348> <br>
 NOTE: You may also need to make exclusions from active detection or another similarly named feature.
 
-**Windows Defender:**
+#### Windows Defender:
 https://support.microsoft.com/en-us/help/4028485/windows-10-add-an-exclusion-to-windows-security <br>
 
 (**PLEASE PROCEED WITH CAUTION**. If you're installing dev plugins, third-party plugins, or something outside of the normal /xlplugins method, we cannot be sure that the plugins will work, be undetected in-game, and not cause harm to your computer)
