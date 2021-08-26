@@ -167,10 +167,11 @@ To reset dalamud, remove your `%appdata%\XIVLauncher\addon\Hooks` folder. Or typ
 <https://usa.kaspersky.com/blog/kaspersky-add-exclusion/11075/> <br>
 **NOTE 1**: Please add **file and folder** exclusion in the `Threats and Exclusions` section for the Antivirus component. See the lists above for all details. You may also need to explicitly manager which AV scanners need to be disabled. 
 <details>
-  <summary>Click to expand</summary>
+  <summary>Example screenshot of settings</summary>
+	
   ![image](https://user-images.githubusercontent.com/10376708/131000436-35097d20-f186-4942-ab43-73e51ff77609.png)
 </details>
-**NOTE 2**: You may need to whitelist xivlauncher's program files in the **[Kaspersky firewall (application rules)](https://support.kaspersky.com/15163#block2)** as well. You'll know if you need to do this if you receive error messages related to checking for updates, applying patches, or downloading plugins and your logs indicate an access permission issue.
+**NOTE 2**: You may need to whitelist xivlauncher's program files in the **[Kaspersky firewall \(application rules\)](https://support.kaspersky.com/15163#block2)** as well. You'll know if you need to do this if you receive error messages related to checking for updates, applying patches, or downloading plugins and your logs indicate an access permission issue.
 
 **McAfee:**
 <https://service.mcafee.com/webcenter/portal/cp/home/articleview?articleId=TS102056> <br>
