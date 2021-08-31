@@ -2,6 +2,7 @@
 
 ### Table of Contents
 [How do I install/enable plugins?](#q-how-do-i-installenable-plugins) <br>
+[How do I enable plugin test builds?](#q-how-do-i-enable-plugin-test-builds) <br>
 [What is the command for \<insert plugin here\>?](#q-what-is-the-command-for-insert-plugin-here) <br>
 [How do I turn Plugin Testing on or off?](#q-how-do-i-turn-plugin-testing-on-or-off) <br>
 [How do I turn Dalamud Staging on or off?](#q-how-do-i-turn-dalamud-staging-on-or-off) <br>
@@ -17,6 +18,18 @@
 
 ### Q: How do I install/enable plugins?
 Not sure how to install plugins? Just type `/xlplugins` in-game after you see that the in-game hook has loaded.
+
+<hr>
+
+### Q: How do I enable plugin test builds?
+1. Type `/xlsettings` in game.
+2. Go to the `Experimental` tab
+3. Click the checkbox for `Get plugin testing builds`
+4. Click `Save` / `Save and Close`
+
+**Please note that testing plugins can/will have bugs and may change dramatically before final release. Especially on newer plugins, they could crash your game. **
+
+For troubleshooting, please keep questions/comments/issues in the [plugin-testing](https://discord.com/channels/581875019861328007/719513457988337724) channel on our discord server..
 
 <hr>
 
