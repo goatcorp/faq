@@ -39,15 +39,6 @@ While some plugins will list their command from the plugin install window, use `
 You can also check out the [Plugin Gallery](https://github.com/goatcorp/DalamudPlugins/wiki/Plugin-Gallery) to see if there's some quick documentation, or check the plugin's repo for a readme.
 <hr>
 
-### Q: How do I turn Plugin Testing on or off?
-1. Type `/xlsettings` in game
-2. Click on the Experimental tab
-3. Select/Unselect the settings as wanted.
-4. Click on "Save and Close" to apply.
-
-* You will see TESTING and normal plugins in the plugin installer now. 
-<hr>
-
 ### Q: How do I turn Dalamud Staging on or off?
 #### In game (if you can still launch)
 1. Type `/xldev` in game.
