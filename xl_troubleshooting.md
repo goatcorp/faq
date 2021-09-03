@@ -106,10 +106,13 @@ Like many other game tools, Dalamud works by injecting into the FFXIV process an
 
 Some of the more common ones that may cause issues are:
 - **Common Third-Party Antivirus** programs. See the dedicated FAQ for this using `f!faq av`
+- **FRAPS** please make sure FRAPS is closed when opening FFXIV. It hooks directx for the FPS display and/or recording. You can open it for those features after the game is running.
+- **Logitech GHub** We don't know why this is a  problem application, but it is. THis program may cause Dalamud to crash when exiting the game leaving you on a black screen that's stuck and has to be closed uncleanly. 
 - **MacType** makes no changes to FFXIV because it doesn't use normal fonts anyways. Block it from hooking to FFXIV and you'll be fine.
 - **MSI Afterburner** contains RTSS. See below.
 -  **OBS** Some of the streaming modes involve hooking directx for better capture. This can cause plugins to render in streams or to not render at all. You may need to change your capture methods.
-- **RivaTuner**/**RTSS** see if disabling the RTSS overlay helps. If not, blacklist FFXIV from automatic hooking. RTSS can be used after Dalamud loads without issues. You may also have luck with [Setting an RTSS delay](#q-how-to-set-an-an-injection-delay-in-rivatunerrtss)
+- **RivaTuner**/**RTSS** Either blacklist FFXIV from automatic hooking or [set a RTSS load delay](#q-how-to-set-an-an-injection-delay-in-rivatunerrtss). RTSS can be used after Dalamud loads without issues.
+- **SpecialK** This also injects into DirectX and can mess things up for Dalamud's injection. It's not consistent, but you probably shouldn't use it unless you have a way of making it hook after Dalamud has loaded.
 <hr>
 
 ### Q: How do I uninstall XIV Launcher?
