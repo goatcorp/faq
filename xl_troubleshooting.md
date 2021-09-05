@@ -121,7 +121,7 @@ You can uninstall XIVLauncher like any normal windows program though the control
 
 Program installation and old versions:
 `%localappdata%\XIVLauncher`
-`%localappdata%\goatsoft`
+`%localappdata%\goatsoft` (if it exists)
 
 Settings/plugins and other user config
 `%appdata%\XIVLauncher`
@@ -137,7 +137,6 @@ If you need to refresh your opcode information after it was updated, please rela
 
 Please make exceptions (or whitelist) the following folders:
  - `%localappdata%\XIVLauncher`
- - `%localappdata%\goatsoft`
  - `%appdata%\XIVLauncher`
  - `Your FFXIV game installation folder`
 
