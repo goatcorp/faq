@@ -1,6 +1,7 @@
 # Development FAQ
 
 ### Table of Contents
+[Temporary: Dalamud 6 / API 4](#temporary-dalamud-6--api-4) <br>
 [How do I get started?](#q-how-do-i-get-started) <br>
 [Where do I ask for help?](#q-where-do-i-ask-for-help) <br>
 [How do I hot-reload my plugin?](#q-how-do-i-hot-reload-my-plugin) <br>
@@ -17,6 +18,17 @@
 [How do I hook a game function?](#q-how-do-i-hook-a-game-function) <br>
 
 <hr>
+
+### Temporary: Dalamud 6 / API 4
+On the 10th of October, 2021, Dalamud 6 will be released and will introduce API level 4. The rest of this document is written with API 4 in mind. For more information on the transition, please consult [What is the .NET5 upgrade?](#q-what-is-the-net5-upgrade).
+
+However, if you're writing a plugin now - in the days before the update - the existing version of Dalamud targets API level 3. This means that any new plugins you create will not work on your existing version of Dalamud.
+
+It is our recommendation that you switch to Dalamud testing builds (which can be done in the in-game Dalamud settings), so that you are using Dalamud 6 prior to its release, and that you target API level 4 with your plugin. API level 3 will be unsupported with the release of Dalamud 6, so you will need to update your plugin regardless. 
+
+The `SamplePlugin` mentioned below targets API 4 and will not work with the existing version of Dalamud.
+
+This section will be removed once Dalamud 6 is released.
 
 ### Q: How do I get started?
 The majority of the XIVLauncher and Dalamud ecosystem is written in C# for its usability, convenience, and robustness. It is recommended that anything you work on is also in C#, unless you're working on something with a significant amount of interoperation with native code (in which C++/CLI may be useful) or you're experimenting with other .NET languages.
@@ -64,18 +76,7 @@ The best place to ask for help is the [#dev channel](https://discord.gg/wwYXnzWY
 <hr>
 
 ### Q: How do I hot-reload my plugin?
-**.NET 5:** This functionality will be provided by the upcoming version of Dalamud (see [What is the .NET5 upgrade?](#q-what-is-the-net5-upgrade)).
-
-**Current:**
-To avoid manually copying the plugin to the plugins directory, Caraxi has developed the LivePluginLoad plugin that automatically reloads plugins when they change:
-<https://github.com/Caraxi/LivePluginLoad>
-
-To use it, open up Dalamud settings in-game with `/xlplugins`, click on Settings, go to Experimental, and add the following custom repository:
-<http://repo.caraxian.com/>
-
-LivePluginLoad can then be installed from the primary plugin list. After installing it, you can add your plugin to its list of tracked plugins. It will then be automatically loaded and reloaded when your plugin changes (e.g. is recompiled).
-
-Note that `System.Reflection.Assembly.GetExecutingAssembly().Location` will return the wrong value if loaded through LPL. As a workaround, provide an `AssemblyLocation` property for LPL to fill in [as done in the SamplePlugin](https://github.com/goatcorp/SamplePlugin/blob/5251959ac02f0a57d76417a5abfbff680bfab4bf/SamplePlugin/Plugin.cs#L19).
+As of API 4/Dalamud 6, hot-reloading is part of Dalamud. To use it, go to Dalamud Settings > Experimental > Dev Plugin Locations, and then add either the folder that your plugin is in or the plugin itself. If you add a folder, Dalamud will attempt to load all DLLs within the folder. 
 
 <hr>
 
@@ -118,18 +119,14 @@ After submitting your first plugin to the repository, you will be given a Plugin
 <hr>
 
 ### Q: What is the .NET5 upgrade?
-Currently, Dalamud is based on .NET Framework 4.7.2. .NET Framework is no longer seeing active development, with development efforts transitioning to .NET 5. Dalamud is adopting this new version of .NET which offers several benefits including, but not limited to, language and ecosystem improvements, simpler integrations, reduced friction with alternative execution environments (such as Linux), and more.
+Dalamud 6.0 is adopting .NET 5, the latest version of .NET, and using this opportunity to improve the Dalamud API with version 4 of the API. All new plugins are on API 4 or above. If you are creating a new plugin, or have already updated your plugin, you can stop reading now.
 
-This is also being used as an opportunity to iron out longstanding issues in the Dalamud API, so there may be additional changes to your plugin other than switching which version of .NET you're targeting.
-
-You can find more information about what to expect at the following links:
+If you are porting an existing plugin, please consult the following links:
 - _Roadmap_: <https://github.com/goatcorp/Dalamud/discussions/479>
 - _General Breaking Changes_: <https://github.com/goatcorp/Dalamud/discussions/458>
 - _Plugin API Redesign_: <https://github.com/goatcorp/Dalamud/discussions/474>
 - _New Features_: <https://github.com/goatcorp/Dalamud/discussions/471>
 - _Plugin Manifest Changes_: <https://github.com/goatcorp/Dalamud/discussions/457>
-
-Additionally, the live-reloading functionaliy provided by LivePluginLoad has been integrated directly into Dalamud. More information on this can be found in the General Breaking Changes link above.
 
 <hr>
 
