@@ -16,7 +16,7 @@
 [XL Environment Variables](#q-xl-environment-variables) <br>
 [Outdated Plugins List](#q-outdated-plugins-list) <br>
 [The launcher shows a red world icon and an error message when trying to log in, and the official launcher doesn't open](#q-the-launcher-shows-a-red-world-icon-and-an-error-message-when-trying-to-log-in-and-the-official-launcher-doesnt-open) <br>
-[The Official Launcher isn't working / XIVLauncher failed to check for updates / Patch files could not be verified](#q-the-official-launcher-isn't-working-xivlauncher-failed-to-check-for-updates-patch-files-could-not-be-verified)
+[The Official Launcher isn't working / XIVLauncher failed to check for updates / Patch files could not be verified](#q-the-official-launcher-isnt-working--xivlauncher-failed-to-check-for-updates--patch-files-could-not-be-verified) <br>
 [WTFast Config](#q-wtfast-config) <br>
 [NVIDIA Driver issue \(7th of January\)](#q-nvidia-driver-issue-7th-of-january) <br>
 [How to set an injection delay in rivaTuner/RTSS](#q-how-to-set-an-injection-delay-in-rivatunerrtss) <br>
