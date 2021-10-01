@@ -16,6 +16,7 @@
 [XL Environment Variables](#q-xl-environment-variables) <br>
 [Outdated Plugins List](#q-outdated-plugins-list) <br>
 [The launcher shows a red world icon and an error message when trying to log in, and the official launcher doesn't open](#q-the-launcher-shows-a-red-world-icon-and-an-error-message-when-trying-to-log-in-and-the-official-launcher-doesnt-open) <br>
+[The Official Launcher isn't working / XIVLauncher failed to check for updates / Patch files could not be verified](#q-the-official-launcher-isn't-working-xivlauncher-failed-to-check-for-updates-patch-files-could-not-be-verified)
 [WTFast Config](#q-wtfast-config) <br>
 [NVIDIA Driver issue \(7th of January\)](#q-nvidia-driver-issue-7th-of-january) <br>
 [How to set an injection delay in rivaTuner/RTSS](#q-how-to-set-an-injection-delay-in-rivatunerrtss) <br>
@@ -280,10 +281,32 @@ This is an issue with Square Enix servers that has been affecting players in the
 To remedy it, you can either wait a while and try again then, or set your VPN to Japan until you are on the title screen. Then you should be able to play normally without a VPN. DNS changes have also been said to help.
 
 We can recommend mudfish as a VPN for playing FFXIV as it's cheap and seems to work reliably.
-If you get errors when patching, we recommend ProtonVPN.
+If you get errors when patching, we recommend ProtonVPN or CloudFlare with Warp.
 
 To troubleshoot, you can ping frontier.ffxiv.com, SE's Japanese login server.
 <hr>
+
+### Q: The Official Launcher isn't working / XIVLauncher failed to check for updates / Patch files could not be verified
+
+Most likely, there's an issue with your network connection or the route it's taken to Square Enix's servers and/or GitHub. The only information XIVLauncher really gets from this is "something went wrong" though.
+
+While this usually is a per-household kinda thing, there's no guarantee that multiple computers in the same location would get load balanced onto the same servers (which is why one computer worked and another didn't). 
+
+If you're sure this isn't a firewall issue or a rate limit, here are some things you can try.
+
+1. Reboot the computer
+2. Reboot the network equipment (mode and router)
+3. Try different DNS
+	- Google offers 8.8.8.8 and 8.8.4.4
+	- CloudFlare offers 1.1.1.1 and 1.0.0.1 
+	- Level3 offers 4.2.2.2 and 4.2.2.4
+4. Try a VPN
+	- If you already connect using a VPN, try disconnecting it first
+	- If you want to try a free VPN service, CloudFlare offers one at <https://1.1.1.1/> or you can try ProtonVPN for more control.
+	- If you want to try a paid VPN service (still no guarantee) we've recommended MudFish in the past.
+5. Copy a working FFXIV install from another computer
+	- The easiest method is to just copy the folder onto a large flash drive or external HD
+	- If you're familiar with setting up Windows Sharing, you can also share the drive/folder from a working computer and copy it over your network
 
 ### Q: WTFast Config
 ![wtfast config settings](images/wtfastconfig.png)
