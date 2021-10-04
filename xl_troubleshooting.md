@@ -295,7 +295,7 @@ While this usually is a per-household kinda thing, there's no guarantee that mul
 If you're sure this isn't a firewall issue or a rate limit, here are some things you can try.
 
 1. Reboot the computer
-2. Reboot the network equipment (mode and router)
+2. Reboot the network equipment (modem and router)
 3. Try different DNS
 	- Google offers 8.8.8.8 and 8.8.4.4
 	- CloudFlare offers 1.1.1.1 and 1.0.0.1 
