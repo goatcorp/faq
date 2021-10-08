@@ -154,6 +154,7 @@ To reset dalamud, remove your `%appdata%\XIVLauncher\addon\Hooks` folder. Or typ
 3. `%localappdata%\XIVLauncher\app-X.Y.Z\XIVLauncher.exe` NOTE: replace X.Y.Z with the latest version available. **This changes with every launcher update**
 4. `%appdata%\XIVLauncher\addon\Hooks\W.X.Y.Z\Dalamud.Injector.exe` NOTE: replace W.X.Y.Z with the latest version available. **This changes with every dalamud update**
 5. `%appdata%\XIVLauncher\addon\Hooks\W.X.Y.Z\Dalamud.dll` NOTE: replace W.X.Y.Z with the latest version available. **This changes with every dalamud update**
+6. `%appdata%\XIVLauncher\runtime`
 
 #### Instructions for individual AV
 
