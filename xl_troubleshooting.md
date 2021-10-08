@@ -26,6 +26,7 @@
 [Why do people keep asking about Steam so much?](#q-why-do-people-keep-asking-about-steam-so-much) <br>
 [Can I repair my FFXIV installation?](#q-can-i-repair-my-ffxiv-installation) <br>
 [How do I fix a version check error when trying to update FFXIV?](#q-how-do-i-fix-a-version-check-error-when-trying-to-update-ffxiv) <br>
+[How can I stop GShade or ReShade shaders from affecting plugin windows?](#q-how-can-i-stop-gshade-or-reshade-shaders-from-affecting-plugin-windows) <br>
 [I updated my game with TexTools mods installed. How do I fix crashes?](#q-i-updated-my-game-with-textools-mods-installed-how-do-i-fix-crashes) <br>
 <hr>
 
@@ -444,6 +445,14 @@ Fun answer: XIVLauncher can assist you in selectively reinstalling only certain 
 1. Go to `<your user folder>\Documents\My Games\FINAL FANTASY XIV - A Realm Reborn`
 2. Open the `FFXIV_BOOT.cfg` file in your text editor of choice.
 3. Change `BootVersionCheckMode` to `1`
+4. Relaunch.
+
+<hr>
+
+### Q: How can I stop GShade or ReShade shaders from affecting plugin windows?
+1. Go to `<your game installation folder>\FINAL FANTASY XIV - A Realm Reborn\game`
+2. Make sure the game is closed
+3. If there is a file called `d3d11.dll` or `dinput8.dll` **rename it** to `dxgi.dll`
 4. Relaunch.
 
 <hr>
