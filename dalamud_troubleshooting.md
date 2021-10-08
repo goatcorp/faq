@@ -71,12 +71,13 @@ Please give us more information so we can help troubleshoot why this is happenin
 <hr>
 
 ### Q: Reshade and its variants don't work or Dalamud UI fails
-It may help to change how you're injecting the hook for Reshade/GShade/etc.
+1. Go to `<your game installation folder>\FINAL FANTASY XIV - A Realm Reborn\game`
+2. Make sure the game is closed
+3. If there is a file called `d3d11.dll` or `dinput8.dll` **rename it** to `dxgi.dll`
+4. Relaunch.
 
-If you're using dgxi, try d3d11.
-If you're using d3d11, try dxgi.
+If this doesn't help, please contact us in our Discord server.
 
-You can do this by renaming the hook file in your `<ffxiv install>\game folder` or by uninstalling and reinstalling your shader injector of choice, typically. You'll run into issues if you have both, but XIVLauncher should catch that for you.
 <hr>
 
 ### Q: How do I fix plugins that rely on Dalamud provided opcodes?
