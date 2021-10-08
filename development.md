@@ -1,7 +1,6 @@
 # Development FAQ
 
 ### Table of Contents
-[Temporary: Dalamud 6 / API 4](#temporary-dalamud-6--api-4) <br>
 [How do I get started?](#q-how-do-i-get-started) <br>
 [Where do I ask for help?](#q-where-do-i-ask-for-help) <br>
 [How do I hot-reload my plugin?](#q-how-do-i-hot-reload-my-plugin) <br>
@@ -18,17 +17,6 @@
 [How do I hook a game function?](#q-how-do-i-hook-a-game-function) <br>
 
 <hr>
-
-### Temporary: Dalamud 6 / API 4
-On the 10th of October, 2021, Dalamud 6 will be released and will introduce API level 4. The rest of this document is written with API 4 in mind. For more information on the transition, please consult [What is the .NET5 upgrade?](#q-what-is-the-net5-upgrade).
-
-However, if you're writing a plugin now - in the days before the update - the existing version of Dalamud targets API level 3. This means that any new plugins you create will not work on your existing version of Dalamud.
-
-It is our recommendation that you switch to Dalamud testing builds (which can be done in the in-game Dalamud settings), so that you are using Dalamud 6 prior to its release, and that you target API level 4 with your plugin. API level 3 will be unsupported with the release of Dalamud 6, so you will need to update your plugin regardless. 
-
-The `SamplePlugin` mentioned below targets API 4 and will not work with the existing version of Dalamud.
-
-This section will be removed once Dalamud 6 is released.
 
 ### Q: How do I get started?
 The majority of the XIVLauncher and Dalamud ecosystem is written in C# for its usability, convenience, and robustness. It is recommended that anything you work on is also in C#, unless you're working on something with a significant amount of interoperation with native code (in which C++/CLI may be useful) or you're experimenting with other .NET languages.
@@ -107,7 +95,7 @@ However, the version of FFXIVClientStructs included with Dalamud is not updated 
 <hr>
 
 ### Q: What happens when there's an API version bump?
-When there's an API version bump, your plugin will no longer be loaded by Dalamud. To fix this, you'll need to update to the latest version of the API by updating the JSON file for your plugin and repackage your plugin for the repository.
+When there's an API version bump, your plugin will no longer be loaded by Dalamud. To fix this, you'll need to update to the latest version of the API by updating the JSON file for your plugin and repackaging your plugin for the repository.
 
 <hr>
 
@@ -119,7 +107,7 @@ After submitting your first plugin to the repository, you will be given a Plugin
 <hr>
 
 ### Q: What is the .NET5 upgrade?
-Dalamud 6.0 is adopting .NET 5, the latest version of .NET, and using this opportunity to improve the Dalamud API with version 4 of the API. All new plugins are on API 4 or above. If you are creating a new plugin, or have already updated your plugin, you can stop reading now.
+Dalamud 6.0 has adopted .NET 5, the latest version of .NET, and has used this opportunity to improve the Dalamud API with version 4 of the API. All new plugins are on API 4 or above. If you are creating a new plugin, or have already updated your plugin, you can stop reading now.
 
 If you are porting an existing plugin, please consult the following links:
 - _Roadmap_: <https://github.com/goatcorp/Dalamud/discussions/479>
