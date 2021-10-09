@@ -1,6 +1,7 @@
 # XIVLauncher FAQ
 
 ### Table of Contents
+[How do I disable autologin?](#q-how-do-i-disable-autologin) <br>
 [Are XIVLauncher, Dalamud, and Dalamud Plugins safe to use?](#q-are-xivlauncher-dalamud-and-dalamud-plugins-safe-to-use) <br>
 [I get an error saying XIVLauncher failed to check for updates when I open the program](#q-i-get-an-error-saying-xivlauncher-failed-to-check-for-updates-when-i-open-the-program) <br>
 [I'm on Linux and I keep getting \"XIVLauncher failed to update\" errors](#q-im-on-linux-and-i-keep-getting-xivlauncher-failed-to-update-errors) <br>
@@ -28,6 +29,10 @@
 [How do I fix a version check error when trying to update FFXIV?](#q-how-do-i-fix-a-version-check-error-when-trying-to-update-ffxiv) <br>
 [How can I stop GShade or ReShade shaders from affecting plugin windows?](#q-how-can-i-stop-gshade-or-reshade-shaders-from-affecting-plugin-windows) <br>
 [I updated my game with TexTools mods installed. How do I fix crashes?](#q-i-updated-my-game-with-textools-mods-installed-how-do-i-fix-crashes) <br>
+<hr>
+
+### Q: How do I disable autologin?
+Keep the shift key held down while you open XIVLauncher. Keep it held down until the main window appears.
 <hr>
 
 ### Q: Are XIVLauncher, Dalamud, and Dalamud Plugins safe to use?
