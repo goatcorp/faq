@@ -77,6 +77,8 @@ Once you've done this, you can attach to the game with your debugger. In Visual 
 
 This functionality is only supported for debugging your plugins. You will not receive support if you use it for anything else.
 
+[Detailed instruction available here.](debug.md)
+
 <hr>
 
 ### Q: How do I use FFXIVClientStructs in my own code?
