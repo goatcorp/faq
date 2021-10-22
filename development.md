@@ -9,6 +9,7 @@
 [What happens when there's an API version bump?](#q-what-happens-when-theres-an-api-version-bump) <br>
 [How can I stay up to date with API changes?](#q-how-can-i-stay-up-to-date-with-api-changes) <br>
 [What is the .NET5 upgrade?](#q-what-is-the-net5-upgrade) <br>
+[How do I fix `Nothing inherits from IDalamudPlugin`?](#q-how-do-i-fix-nothing-inherits-from-idalamudplugin) <br>
 [What happens when the game is updated?](#q-what-happens-when-the-game-is-updated) <br>
 [What am I allowed to do in my plugin?](#q-what-am-i-allowed-to-do-in-my-plugin) <br>
 [Why do you discourage certain types of plugins?](#q-why-do-you-discourage-certain-types-of-plugins) <br>
@@ -117,6 +118,21 @@ If you are porting an existing plugin, please consult the following links:
 - _Plugin API Redesign_: <https://github.com/goatcorp/Dalamud/discussions/474>
 - _New Features_: <https://github.com/goatcorp/Dalamud/discussions/471>
 - _Plugin Manifest Changes_: <https://github.com/goatcorp/Dalamud/discussions/457>
+
+<hr>
+
+### Q: How do I fix `Nothing inherits from IDalamudPlugin`?
+This occurs because you have the dependencies for your plugin in the same folder as the plugin (e.g. `Dalamud.dll` and such). This was supported prior to .NET 5, but is no longer supported.
+
+To fix this, open the `csproj` file and add `<Private>false</Private>` to each of your `Reference`s like so:
+```xml
+<Reference Include="Dalamud">
+    <HintPath>$(AppData)\XIVLauncher\addon\Hooks\dev\Dalamud.dll</HintPath>
+    <Private>false</Private>
+</Reference>
+```
+
+After doing this, clean out your output folder and rebuild. It will no longer copy the dependencies, and your plugin should now be able to load correctly.
 
 <hr>
 
