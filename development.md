@@ -13,6 +13,7 @@
 [What happens when the game is updated?](#q-what-happens-when-the-game-is-updated) <br>
 [What am I allowed to do in my plugin?](#q-what-am-i-allowed-to-do-in-my-plugin) <br>
 [Why do you discourage certain types of plugins?](#q-why-do-you-discourage-certain-types-of-plugins) <br>
+[How do I add a new combo to XIVCombo?](#q-how-do-i-add-a-new-combo-to-xivcombo) <br>
 [Are there any performance constraints to be aware of?](#q-are-there-any-performance-constraints-to-be-aware-of) <br>
 [How do I get started with reverse-engineering the game so that I can do things Dalamud doesn't expose?](#q-how-do-i-get-started-with-reverse-engineering-the-game-so-that-i-can-do-things-dalamud-doesnt-expose) <br>
 [How do I hook a game function?](#q-how-do-i-hook-a-game-function) <br>
@@ -164,6 +165,13 @@ Plugins that violate this will not be accepted into the Dalamud plugin repositor
 > I can't and don't want to control anyone that makes free software based on my work, but I would like to ask you to consider and empathize with my opinion when creating software that depends on Dalamud.
 
 - [goat](https://github.com/goaaats), the lead developer of XIVLauncher/Dalamud
+
+<hr>
+
+### Q: How do I add a new combo to XIVCombo?
+The combos in XIVCombo have been carefully chosen to ensure they abide by our plugin restrictions. The author of XIVCombo is not interested in accepting any further combos.
+
+You will be ignored or told to go elsewhere if you ask for help with modifying XIVCombo. You're welcome to ask general questions about plugin development, but any discussion of modifying XIVCombo or similar plugins that could be used to automate gameplay is **off-limits**.
 
 <hr>
 
