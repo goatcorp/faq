@@ -23,6 +23,7 @@
 [How to set an injection delay in rivaTuner/RTSS](#q-how-to-set-an-injection-delay-in-rivatunerrtss) <br>
 [Where can I find my FFXIV Installation?](#q-where-can-i-find-my-ffxiv-installation) <br>
 [How do I migrate ffxiv and/or xivlauncher files from an old Wine prefix to a new one? \[Linux\]](#q-how-do-i-migrate-ffxiv-andor-xivlauncher-files-from-an-old-wine-prefix-to-a-new-one-linux) <br>
+[How do I migrate ffxiv and/or xivlauncher files from an old CrossOver bottle to a new one? \[macOS\]](#q-how-do-i-migrate-ffxiv-andor-xivlauncher-files-from-an-old-crossover-bottle-to-a-new-one-macos) <br>
 [How do I migrate ffxiv and\\or xivlauncher files from an old installation to a new one? \[Windows\]](#q-how-do-i-migrate-ffxiv-andor-xivlauncher-files-from-an-old-installation-to-a-new-one-windows) <br>
 [Why do people keep asking about Steam so much?](#q-why-do-people-keep-asking-about-steam-so-much) <br>
 [Can I repair my FFXIV installation?](#q-can-i-repair-my-ffxiv-installation) <br>
@@ -386,6 +387,39 @@ from:
 to:
 - (Wine 5) `~/Games/<new prefix>/drive_c/users/<username>/Application Data/XIVLauncher/pluginConfigs`
 - (Wine 6) `~/Games/<new prefix>/drive_c/users/<username>/AppData/Roaming/XIVLauncher/pluginConfigs`
+<hr>
+
+### Q: How do I migrate ffxiv and\/or xivlauncher files from an old CrossOver Bottle to a new one? \[macOS\]
+
+**Please note:** macOS is not currently a supported XIVLauncher platform. This may change in the future.
+
+Once you've made your new xivlauncher-based bottle, you can copy files from your old ffxiv bottle for the following:
+
+**Copy a FFXIV Install from one bottle to another \(or move/symlink as desired\)**
+
+from:
+`<old bottle>/drive_c/Program Files (x86)/SquareEnix/FINAL FANTASY XIV - A Realm Reborn`
+<br>
+to:
+`<new bottle>/drive_c/Program Files (x86)/SquareEnix/FINAL FANTASY XIV - A Realm Reborn`
+
+**Copy your user/character settings:**
+
+NOTE: You may not need to do this if your CrossOver bottle has made symlinks to your Mac user's Documents folder.
+
+from:
+`<old bottle>/drive_c/users/crossover/My Documents/My Games/FINAL FANTASY XIV - A Realm Reborn`
+<br>
+to:
+`<new bottle>/drive_c/users/crossover/My Documents/My Games/FINAL FANTASY XIV - A Realm Reborn`
+
+**Copy XIV Launcher config \(it's recommended to reinstall plugins\)**:
+
+from:
+`<old bottle>/drive_c/users/crossover/Application Data/XIVLauncher/pluginConfigs`
+<br>
+to:
+`<new bottle>/drive_c/users/crossover/Application Data/XIVLauncher/pluginConfigs`
 <hr>
 
 ### Q: **How do I migrate ffxiv and\/or xivlauncher files from an old installation to a new one? \[Windows\]**
