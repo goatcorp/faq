@@ -48,11 +48,11 @@ You can also check out the [Plugin Gallery](https://github.com/goatcorp/DalamudP
 #### Out of game (when you get crashes)
 1. Close the game
 2. Go to `%appdata%\XIVLauncher\` and open `dalamudConfig.json` in your text editor of choice
-3. Change the line that says `"DoDalamudTest": true,` to `"DoDalamudTest": false,`
+3. Change the line that says `"DoDalamudTest":` to **true** to enable Dalamud Staging and to **false** to disabled Dalamud Staging.
 4. Save
 5. Launch the game. NOTE: You may have to wait for Dalamud to be redownloaded.
 
-* Only enable this if you absolutely need to. It is for developers, not users or plugin testers unless specifically stated. 
+* Only enable this if you absolutely need to. It is for developers, not users or plugin testers unless specifically stated. You should expect to encounter issues and crash more often on staging builds. __Use with caution.__
 <hr>
 
 ### Q: Do not expect XL/Dalamud/Plugin updates on patch day releases.
