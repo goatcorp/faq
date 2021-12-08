@@ -1,11 +1,11 @@
 # Support what we care about
 
 XIVLauncher doesn't or won't accept direct financial contributions. However, we would be extremely grateful if you could consider donating to one of these, or an organization of your own choice instead:
+* [Extinction Rebellion](https://rebellion.global/) and [Fridays for Future](https://fridaysforfuture.org/) fight for governments worldwide to take action against the climate crisis
 * The [Electronic Frontier Foundation](https://www.eff.org/) fights for privacy rights and internet freedom in the US and globally
 * [Chaos Computer Club e.V.](https://www.ccc.de/en/) fights for privacy rights and internet freedom in Germany and in the European Union
-* [Extinction Rebellion](https://rebellion.global/) and [Fridays for Future](https://fridaysforfuture.org/) fight for governments worldwide to take action against the climate crisis
 * The [Wikimedia Foundation](https://wikimediafoundation.org/) fights for open knowledge all over the world
-* Your local no-kill animal shelter fights for your local <img style="display: inline" src="https://cdn.discordapp.com/emojis/833812234969940048.png?size=128"> to have a loving family
+* Your local no-kill animal shelter fights for your local <img style="display: inline; vertical-align: middle; width: 4%;" src="https://cdn.discordapp.com/emojis/833812234969940048.png?size=128"> to have a loving family
 
 ### Direct support
 
