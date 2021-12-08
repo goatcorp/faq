@@ -9,6 +9,6 @@ XIVLauncher doesn't or won't accept direct financial contributions. However, we 
 
 ### Direct support
 
-If you want to directly support us regardless, we would be very happy if you could star [our projects](https://github.com/goatcorp/) on GitHub. This is free, but helps our contributors regardless.
+If you want to directly support us, we would be very happy if you could star [our projects](https://github.com/goatcorp/) on GitHub. This is free, but helps our contributors regardless.
 
 [![This is what the button looks like](https://user-images.githubusercontent.com/16760685/145173596-b3d9ca08-fcdc-4282-ad62-a67243a711f6.png)](https://github.com/goatcorp/FFXIVQuickLauncher)
