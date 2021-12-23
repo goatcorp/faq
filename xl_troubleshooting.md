@@ -197,7 +197,7 @@ or <https://www.lifewire.com/exclude-files-from-norton-antivirus-scans-153348> <
 NOTE: You may also need to make exclusions from active detection or another similarly named feature.
 
 #### Windows Defender:
-https://support.microsoft.com/en-us/help/4028485/windows-10-add-an-exclusion-to-windows-security <br>
+<https://support.microsoft.com/en-us/help/4028485/windows-10-add-an-exclusion-to-windows-security> <br>
 
 (**PLEASE PROCEED WITH CAUTION**. If you're installing dev plugins, third-party plugins, or something outside of the normal /xlplugins method, we cannot be sure that the plugins will work, be undetected in-game, and not cause harm to your computer)
 <hr>
