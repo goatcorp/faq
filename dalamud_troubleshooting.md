@@ -48,11 +48,13 @@ You can also check out the [Plugin Gallery](https://github.com/goatcorp/DalamudP
 #### Out of game (when you get crashes)
 1. Close the game
 2. Go to `%appdata%\XIVLauncher\` and open `dalamudConfig.json` in your text editor of choice
-3. Change the line that says `"DoDalamudTest":` to **true** to enable Dalamud Staging and to **false** to disabled Dalamud Staging.
+3. Change the line that says `"DalamudBetaKey":` to `"BETAKEYHERE"` to enable Dalamud Staging and to **null** (no quotes) to disabled Dalamud Staging.
 4. Save
 5. Launch the game. NOTE: You may have to wait for Dalamud to be redownloaded.
 
-* Only enable this if you absolutely need to. It is for developers, not users or plugin testers unless specifically stated. You should expect to encounter issues and crash more often on staging builds. __Use with caution.__
+* Only enable this if you absolutely need to. It is primarily for developers, not users. Plugin testers should only use it when specifically stated. You should expect to encounter issues and crash more often on staging builds. __Use with caution.__
+* NOTE: You should replace the `BETAKEYHERE` entry with a real beta key. **It requires the quotes**.
+* NOTE 2: Make sure there are no quotes if setting DalamudBetaKey to null
 <hr>
 
 ### Q: Do not expect XL/Dalamud/Plugin updates on patch day releases.
