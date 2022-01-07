@@ -84,9 +84,9 @@ See the main [Antivirus](#) FAQ post for information on how to whitelist XIVLaun
 #### GitHub Rate Limits
 If you've made a lot of queries to github recently, it's possible they may have rate-limited you. This is usually a combined effort of XIVLauncher, Dalamud, Dalamud plugin updates, Gshade, etc all being done in rapid succession, which shouldn't happen under normal circumstances.
 
-1. Try to visit https://api.github.com/rate_limit and see if the post loads (or downloads a json file)
+1. Try to visit <https://api.github.com/rate_limit> and see if the post loads (or downloads a json file)
 2. Look for `resources.core.remaining`. If it's 0, you've hit GitHub's rate limit
-3. If you've hit the limit, grab the timestamp number from resources.core.reset and convert the UTC timestamp into a human-readable date. https://www.unixtimestamp.com/ works great for this.
+3. If you've hit the limit, grab the timestamp number from resources.core.reset and convert the UTC timestamp into a human-readable date. <https://www.unixtimestamp.com/> works great for this.
 4. Wait the alloted time before launching again, or the timeout period could be extended (if you absolutely need to get in game, use the official launcher during this time)
 
 #### Not sure?
