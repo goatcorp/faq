@@ -2,7 +2,7 @@
 
 ### Table of Contents
 [How do I disable autologin?](#q-how-do-i-disable-autologin) <br>
-[Do not run XIVLauncher as admin](#q-do-not-run-sixlauncher-as-admin) <br>
+[Do not run XIVLauncher as admin](#q-do-not-run-xivlauncher-as-admin) <br>
 [Are XIVLauncher, Dalamud, and Dalamud Plugins safe to use?](#q-are-xivlauncher-dalamud-and-dalamud-plugins-safe-to-use) <br>
 [I get an error saying XIVLauncher failed to check for updates when I open the program](#q-i-get-an-error-saying-xivlauncher-failed-to-check-for-updates-when-i-open-the-program) <br>
 [I'm on Linux and I keep getting \"XIVLauncher failed to update\" errors](#q-im-on-linux-and-i-keep-getting-xivlauncher-failed-to-update-errors) <br>
