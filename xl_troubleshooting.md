@@ -2,6 +2,7 @@
 
 ### Table of Contents
 [How do I disable autologin?](#q-how-do-i-disable-autologin) <br>
+[Do not run XIVLauncher as admin](#q-do-not-run-sixlauncher-as-admin) <br>
 [Are XIVLauncher, Dalamud, and Dalamud Plugins safe to use?](#q-are-xivlauncher-dalamud-and-dalamud-plugins-safe-to-use) <br>
 [I get an error saying XIVLauncher failed to check for updates when I open the program](#q-i-get-an-error-saying-xivlauncher-failed-to-check-for-updates-when-i-open-the-program) <br>
 [I'm on Linux and I keep getting \"XIVLauncher failed to update\" errors](#q-im-on-linux-and-i-keep-getting-xivlauncher-failed-to-update-errors) <br>
@@ -33,6 +34,10 @@
 
 ### Q: How do I disable autologin?
 Keep the shift key held down while you open XIVLauncher. Keep it held down until the main window appears.
+<hr>
+
+### Q: Do not run XIVLauncher as admin
+Yes, you've read that correctly! **Please do not run XIVLauncher as admin.** (And by extension, please do not run Dalamud manually as admin.) You should also never let FFXIV run as admin as it can and __will result in your game configuration data becoming write-protected by your own user__. This can result in you being unable to save character config, hotbars, settings, and take screenshots, with no easy solution beyond trying to fix broken permissions or deleting all config and starting over. (SE does not handle file permissions very well)
 <hr>
 
 ### Q: Are XIVLauncher, Dalamud, and Dalamud Plugins safe to use?
