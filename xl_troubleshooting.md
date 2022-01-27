@@ -83,10 +83,9 @@ These are the non-FFXIV domains you should expect to see network traffic from. A
 
 You can find the source code for our additional web services here: <https://github.com/goatcorp/XLWebServices/tree/master/XLWebServices>
 
-1. `kamori.goats.dev` - this is a private VPS that uses CloudFlare run by GoatCorp administrators to proxy and cache some common files that XIVLauncher and Dalamud need to version check. It's being used to reduce the number of network connections to GitHub so that users do not need to worry about hitting rate limits, which then directs traffic as needed.
-2. `us-central1-xl-functions.cloudfunctions.net/` - this is a GCP server that hosts our plugin downloads. When an officially supported plugin is merged into the DalamudPlugins github repository, we use a github action to upload the plugin files to this server as it has more bandwith and no ratelimits when compared to github.
-3. `github.com`, `raw.githubusercontent.com`, and `goatcorp.github.io` - It's GitHub. You're on it right now!
-4. `is.xivup.com` - basic community site to check for server status.
+1. `kamori.goats.dev` - this is a private VPS that uses CloudFlare run by GoatCorp administrators to proxy and cache some common files that XIVLauncher and Dalamud need to version check. It's being used to reduce the number of network connections to GitHub so that users do not need to worry about hitting rate limits, which then directs traffic to GitHub as needed.
+2. `github.com`, `raw.githubusercontent.com`, and `goatcorp.github.io` - It's GitHub. You're on it right now!
+3. `is.xivup.com` - basic community site to check for server status.
 <hr>
 
 ### Q: I get an error saying XIVLauncher failed to check for updates when I open the program
