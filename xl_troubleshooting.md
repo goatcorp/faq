@@ -56,9 +56,9 @@ If you have any questions about XIVLauncher, Dalamud, or Dalamud Plugins, please
 Here are some additional details about XIVLauncher itself.
 
 1. XIVLauncher is open source. You can audit the code in the main [XIVLauncher GitHub Repo](https://github.com/goatcorp/FFXIVQuickLauncher/).
-2. XIVLauncher releases are now built directly on GitHub, anything you download, you can be sure that it is from the version of the open source code that is listed on the GitHub repository. In the event that the launcher has been modified, or you are running a version intended for development, it will clearly denote that it is a debug build or otherwise a test/unsupported release. ![unsupported xivlauncher build](images/xivlauncher_unsupported.png)
+2. XIVLauncher releases are now built directly on GitHub, anything you download, you can be sure that it is from the version of the open source code that is listed on the GitHub repository. THe XIVLauncher version check file is cached onto a private CDN to help reduce your chances of hitting GitHub API rate limits. File downloads will show our proxy domain (`kamori.goats.dev`), but this redirects to GitHub. You may use a network analysis tool of your choice to verify this behavior. In the event that the launcher has been modified, or you are running a version intended for development, it will clearly denote that it is a debug build or otherwise a test/unsupported release. ![unsupported xivlauncher build](images/xivlauncher_unsupported.png)
 3. XIVLauncher uses the Windows Credential Manager to safely store your account credentials, if you choose to save them. Your passwords are encrypted and can only be accessed by authorized programs. However, that does mean if someone manages to gain access to your computer, they can technically extract your password. (But at that point, you likely have bigger issues)
-4. XIVLauncher only communicates with GitHub and official FFXIV websites.
+4. XIVLauncher only communicates with our secured proxy, GitHub, and official FFXIV websites.
 5. XIVLauncher has been designed to fully replicate the same login and authorization process as the official launcher. Steps have been taken to ensure that it will always match retail, down to experiencing the same login issues. Patch downloads are obtained from the same patchlist that SE provides the retail launcher, and all patch files are verified to be correct before they are applied.
 
 #### Dalamud Security Specifics
@@ -78,6 +78,14 @@ Here are some additional details about Dalamud Plugins.
 	- While many unofficial plugins are safe to use, others may do things that exploit the game or create unsafe conditions that could send invalid data to the game servers or could result in bans. Please exercise caution before using an unsupported plugin. We cannot take any responsibility for them.
 	- Unsupported plugin troubleshooting should be taken to the plugin developer or their relevant communities. Please do not ask for support on the XIVLauncher support discord for these plugins, even if they don't have proper support channels elsewhere. 
 
+#### Network Security Specifics
+These are the non-FFXIV domains you should expect to see network traffic from. All connections are made with HTTPS where possible. (Square-Enix is dumb and some of their services do not use HTTPS. We do not like this, but have no control over it.)
+
+You can find the source code for our additional web services here: <https://github.com/goatcorp/XLWebServices/tree/master/XLWebServices>
+
+1. `kamori.goats.dev` - this is a private VPS that uses CloudFlare run by GoatCorp administrators to proxy and cache some common files that XIVLauncher and Dalamud need to version check. It's being used to reduce the number of network connections to GitHub so that users do not need to worry about hitting rate limits, which then directs traffic to GitHub as needed.
+2. `github.com`, `raw.githubusercontent.com`, and `goatcorp.github.io` - It's GitHub. You're on it right now!
+3. `is.xivup.com` - basic community site to check for server status.
 <hr>
 
 ### Q: I get an error saying XIVLauncher failed to check for updates when I open the program
