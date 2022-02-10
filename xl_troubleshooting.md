@@ -425,8 +425,20 @@ Use Steam service account = "I bought FFXIV through Steam, which is not the same
 1. Right Click on your game
 2. Go to Properties
 3. Set Launch Options...<br>Set the launch option to `"C:\Users\YOUR_USERNAME_HERE\AppData\Local\XIVLauncher\XIVLauncher.exe" %command%` (the quotes are important). If you're one of those monsters with your userprofile in a nonstandard location, you will be expected to adjust the full path accordingly.
-<hr>
 
+#### What happens in March 2022?????????
+Beginning in "early March 2022" SE plans to implement Steam Account Linking and it will be required for all Steam Platform users. Please see the lodestone announcement on:
+<http://na.finalfantasyxiv.com/lodestone/topics/detail/4c39f8a03713f8fcbab25ebf908c16837c5faaba>
+
+So what does this mean for steam users who want to use XIVLauncher? **We don't know. We can't know until SE actually does it.** 
+
+what's most likely to happen is:
+1. XIVLauncher will prevent Steam users from launching temporarily as a protective mechanism until we can identify how the steam login/launch process has changed. <br>__You will need to launch and login using Steam and the Official Launcher during this time.__
+2. We will work on a fix. It will take time. You will have to be patient. It will then be tested.
+3. We will release a fix if step 2 is successful. This will most likely require that you have to keep Steam open when using XIVLauncher.
+4. We will cross our fingers that the fix works on Linux, as running the windows version of Steam in Lutris has introduced other issues in the past.
+5. We will cross our fingers that it works on macOS. Or Mac users will have to buy a Mac license if they don't already have one.
+<hr>
 ### Q: Can I repair my FFXIV installation?
 
 Short answer: No, not without reinstalling the game.
