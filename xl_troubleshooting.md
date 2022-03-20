@@ -13,8 +13,8 @@
 [XIV isn't saving my new password / how do I clear my saved password?](#q-xiv-isnt-saving-my-new-password--how-do-i-clear-my-saved-password) <br>
 [I think XIVLauncher is giving me a Blue Screen of Death. What information would help narrow this down?](#q-i-think-xivlauncher-is-giving-me-a-blue-screen-of-death-what-information-would-help-narrow-this-down) <br>
 [How can I fix crashes on startup?](#q-how-can-i-fix-crashes-on-startup) <br>
-[Do not expect Dalamud and/or Plugins to work on updates/patch day releases.](#q-do-not-expect-dalamud-andor-plugins-to-work-on-updatespatch-day-releases) <br>
-[CAN I LOGIN EARLY TO TITLESCREEN BEFORE PATCH LIVE????](#q-can-i-login-early-to-titlescreen-before-patch-live) <br>
+[Will plugins/XIVLauncher work on patch day?](#q-will-pluginsxivlauncher-work-on-patch-day) <br>
+[Can I log in early with this, before the servers go live?](#q-can-i-login-early-to-titlescreen-before-patch-live) <br>
 [XL Environment Variables](#q-xl-environment-variables) <br>
 [Outdated Plugins List](#q-outdated-plugins-list) <br>
 [The launcher shows a red world icon and an error message when trying to log in, and the official launcher doesn't open](#q-the-launcher-shows-a-red-world-icon-and-an-error-message-when-trying-to-log-in-and-the-official-launcher-doesnt-open) <br>
@@ -246,8 +246,8 @@ Please try to install the VC Redist from Microsoft at <https://github.com/abbodi
 If you are still facing issues, please message us in #xivlauncher_issues
 <hr>
 
-### Q: Do not expect Dalamud and/or Plugins to work on updates/patch day releases.
-Please remember that many of the developers have school/jobs/both and live across a variety of time zones. Things will be updated when they can be. The notion that "XL could be gone at any time" still exists.
+### Q: Will plugins/XIVLauncher work on patch day?
+Please remember that many of the developers have school/jobs/both and live across a variety of time zones. Things will be updated when they can be. The notion that "XL could be gone at any time" still exists. **We have no clue how much work/time any possible patch may take and we can't give you any ETAs - it's impossible.** Please don't badger us about it, the more support we have to do on patch days, the less work we can do to fix things.
 
 XIVLauncher:
 - Users do not need to take any preemptive actions for XIVLauncher compatibility with a new patch.
