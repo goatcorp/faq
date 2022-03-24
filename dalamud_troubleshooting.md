@@ -13,6 +13,7 @@
 [All my plugins basically stopped working](#q-all-my-plugins-basically-stopped-working) <br>
 [Remember the patches, no matter how small, can break plugins](#q-remember-the-patches-no-matter-how-small-can-break-plugins) <br>
 [How do I reset dalamud/plugin window locations?](#q-how-do-i-reset-dalamudplugin-window-locations) <br>
+[How do I manually delete plugins?](#q-how-do-i-manually-delete-plugins) <br>
 <hr>
 
 ### Q: How do I install/enable plugins?
@@ -122,6 +123,16 @@ Plugins that rely on opcodes may take a little longer than ones ones that rely o
 2. Go to %appdata%\xivlauncher
 3. Delete dalamudUI.ini
 4. Start the game
+
+<hr>
+
+### Q: How do I manually delete plugins?
+1. Close the game and xivlauncher
+2. Go to %AppData%\XIVLauncher\installedPlugins
+3. Remove the folder[s] for the plugin[s]
+4. Go to %AppData%\XIVLauncher\devPlugins
+5. Remove all manually installed plugins. (Check if they have a third party repo or reinstall later)
+6. Start the game
 
 <hr>
 
