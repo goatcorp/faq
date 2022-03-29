@@ -9,6 +9,10 @@ XIVLauncher doesn't or won't accept direct financial contributions. However, we 
 
 ### Direct support
 
+#### Via stars
 If you want to directly support us, we would be very happy if you could star [our projects](https://github.com/goatcorp/) on GitHub. This is free, but helps our contributors regardless.
 
 [![This is what the button looks like](https://user-images.githubusercontent.com/16760685/145173596-b3d9ca08-fcdc-4282-ad62-a67243a711f6.png)](https://github.com/goatcorp/FFXIVQuickLauncher)
+
+#### Donations
+Individual developers often have their own donation links - these are typically linked within their plugins or on their GitHub profiles. Feel free to browse around - every one of them will appreciate your support. If you can't find a way to donate, the developer likely does not take direct donations.
