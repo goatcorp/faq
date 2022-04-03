@@ -263,34 +263,33 @@ public Plugin(DalamudPluginInterface pluginInterface)
 
 As of Dalamud 6.3, these are all of the currently available services. Please update this list if you spot a discrepancy!
 
-```
-Dalamud.Data.DataManager
-Dalamud.Game.ClientState.Aetherytes.AetheryteList
-Dalamud.Game.ClientState.Buddy.BuddyList
-Dalamud.Game.ClientState.Conditions.Condition
-Dalamud.Game.ClientState.Fates.FateTable
-Dalamud.Game.ClientState.GamePad.GamepadState
-Dalamud.Game.ClientState.JobGauge.JobGauges
-Dalamud.Game.ClientState.Keys.KeyState
-Dalamud.Game.ClientState.Objects.ObjectTable
-Dalamud.Game.ClientState.Objects.TargetManager
-Dalamud.Game.ClientState.Party.PartyList.ClientState
-Dalamud.Game.Command.CommandManager
-Dalamud.Game.Gui.ContextMenus.ContextMenu
-Dalamud.Game.Gui.Dtr.DtrBar
-Dalamud.Game.Gui.FlyText.FlyTextGui
-Dalamud.Game.Gui.PartyFinder.PartyFinderGui
-Dalamud.Game.Gui.Toast.ToastGui
-Dalamud.Game.Gui.ChatGui
-Dalamud.Game.Gui.GameGui
-Dalamud.Game.Libc.LibcFunction
-Dalamud.Game.Network.GameNetwork
-Dalamud.Game.Text.SeStringHandling.SeStringManager
-Dalamud.Game.ChatHandlers
-Dalamud.Game.Framework
-Dalamud.Game.SigScanner
-Dalamud.Interface.TitleScreenMenu
-```
+- [`Dalamud.Data.DataManager`](https://goatcorp.github.io/Dalamud/api/Dalamud.Data.DataManager.html)
+- [`Dalamud.Game.ClientState.Aetherytes.AetheryteList`](https://goatcorp.github.io/Dalamud/api/Dalamud.Game.ClientState.Aetherytes.AetheryteList.html)
+- [`Dalamud.Game.ClientState.Buddy.BuddyList`](https://goatcorp.github.io/Dalamud/api/Dalamud.Game.ClientState.Buddy.BuddyList.html)
+- [`Dalamud.Game.ClientState.Conditions.Condition`](https://goatcorp.github.io/Dalamud/api/Dalamud.Game.ClientState.Conditions.Condition.html)
+- [`Dalamud.Game.ClientState.Fates.FateTable`](https://goatcorp.github.io/Dalamud/api/Dalamud.Game.ClientState.Fates.FateTable.html)
+- [`Dalamud.Game.ClientState.GamePad.GamepadState`](https://goatcorp.github.io/Dalamud/api/Dalamud.Game.ClientState.GamePad.GamepadState.html)
+- [`Dalamud.Game.ClientState.JobGauge.JobGauges`](https://goatcorp.github.io/Dalamud/api/Dalamud.Game.ClientState.JobGauge.JobGauges.html)
+- [`Dalamud.Game.ClientState.Keys.KeyState`](https://goatcorp.github.io/Dalamud/api/Dalamud.Game.ClientState.Keys.KeyState.html)
+- [`Dalamud.Game.ClientState.Objects.ObjectTable`](https://goatcorp.github.io/Dalamud/api/Dalamud.Game.ClientState.Objects.ObjectTable.html)
+- [`Dalamud.Game.ClientState.Objects.TargetManager`](https://goatcorp.github.io/Dalamud/api/Dalamud.Game.ClientState.Objects.TargetManager.html)
+- [`Dalamud.Game.ClientState.Party.PartyList`](https://goatcorp.github.io/Dalamud/api/Dalamud.Game.ClientState.Party.PartyList.html)
+- [`Dalamud.Game.ClientState.ClientState`](https://goatcorp.github.io/Dalamud/api/Dalamud.Game.ClientState.ClientState.html)
+- [`Dalamud.Game.Command.CommandManager`](https://goatcorp.github.io/Dalamud/api/Dalamud.Game.Command.CommandManager.html)
+- [`Dalamud.Game.Gui.ContextMenus.ContextMenu`](https://goatcorp.github.io/Dalamud/api/Dalamud.Game.Gui.ContextMenus.ContextMenu.html)
+- [`Dalamud.Game.Gui.Dtr.DtrBar`](https://goatcorp.github.io/Dalamud/api/Dalamud.Game.Gui.Dtr.DtrBar.html)
+- [`Dalamud.Game.Gui.FlyText.FlyTextGui`](https://goatcorp.github.io/Dalamud/api/Dalamud.Game.Gui.FlyText.FlyTextGui.html)
+- [`Dalamud.Game.Gui.PartyFinder.PartyFinderGui`](https://goatcorp.github.io/Dalamud/api/Dalamud.Game.Gui.PartyFinder.PartyFinderGui.html)
+- [`Dalamud.Game.Gui.Toast.ToastGui`](https://goatcorp.github.io/Dalamud/api/Dalamud.Game.Gui.Toast.ToastGui.html)
+- [`Dalamud.Game.Gui.ChatGui`](https://goatcorp.github.io/Dalamud/api/Dalamud.Game.Gui.ChatGui.html)
+- [`Dalamud.Game.Gui.GameGui`](https://goatcorp.github.io/Dalamud/api/Dalamud.Game.Gui.GameGui.html)
+- [`Dalamud.Game.Libc.LibcFunction`](https://goatcorp.github.io/Dalamud/api/Dalamud.Game.Libc.LibcFunction.html)
+- [`Dalamud.Game.Network.GameNetwork`](https://goatcorp.github.io/Dalamud/api/Dalamud.Game.Network.GameNetwork.html)
+- [`Dalamud.Game.Text.SeStringHandling.SeStringManager`](https://goatcorp.github.io/Dalamud/api/Dalamud.Game.Text.SeStringHandling.SeStringManager.html)
+- [`Dalamud.Game.ChatHandlers`](https://goatcorp.github.io/Dalamud/api/Dalamud.Game.ChatHandlers.html)
+- [`Dalamud.Game.Framework`](https://goatcorp.github.io/Dalamud/api/Dalamud.Game.Framework.html)
+- [`Dalamud.Game.SigScanner`](https://goatcorp.github.io/Dalamud/api/Dalamud.Game.SigScanner.html)
+- [`Dalamud.Interface.TitleScreenMenu`](https://goatcorp.github.io/Dalamud/api/Dalamud.Interface.TitleScreenMenu.html)
 
 <hr>
 
