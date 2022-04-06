@@ -28,6 +28,7 @@
 
 - [How do the services in Dalamud work?](#q-how-do-the-services-in-dalamud-work)
 - [What are the currently available Dalamud services?](#q-what-are-the-currently-available-dalamud-services)
+- [How do I convert from world coordinates to map coordinates and vice versa?](#q-how-do-i-convert-from-world-coordinates-to-map-coordinates-and-vice-versa)
 
 ### Reverse engineering
 
@@ -290,6 +291,12 @@ As of Dalamud 6.3, these are all of the currently available services. Please upd
 - [`Dalamud.Game.Framework`](https://goatcorp.github.io/Dalamud/api/Dalamud.Game.Framework.html)
 - [`Dalamud.Game.SigScanner`](https://goatcorp.github.io/Dalamud/api/Dalamud.Game.SigScanner.html)
 - [`Dalamud.Interface.TitleScreenMenu`](https://goatcorp.github.io/Dalamud/api/Dalamud.Interface.TitleScreenMenu.html)
+
+<hr>
+
+### Q: How do I convert from world coordinates to map coordinates and vice versa?
+
+Please consult the [ffxiv-datamining documentation on MapCoordinates](https://github.com/xivapi/ffxiv-datamining/blob/master/docs/MapCoordinates.md), which details how to convert between the various kinds of coordinates.
 
 <hr>
 
