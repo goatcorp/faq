@@ -32,7 +32,7 @@ If you cannot scan the code due to your camera not working, you can also tap "En
 ### 3. Entering the XIVLauncher IP
 To connect the app to your PC, you first need to find your PC's **local** IP address. To do this, we recommend this [high-quality article by American lifestyle online media-outlet "Lifehacker"](https://lifehacker.com/how-to-find-your-local-and-external-ip-address-5833108).
 
-On the XIVLauncher app settings page, tap "Set XIVLauncher IP" and enter the IP address you determined earlier.
+On the XL Authenticator app settings page, tap "Set XIVLauncher IP" and enter the IP address you determined earlier.
 
 ### 4. Enabling the OTP app feature in XIVLauncher
 In XIVLauncher, click the settings "gear" icon on the main screen. If you have Auto-Login enabled, you will have to hold shift while starting to get back to the XIVLauncher main screen.
