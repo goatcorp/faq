@@ -1,6 +1,6 @@
 # XIVLauncher Steam Deck Installation Guide
 
-## Switch to `Desktop Mode`
+## Switch to Desktop Mode
 Press and hold the Power Button. Select `Switch to Desktop Mode`
 
 ## Install XIVLauncher
@@ -23,7 +23,7 @@ Run Flatseal. On the left, scroll down to XIVLauncher. In the main part of the w
 Run XIVLauncher in Steam. Once XIVLauncher has opened, click the Gear icon in the bottom left to set game data path, OTP macro, etc. After changing settings, click the check mark. Input your username and password, click login, and let XIVLauncher install the game (if it is not already present in your game data path).
 
 ## Run the game in Gaming Mode
-After everything has installed, close Final Fantasy XIV, and click the Return to Gaming Mode icon. Run XIVLauncher in Gaming Mode, and tap Login. After a few moments, press the `Steam` button, select `FINAL FANTASY XIV Online` or `Source SDK Base 2013 Multiplayer` (the former will appear for non-Steam service accounts). Final Fantasy XIV will appear on the screen after a few moments.
+After everything has installed, close Final Fantasy XIV, and click the Return to Gaming Mode icon. Run XIVLauncher in Gaming Mode, and tap Login. After a few moments, press the `Steam` button, select `FINAL FANTASY XIV Online` or `Source SDK Base 2013 Multiplayer` (the latter will appear for non-Steam service accounts). Final Fantasy XIV will appear on the screen after a few moments.
 
 
 # FREQUENTLY ASKED QUESTIONS
