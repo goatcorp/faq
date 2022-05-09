@@ -98,6 +98,9 @@ The best place to ask for help is the [#dev channel](https://discord.gg/wwYXnzWY
 
 As of API 4/Dalamud 6, hot-reloading is part of Dalamud. To use it, go to Dalamud Settings > Experimental > Dev Plugin Locations, and then add either the folder that your plugin is in or the plugin itself. If you add a folder, Dalamud will attempt to load all DLLs within the folder.
 
+Your configuration should look something like this:
+![image](https://user-images.githubusercontent.com/707827/166122747-97f0f7c7-e1a4-4093-adeb-5c7c8eab935c.png)
+
 <hr>
 
 ### Q: How do I debug my plugin and/or the game?
