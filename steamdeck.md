@@ -23,3 +23,8 @@ Run XIVLauncher in Steam. Once XIVLauncher has opened, click the Gear icon in th
 ## Run the game in Gaming Mode
 After everything has installed, close Final Fantasy XIV, and click the Return to Gaming Mode icon. Run XIVLauncher in Gaming Mode, and tap Login. After a few moments, press the `Steam` button, select `FINAL FANTASY XIV Online` or `Source SDK Base 2013 Multiplayer` (the former will appear for non-Steam service accounts). Final Fantasy XIV will appear on the screen after a few moments.
 
+
+# FREQUENTLY ASKED QUESTIONS
+## Where are my configuration files kept?
+Launcher configuration files are saved to `~/.xlcore`  
+Plugin configuration files are saved to `~/.var/app/dev.goats.xivlauncher/config/XIVLauncher/`
