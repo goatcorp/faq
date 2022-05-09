@@ -14,6 +14,8 @@ In Steam's Desktop mode, select `ADD A GAME`, scroll down to XIVLauncher, click 
 Right click on XIVLauncher in Steam, select `Properties`, and replace the `Launch Options` with the following:  
 `XL_SECRET_PROVIDER=FILE %command% run --parent-expose-pids --parent-share-pids --parent-pid=1 --branch=stable --arch=x86_64 --command=xivlauncher dev.goats.xivlauncher`
 
+Please note that with this configuration, XIVLauncher will save your password to a file on your Steam Deck, as Valve does not ship a safer way to store passwords by default. If this is a problem for you, please leave out `XL_SECRET_PROVIDER=FILE` from the line above - XIVLauncher won't be able to save your password in that case.
+
 ## OPTIONAL: Allow MicroSD card access to XIVLauncher
 Run Flatseal. On the left, scroll down to XIVLauncher. In the main part of the window, scroll down to `Filesystem`. Click the Folder icon next to Other files. Type the location where you would like to install Final Fantasy XIV. By default, your MicroSD is mounted to `/run/media/mmcblk0p1`.
 
