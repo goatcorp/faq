@@ -28,8 +28,10 @@ After everything has installed, close Final Fantasy XIV, and click the Return to
 
 # FREQUENTLY ASKED QUESTIONS
 ## Where are my configuration files kept?
-Launcher configuration files are saved to `~/.xlcore`  
-Plugin configuration files are saved to `~/.var/app/dev.goats.xivlauncher/config/XIVLauncher/`
+Configuration files are saved to `~/.xlcore`  
 
 ## Why do non-Steam users show as playing `Source SDK Base 2013 Multiplayer`?
 Due to how SteamOS shows active games, we need to trick it into playing a game that your Steam account definitely has access to.
+
+## My audio is crackling/distorted
+Try adding `PULSE_LATENCY_MSEC=60` to the beginning of the Launch Options in Steam.
