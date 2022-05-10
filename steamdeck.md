@@ -33,3 +33,6 @@ Plugin configuration files are saved to `~/.var/app/dev.goats.xivlauncher/config
 
 ## Why do non-Steam users show as playing `Source SDK Base 2013 Multiplayer`?
 Due to how SteamOS shows active games, we need to trick it into playing a game that your Steam account definitely has access to.
+
+## My audio is crackling/distorted
+Try adding `PULSE_LATENCY_MSEC=60` to the beginning of the Launch Options in Steam.
