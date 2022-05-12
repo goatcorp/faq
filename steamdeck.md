@@ -35,3 +35,6 @@ Due to how SteamOS shows active games, we need to trick it into playing a game t
 
 ## My audio is crackling/distorted
 Try adding `PULSE_LATENCY_MSEC=60` to the beginning of the Launch Options in Steam.
+
+## I can't control my game!
+Change the control layout for the game SteamOS thinks FFXIV is running as. For non-Steam service accounts, this means `Source SDK Base 2013 Multiplayer`.
