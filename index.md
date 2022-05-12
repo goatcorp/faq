@@ -34,6 +34,8 @@ Please select a category from below:
 <a href="https://goatcorp.github.io/faq/development" class="btnm">Help for plugin developers</a>
   
 <a href="https://goatcorp.github.io/faq/mobile_otp" class="btnm">Authenticator App Guide</a>
+  
+<a href="https://goatcorp.github.io/faq/steamdeck" class="btnm">Steam Deck Setup Guide</a>
 
 </div>
 </div>
