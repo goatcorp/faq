@@ -1,5 +1,10 @@
 # XIVLauncher Steam Deck Installation Guide
 
+## Install the Steam version of FFXIV on your Steam Deck
+To use XIVLauncher, the FFXIV Free Trial or the full version of FFXIV has to be installed on your Steam Deck's **internal memory**. You don't need to start it at any point in time, or need to create a Steam account, it just has to be installed. If you don't own FFXIV on Steam, please install the Free Trial.
+
+This is needed for Gaming Mode to see the game window.
+
 ## Switch to Desktop Mode
 Press and hold the Power Button. Select `Switch to Desktop Mode`
 
@@ -30,8 +35,8 @@ After everything has installed, close Final Fantasy XIV, and click the Return to
 ## Where are my configuration files kept?
 Configuration files are saved to `~/.xlcore`  
 
-## Why do non-Steam users show as playing `Source SDK Base 2013 Multiplayer`?
-Due to how SteamOS shows active games, we need to trick it into playing a game that your Steam account definitely has access to.
+## The game is disappearing randomly and won't resume after sleep mode!
+Please make sure that FFXIV or the FFXIV Free Trial from the Steam Store is installed on your Steam Deck's **internal memory**.
 
 ## My audio is crackling/distorted
 Try adding `PULSE_LATENCY_MSEC=60` to the beginning of the Launch Options in Steam.
