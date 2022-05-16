@@ -24,6 +24,9 @@ Please note that with this configuration, XIVLauncher will save your password to
 ## OPTIONAL: Allow MicroSD card access to XIVLauncher
 Run Flatseal. On the left, scroll down to XIVLauncher. In the main part of the window, scroll down to `Filesystem`. Click the Folder icon next to Other files. Type the location where you would like to install Final Fantasy XIV. By default, your MicroSD is mounted to `/run/media/mmcblk0p1`.
 
+## Switch to Gaming Mode
+On the Desktop, tab `Return to Gaming Mode`.
+
 ## First time setup
 Run XIVLauncher in Steam. Once XIVLauncher has opened, click the Gear icon in the bottom left to set game data path, OTP macro, etc. After changing settings, click the check mark. Input your username and password, click login, and let XIVLauncher install the game (if it is not already present in your game data path).
 
