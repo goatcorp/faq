@@ -20,15 +20,35 @@
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    
+
     <style>
       .page-header {
         background-image: linear-gradient(120deg, #132f46, #378dff) !important;
         background-color: #378dff !important;
       }
-      
+
       .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
         color: #2f89d6 !important;
+      }
+
+      .btnm {
+        display: inline-block;
+        margin-bottom: 1rem;
+        color: rgba(29 29 29);
+        background-color: rgba(0 0 0 / 8%);
+        border-color: rgba(0 0 0 / 20%);
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 0.3rem;
+        transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+        padding: 1rem 4rem;
+      }
+
+      .btnm:hover {
+        text-decoration: none;
+        color: rgba(29 29 29);
+        background-color: rgba(0 0 0 / 30%);
+        border-color: rgba(0 0 0 / 60%);
       }
     </style>
   </head>
