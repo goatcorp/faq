@@ -222,6 +222,8 @@ People who bought FFXIV on Steam are required to link their Steam account to the
 
 Your Steam installation also needs to be signed into the correct account.
 
+If you want the Steam overlay on a non-Steam service account, you need to add XIVLauncher as a non-Steam game through Steam.
+
 ---
 
 ### Q: I get an error saying XIVLauncher failed to check for updates when I open the program
