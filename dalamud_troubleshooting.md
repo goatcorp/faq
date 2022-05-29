@@ -4,24 +4,24 @@
 
 ### Info
 
-[How do I install/enable plugins?](#q-how-do-i-installenable-plugins)\
-[How do I enable plugin test builds?](#q-how-do-i-enable-plugin-test-builds)\
-[What is the command for \<insert plugin here\>?](#q-what-is-the-command-for-insert-plugin-here)\
-[How do I turn Dalamud Staging on or off?](#q-how-do-i-turn-dalamud-staging-on-or-off)\
-[How do I reset dalamud/plugin window locations?](#q-how-do-i-reset-dalamudplugin-window-locations)\
-[How do I manually delete plugins?](#q-how-do-i-manually-delete-plugins)
+- [How do I install/enable plugins?](#q-how-do-i-installenable-plugins)
+- [How do I enable plugin test builds?](#q-how-do-i-enable-plugin-test-builds)
+- [What is the command for \<insert plugin here\>?](#q-what-is-the-command-for-insert-plugin-here)
+- [How do I turn Dalamud Staging on or off?](#q-how-do-i-turn-dalamud-staging-on-or-off)
+- [How do I reset dalamud/plugin window locations?](#q-how-do-i-reset-dalamudplugin-window-locations)
+- [How do I manually delete plugins?](#q-how-do-i-manually-delete-plugins)
 
 ### Troubleshooting
 
-[I get an error message when trying to install/update/disable a plugin](#q-i-get-an-error-message-when-trying-to-installupdatedisable-a-plugin)\
-[Reshade and its variants don't work or Dalamud UI fails](#q-reshade-and-its-variants-dont-work-or-dalamud-ui-fails)\
-[How do I fix plugins that rely on Dalamud provided opcodes?](#q-how-do-i-fix-plugins-that-rely-on-dalamud-provided-opcodes)\
-[All my plugins basically stopped working](#q-all-my-plugins-basically-stopped-working)
+- [I get an error message when trying to install/update/disable a plugin](#q-i-get-an-error-message-when-trying-to-installupdatedisable-a-plugin)
+- [Reshade and its variants don't work or Dalamud UI fails](#q-reshade-and-its-variants-dont-work-or-dalamud-ui-fails)
+- [How do I fix plugins that rely on Dalamud provided opcodes?](#q-how-do-i-fix-plugins-that-rely-on-dalamud-provided-opcodes)
+- [All my plugins basically stopped working](#q-all-my-plugins-basically-stopped-working)
 
 ### Misc
 
-[Do not expect XL/Dalamud/Plugin updates on patch day releases](#do-not-expect-xldalamudplugin-updates-on-patch-day-releases)\
-[Remember the patches, no matter how small, can break plugins](#remember-the-patches-no-matter-how-small-can-break-plugins)\
+- [Do not expect XL/Dalamud/Plugin updates on patch day releases](#do-not-expect-xldalamudplugin-updates-on-patch-day-releases)
+- [Remember the patches, no matter how small, can break plugins](#remember-the-patches-no-matter-how-small-can-break-plugins)
 
 ---
 
@@ -160,7 +160,7 @@ Want to add a new FAQ entry? Please use the template below and PR to the main [F
 ---
 ```
 
-Then add it to the Table of Contents using `[Name / Title here](#anchor here)\`.
+Then add it to the Table of Contents using `- [Name / Title here](#anchor here)`.
 
 [Return to the top](#table-of-contents)\
 [Return to the main FAQ](https://goatcorp.github.io/faq)
