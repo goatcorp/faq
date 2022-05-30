@@ -38,7 +38,7 @@ Not sure how to install plugins? Just type `/xlplugins` in-game after you see th
 3. Click the checkbox for `Get plugin testing builds`.
 4. Click `Save` / `Save and Close`.
 
-**Please note that testing plugins can/will have bugs and may change dramatically before final release. Especially on newer plugins, they could crash your game.**
+- **NOTE: Testing plugins will have bugs, issues, crashes, and may even change dramatically before final release.**
 
 For troubleshooting, please keep questions/comments/issues in the [plugin-testing](https://discord.com/channels/581875019861328007/719513457988337724) channel on our [Discord server](https://goat.place/).
 
@@ -67,7 +67,7 @@ Plugins will list their command(s) from the plugin installer window (`/xlplugins
 4. Save the file.
 5. Launch the game.
 
-- Only enable this if you absolutely need to. It is primarily for developers, not users. Plugin testers should only use it when specifically stated. You should expect to encounter issues and crash more often on staging builds. **Use with caution.**
+- This is for developers, not users. Plugin testers should only use it when specifically stated. You should expect to encounter issues and crash more often on staging builds. **Use with caution.**
 - NOTE: After enabling Dalamud Staging, you may have to wait for Dalamud to be redownloaded.
 - NOTE 2: You should replace the `BETAKEYHERE` entry with a real beta key. **It requires the quotes**.
 - NOTE 3: Make sure there are no quotes when setting `DalamudBetaKey` to null.
@@ -92,7 +92,7 @@ Plugins will list their command(s) from the plugin installer window (`/xlplugins
 5. Remove all manually installed plugins. (Check if they have a third party repo, or reinstall them later.)
 6. Start the game.
 
-- NOTE: You might not have any manually installed plugins. That's fine.
+- NOTE: You may not have any manually installed plugins. That's fine.
 
 ---
 

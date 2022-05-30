@@ -14,7 +14,7 @@ If it gives you any confirmations, just press "Continue". Now wait until it will
 
 ## Configuring Visual Studio
 
-Before you will start debugging, you will need to perform some configuration. Launch Visual Studio. It will ask you to log in; you may do so or skip - it doesn't matters.
+Before you will start debugging, you will need to perform some configuration. Launch Visual Studio and it will prompt you to log in, you may do so or skip.
 
 Select "Continue without code" on starting screen.
 
