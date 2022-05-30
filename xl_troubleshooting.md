@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-## Info
+### Info
 
 [How do I disable autologin?](#q-how-do-i-disable-autologin)\
 [Are XIVLauncher, Dalamud, and Dalamud Plugins safe to use?](#q-are-xivlauncher-dalamud-and-dalamud-plugins-safe-to-use)
@@ -14,7 +14,7 @@
 [How do I migrate FFXIV and/or XIVLauncher files from an old installation to a new one? \[Windows\]](#q-how-do-i-migrate-ffxiv-andor-xivlauncher-files-from-an-old-installation-to-a-new-one-windows)\
 [Why do people keep asking about Steam so much?](#q-why-do-people-keep-asking-about-steam-so-much)\
 
-## Troubleshooting
+### Troubleshooting
 
 [I get an error saying XIVLauncher failed to check for updates when I open the program](#q-i-get-an-error-saying-xivlauncher-failed-to-check-for-updates-when-i-open-the-program)\
 [I'm on Linux and I keep getting "XIVLauncher failed to update" errors](#q-im-on-linux-and-i-keep-getting-xivlauncher-failed-to-update-errors)\
@@ -31,7 +31,7 @@
 [How do I fix a version check error when trying to update FFXIV?](#q-how-do-i-fix-a-version-check-error-when-trying-to-update-ffxiv)\
 [I updated my game with TexTools mods installed. How do I fix crashes?](#q-i-updated-my-game-with-textools-mods-installed-how-do-i-fix-crashes)
 
-## Misc
+### Misc
 
 [Do not run XIVLauncher as admin](#do-not-run-xivlauncher-as-admin)\
 [XL Environment Variables](#q-xl-environment-variables)\
@@ -40,6 +40,7 @@
 ---
 
 ### Q: How do I disable autologin?
+
 Keep the shift key held down while you open XIVLauncher. Keep it held down until the main window appears.
 
 ---

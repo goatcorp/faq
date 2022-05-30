@@ -1,6 +1,6 @@
 <div style="text-align: center;">
 
-Please select a category from below:
+Please select a category from below: <br>
 
 <a href="https://goatcorp.github.io/faq/xl_troubleshooting" class="btnm">Help for XIVLauncher</a>
 <a href="https://goatcorp.github.io/faq/dalamud_troubleshooting" class="btnm">Help for plugins</a>
