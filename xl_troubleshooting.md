@@ -12,7 +12,7 @@
 [Where can I find my FFXIV installation?](#q-where-can-i-find-my-ffxiv-installation)\
 [How do I migrate FFXIV and/or XIVLauncher files from an old Wine prefix to a new one? \[Linux\]](#q-how-do-i-migrate-ffxiv-andor-xivlauncher-files-from-an-old-wine-prefix-to-a-new-one-linux)\
 [How do I migrate FFXIV and/or XIVLauncher files from an old installation to a new one? \[Windows\]](#q-how-do-i-migrate-ffxiv-andor-xivlauncher-files-from-an-old-installation-to-a-new-one-windows)\
-[Why do people keep asking about Steam so much?](#q-why-do-people-keep-asking-about-steam-so-much)\
+[Why do people keep asking about Steam so much?](#q-why-do-people-keep-asking-about-steam-so-much)
 
 ### Troubleshooting
 
@@ -35,7 +35,7 @@
 
 [Do not run XIVLauncher as admin](#do-not-run-xivlauncher-as-admin)\
 [XL Environment Variables](#q-xl-environment-variables)\
-[WTFast Config](#q-wtfast-config)\
+[WTFast Config](#q-wtfast-config)
 
 ---
 
