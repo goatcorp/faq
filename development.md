@@ -35,17 +35,15 @@
 - [How do I get started with reverse-engineering the game so that I can do things Dalamud doesn't expose?](#q-how-do-i-get-started-with-reverse-engineering-the-game-so-that-i-can-do-things-dalamud-doesnt-expose)
 - [How do I hook a game function?](#q-how-do-i-hook-a-game-function)
 
-<hr>
+---
 
-## Getting started
-
-### Q: How do I get started?
+## Q: How do I get started?
 
 The majority of the XIVLauncher and Dalamud ecosystem is written in C# for its usability, convenience, and robustness. It is recommended that anything you work on is also in C#, unless you're working on something with a significant amount of interoperation with native code (in which C++/CLI may be useful) or you're experimenting with other .NET languages.
 
 To get started, you'll want to get the latest version of Visual Studio found [here](https://visualstudio.microsoft.com/downloads/); the Community edition will work fine. After doing so, you can clone any of the following projects and get to work with their Visual Studio solutions. Alternatively, you may want to use another IDE such as [JetBrains Rider](https://www.jetbrains.com/rider/).
 
-#### Dalamud Plugins
+### Dalamud Plugins
 
 Plugins allow you to interact with the game and add features, modify functionality, and do much more. We ask you to be respectful of [our guidelines](#q-what-am-i-allowed-to-do-in-my-plugin) to ensure that your plugin is approved into the primary repository, and to minimise the risk of action by Square Enix. You can read more about this [here](#q-why-do-you-discourage-certain-types-of-plugins).
 
@@ -63,7 +61,7 @@ When your plugin is ready for testing/release, it should be PRed over to the Dal
 
 - <https://github.com/goatcorp/DalamudPlugins>
 
-#### Dalamud
+### Dalamud
 
 Dalamud is the core addon/plugin system. It is loaded by XIVLauncher into your game, and is responsible for loading your plugins and providing them with a core set of functionality.
 
@@ -79,31 +77,31 @@ You can find the Dalamud API page below, which also lists functions you can use 
 
 - <https://goatcorp.github.io/Dalamud/api/index.html>
 
-#### XIVLauncher
+### XIVLauncher
 
 XIVLauncher is a custom launcher for FFXIV that offers a number of benefits, including faster launching, saved credentials, and automatically injecting Dalamud into the game.
 
 The XIVLauncher source code can be found in the repository for the project:
 <https://github.com/goatcorp/FFXIVQuickLauncher>
 
-<hr>
+---
 
-### Q: Where do I ask for help?
+## Q: Where do I ask for help?
 
 The best place to ask for help is the [#dev channel](https://discord.gg/wwYXnzWYqY) of the Discord; we're a helpful bunch and will do our best to answer your query as long as you explain what you've tried and looked at so far.
 
-<hr>
+---
 
-### Q: How do I hot-reload my plugin?
+## Q: How do I hot-reload my plugin?
 
 As of API 4/Dalamud 6, hot-reloading is part of Dalamud. To use it, go to Dalamud Settings > Experimental > Dev Plugin Locations, and then add either the folder that your plugin is in or the plugin itself. If you add a folder, Dalamud will attempt to load all DLLs within the folder.
 
 Your configuration should look something like this:
 ![image](https://user-images.githubusercontent.com/707827/166122747-97f0f7c7-e1a4-4093-adeb-5c7c8eab935c.png)
 
-<hr>
+---
 
-### Q: How do I debug my plugin and/or the game?
+## Q: How do I debug my plugin and/or the game?
 
 To debug, you'll need to attach a debugger to the game. This will usually be from your development environment, such as Visual Studio.
 
@@ -115,9 +113,9 @@ This functionality is only supported for debugging your plugins. You will not re
 
 [Detailed instruction available here.](debug.md)
 
-<hr>
+---
 
-### Q: How do I use FFXIVClientStructs in my own code?
+## Q: How do I use FFXIVClientStructs in my own code?
 
 [FFXIVClientStructs](https://github.com/aers/FFXIVClientStructs) is a communal project to provide an interface to the game's classes, data, and more to C# users and reverse engineers.
 
@@ -133,39 +131,37 @@ or through right-clicking the project in VS, going to Add, and then adding an As
 
 However, the version of FFXIVClientStructs included with Dalamud is not updated very frequently, and may not feature the latest changes to the GitHub repository. To use the latest version, you'll need to pack it into your plugin using a tool like [ILRepack](https://github.com/gluck/il-repack).
 
-<hr>
+---
 
-## Updates
-
-### Q: What happens when there's an API version bump?
+## Q: What happens when there's an API version bump?
 
 When there's an API version bump, your plugin will no longer be loaded by Dalamud. To fix this, you'll need to update to the latest version of the API by updating the JSON file for your plugin and repackaging your plugin for the repository.
 
-<hr>
+---
 
-### Q: How can I stay up to date with API changes?
+## Q: How can I stay up to date with API changes?
 
-The best place to stay up to date with upcoming API changes is to frequent the [#dev channel of the Discord](https://discord.gg/wwYXnzWYqY). Changes will be announced with notice so that you can adapt your plugin as appropriate.
+The best place to stay up to date with upcoming API changes is to frequent the [Discord server](https://goat.place/). Changes will be announced with notice so that you can adapt your plugin as appropriate.
 
 After submitting your first plugin to the repository, you will be given a Plugin Developer role so that you will be pinged whenever breaking changes occur.
 
-<hr>
+---
 
-### Q: What is the .NET5 upgrade?
+## Q: What is the .NET5 upgrade?
 
 Dalamud 6.0 has adopted .NET 5, the latest version of .NET, and has used this opportunity to improve the Dalamud API with version 4 of the API. All new plugins are on API 4 or above. If you are creating a new plugin, or have already updated your plugin, you can stop reading now.
 
 If you are porting an existing plugin, please consult the following links:
 
-- _Roadmap_: <https://github.com/goatcorp/Dalamud/discussions/479>
-- _General Breaking Changes_: <https://github.com/goatcorp/Dalamud/discussions/458>
-- _Plugin API Redesign_: <https://github.com/goatcorp/Dalamud/discussions/474>
-- _New Features_: <https://github.com/goatcorp/Dalamud/discussions/471>
-- _Plugin Manifest Changes_: <https://github.com/goatcorp/Dalamud/discussions/457>
+- Roadmap: <https://github.com/goatcorp/Dalamud/discussions/479>
+- General Breaking Changes: <https://github.com/goatcorp/Dalamud/discussions/458>
+- Plugin API Redesign: <https://github.com/goatcorp/Dalamud/discussions/474>
+- New Features: <https://github.com/goatcorp/Dalamud/discussions/471>
+- Plugin Manifest Changes: <https://github.com/goatcorp/Dalamud/discussions/457>
 
-<hr>
+---
 
-### Q: How do I fix `Nothing inherits from IDalamudPlugin`?
+## Q: How do I fix `Nothing inherits from IDalamudPlugin`?
 
 This occurs because you have the dependencies for your plugin in the same folder as the plugin (e.g. `Dalamud.dll` and such). This was supported prior to .NET 5, but is no longer supported.
 
@@ -180,9 +176,9 @@ To fix this, open the `csproj` file and add `<Private>false</Private>` to each o
 
 After doing this, clean out your output folder and rebuild. It will no longer copy the dependencies, and your plugin should now be able to load correctly.
 
-<hr>
+---
 
-### Q: What happens when the game is updated?
+## Q: What happens when the game is updated?
 
 When the game is updated, it is likely that your plugin will stop working and/or Dalamud will refuse to load it. To fix this, you'll need to:
 
@@ -190,11 +186,9 @@ When the game is updated, it is likely that your plugin will stop working and/or
 - Update your plugin to ensure it's using the latest API version and still works with the game. Ensure that any non-Dalamud interactions with the game (e.g. direct interop, etc) have been updated.
 - Repackage and reupload your plugin.
 
-<hr>
+---
 
-## Restrictions
-
-### Q: What am I allowed to do in my plugin?
+## Q: What am I allowed to do in my plugin?
 
 Dalamud plugin development, by its nature, interferes with the game's functioning and changes the experience as intended by Square Enix. This makes it very important to ensure that your plugin does not do anything that a human player could not do; Dalamud plugins should enhance the experience, not radically alter it.
 
@@ -205,9 +199,9 @@ Please make sure that your plugin does not interact with the game servers in a w
 
 Plugins that violate this will not be accepted into the Dalamud plugin repository, and you will not receive support from the Dalamud community.
 
-<hr>
+---
 
-### Q: Why do you discourage certain types of plugins?
+## Q: Why do you discourage certain types of plugins?
 
 > Dalamud and XIVLauncher were made by me with the goal to do cool stuff with a game I love, and give others the chance to do so while making the game itself more accessible. I don't want to cause harm to the game, its community or Square Enix. Plugins that fall outside of the definition of "acceptable" that we set as a collective create a divide and debate that we don't want to be a part of.
 >
@@ -219,17 +213,15 @@ Plugins that violate this will not be accepted into the Dalamud plugin repositor
 
 - [goat](https://github.com/goaaats), the lead developer of XIVLauncher/Dalamud
 
-<hr>
+---
 
-### Q: Are there any performance constraints to be aware of?
+## Q: Are there any performance constraints to be aware of?
 
 You should generally aim to not impact game performance too much as that can degrade the experience for the player and cause other issues. A good place to start debugging performance issues is through the Plugin Statistics window, which can be found through Plugins > Open Plugin Stats in the dev menu (`/xldev`).
 
-<hr>
+---
 
-## Development
-
-### Q: How do the services in Dalamud work?
+## Q: How do the services in Dalamud work?
 
 Dalamud is composed of many services, with the `Dalamud.IoC.PluginInterfaceAttribute` attribute, that provide you access to game and Dalamud state. You can opt into these services by including them in the constructor of the plugin, like so,
 
@@ -261,9 +253,9 @@ public Plugin(DalamudPluginInterface pluginInterface)
 }
 ```
 
-<hr>
+---
 
-### Q: What are the currently available Dalamud services?
+## Q: What are the currently available Dalamud services?
 
 As of Dalamud 6.3, these are all of the currently available services. Please update this list if you spot a discrepancy!
 
@@ -295,17 +287,15 @@ As of Dalamud 6.3, these are all of the currently available services. Please upd
 - [`Dalamud.Game.SigScanner`](https://goatcorp.github.io/Dalamud/api/Dalamud.Game.SigScanner.html)
 - [`Dalamud.Interface.TitleScreenMenu`](https://goatcorp.github.io/Dalamud/api/Dalamud.Interface.TitleScreenMenu.html)
 
-<hr>
+---
 
-### Q: How do I convert from world coordinates to map coordinates and vice versa?
+## Q: How do I convert from world coordinates to map coordinates and vice versa?
 
 Please consult the [ffxiv-datamining documentation on MapCoordinates](https://github.com/xivapi/ffxiv-datamining/blob/master/docs/MapCoordinates.md), which details how to convert between the various kinds of coordinates.
 
-<hr>
+---
 
-## Reverse engineering
-
-### Q: How do I get started with reverse-engineering the game so that I can do things Dalamud doesn't expose?
+## Q: How do I get started with reverse-engineering the game so that I can do things Dalamud doesn't expose?
 
 Reverse-engineering isn't easy, and it's even more difficult when reversing a large game like FFXIV. It's a large subject and hard to explore, but here are some rough pointers.
 
@@ -325,9 +315,9 @@ Another approach you can take is _dynamic analysis_. You can attach a debugger t
 
 Reversing is a large and complex field, and it takes years to get proficient and recognise patterns. Asking the Discord for help is encouraged, but be aware that you have a long journey ahead of you regardless.
 
-<hr>
+---
 
-### Q: How do I hook a game function?
+## Q: How do I hook a game function?
 
 Hooking a function refers to intercepting its execution, so that your code runs in lieu of or as an extension to it. This could allow you to, for example, detect when a certain action occurs in-game and change its behaviour.
 
@@ -399,17 +389,19 @@ namespace SamplePlugin
 }
 ```
 
-<hr>
+---
 
-Want to add a new FAQ entry? Please use the template below and PR to the main [FAQ repo](https://github.com/goatcorp/faq)
+Want to add a new FAQ entry? Please use the template below and PR to the main [FAQ repo](https://github.com/goatcorp/faq):
 
+```md
+### Q: Basic Title
+
+(FAQ content)
+
+---
 ```
-### Basic Title
-FAQ content
-<hr>
-```
 
-Then add it to the Table of Contents using `[Name / Title here](#anchor here) <br>`
+Then add it to the Table of Contents using `- [Name / Title here](#anchor here)`.
 
-[Return to the top](#table-of-contents)<br>
-[Return to the main Readme](https://goatcorp.github.io/faq)
+[Return to the top](#table-of-contents)\
+[Return to the main FAQ](https://goatcorp.github.io/faq)
