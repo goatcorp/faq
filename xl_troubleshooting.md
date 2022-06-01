@@ -19,7 +19,7 @@
 [I get an error saying XIVLauncher failed to check for updates when I open the program](#q-i-get-an-error-saying-xivlauncher-failed-to-check-for-updates-when-i-open-the-program)\
 [I'm on Linux and I keep getting "XIVLauncher failed to update" errors](#q-im-on-linux-and-i-keep-getting-xivlauncher-failed-to-update-errors)\
 [How come the in-game addon \(Dalamud\) doesn't work and/or plugins don't display?](#q-how-come-the-in-game-addon-dalamud-doesnt-work-andor-plugins-dont-display)
-[How do I whitelist XIVLauncher and Dalamud so my Antivirus leaves them alone?](#q-how-do-i-whitelist-xivlauncher-and-dalamud-so-my-antivirus-leaves-them-alone)\
+[How do I whitelist XIVLauncher and Dalamud so my antivirus leaves them alone?](#q-how-do-i-whitelist-xivlauncher-and-dalamud-so-my-antivirus-leaves-them-alone)\
 [XIVLauncher isn't saving my new password / how do I clear my saved password?](#q-xivlauncher-isnt-saving-my-new-password--how-do-i-clear-my-saved-password)\
 [I think XIVLauncher is giving me a Blue Screen of Death. What information would help narrow this down?](#q-i-think-xivlauncher-is-giving-me-a-blue-screen-of-death-what-information-would-help-narrow-this-down)\
 [How can I fix crashes on startup?](#q-how-can-i-fix-crashes-on-startup)\
@@ -282,7 +282,7 @@ Some of the more common ones that may cause issues are:
 
 ---
 
-### Q: How do I whitelist XIVLauncher and Dalamud so my Antivirus leaves them alone?
+### Q: How do I whitelist XIVLauncher and Dalamud so my antivirus leaves them alone?
 
 Please make exceptions (or whitelist) the following folders:
 
