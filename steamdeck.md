@@ -30,7 +30,7 @@ Please note that with this configuration, XIVLauncher will save your password to
 
 Run Flatseal. On the left, scroll down to XIVLauncher. In the main part of the window, scroll down to `Filesystem`. Click the Folder icon next to Other files. Type the location where you would like to install Final Fantasy XIV. By default, your MicroSD is mounted to `/run/media/mmcblk0p1`.
 
-### witch to Gaming Mode
+### Switch to Gaming Mode
 
 On the Desktop, tab `Return to Gaming Mode`.
 
@@ -40,7 +40,7 @@ Run XIVLauncher in Steam. Once XIVLauncher has opened, click the Gear icon in th
 
 ### Run the game in Gaming Mode
 
-After everything has installed, close Final Fantasy XIV, and click the Return to Gaming Mode icon. Run XIVLauncher in Gaming Mode, and tap Login. After a few moments, press the `Steam` button, select `FINAL FANTASY XIV Online` or `FINAL FANTASY XIV Online Free Trial` (the latter will appear for non-Steam service accounts). Final Fantasy XIV will appear on the screen after a few moments.
+After everything has installed, close Final Fantasy XIV. Run XIVLauncher in Gaming Mode, and tap Login. After a few moments, press the `Steam` button, select `FINAL FANTASY XIV Online` or `FINAL FANTASY XIV Online Free Trial` (the latter will appear for non-Steam service accounts). Final Fantasy XIV will appear on the screen after a few moments.
 
 ## FREQUENTLY ASKED QUESTIONS
 
