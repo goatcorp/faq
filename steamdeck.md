@@ -34,13 +34,11 @@ Run Flatseal. On the left, scroll down to XIVLauncher. In the main part of the w
 
 On the Desktop, tab `Return to Gaming Mode`.
 
-### First time setup
+### First time setup / Running the game
 
 Run XIVLauncher in Steam. Once XIVLauncher has opened, click the Gear icon in the bottom left to set game data path, OTP macro, etc. After changing settings, click the check mark. Input your username and password, click login, and let XIVLauncher install the game (if it is not already present in your game data path).
 
-### Run the game in Gaming Mode
-
-After everything has installed, close Final Fantasy XIV. Run XIVLauncher in Gaming Mode, and tap Login. After a few moments, press the `Steam` button, select `FINAL FANTASY XIV Online` or `FINAL FANTASY XIV Online Free Trial` (the latter will appear for non-Steam service accounts). Final Fantasy XIV will appear on the screen after a few moments.
+When prompted, press the `Steam` button, select `FINAL FANTASY XIV Online` or `FINAL FANTASY XIV Online Free Trial` (the latter will appear for non-Steam service accounts). Final Fantasy XIV will appear on the screen after a few moments.
 
 ## FREQUENTLY ASKED QUESTIONS
 
@@ -58,4 +56,8 @@ Try adding `PULSE_LATENCY_MSEC=60` to the beginning of the Launch Options in Ste
 
 ### Q: I can't control my game
 
-Change the control layout for the game SteamOS thinks FFXIV is running as. For non-Steam service accounts, this means `Source SDK Base 2013 Multiplayer`.
+Change the control layout for the game SteamOS thinks FFXIV is running as. For non-Steam service accounts, this means `FINAL FANTASY XIV Online Free Trial`.
+
+### Q: Final Fantasy XIV doesn't close properly / Steam constantly thinks Final Fantasy XIV is playing
+
+Make sure you set the Launch Options in the "Add a Non-Steam Game" step. Specifically the `--parent-expose-pids --parent-share-pids --parent-pid=1` arguments allow XIVLauncher to communicate with Steam to report the game closing.
