@@ -26,6 +26,8 @@ Right click on XIVLauncher in Steam, select `Properties`, and replace the `Launc
 
 Please note that with this configuration, XIVLauncher will save your password to a file on your Steam Deck, as Valve does not ship a safer way to store passwords by default. If this is a problem for you, please leave out `XL_SECRET_PROVIDER=FILE` from the line above - XIVLauncher won't be able to save your password in that case.
 
+**Do not set a Compatibility mode for XIVLauncher.** XIVLauncher is a native Linux application. Setting Compatibility for it will break it.
+
 ### OPTIONAL: Allow external folder access to XIVLauncher
 
 Run Flatseal. On the left, scroll down to XIVLauncher. In the main part of the window, scroll down to `Filesystem`. Click the Folder icon next to Other files. Type the location where you would like to install Final Fantasy XIV. By default, your MicroSD is mounted to `/run/media/mmcblk0p1`.
@@ -61,3 +63,7 @@ Change the control layout for the game SteamOS thinks FFXIV is running as. For n
 ### Q: Final Fantasy XIV doesn't close properly / Steam constantly thinks Final Fantasy XIV is playing
 
 Make sure you set the Launch Options in the "Add a Non-Steam Game" step. Specifically the `--parent-expose-pids --parent-share-pids --parent-pid=1` arguments allow XIVLauncher to communicate with Steam to report the game closing.
+
+### Q: XIVLauncher immediately closes when trying to run it through Steam
+
+Do not set a Compatibility mode for XIVLauncher in Steam. XIVLauncher is a native Steam application that does not need Proton to run.
