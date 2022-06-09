@@ -13,7 +13,7 @@ Here are some additional details about XIVLauncher itself.
 
 Here are some additional details about Dalamud.
 
-1. Dalamud **is** a code injection framework. By definition, it's going to look and act like a virus-like program. Your antivirus might even consider it harmful or potentially harmful software! You can read more about [whitelisting Dalamud](#q-how-do-i-whitelist-xivlauncher-and-dalamud-so-my-antivirus-leaves-them-alone) elsewhere on the FAQ. **We recommend whitelisting for the best experience, but your computing environment may not require it.**
+1. Dalamud **is** a code injection framework. By definition, it's going to look and act like a virus-like program. Your antivirus might even consider it harmful or potentially harmful software! You can read more about [whitelisting Dalamud](xl_win_help.md#q-how-do-i-whitelist-xivlauncher-and-dalamud-so-my-antivirus-leaves-them-alone) elsewhere on the FAQ. **We recommend whitelisting for the best experience, but your computing environment may not require it.**
 2. Dalamud allows you to read game memory and network packets. Compare this to using ACT.
 3. Dalamud's framework comes with the ability for modifying game memory/hooking into game client memory and functions that plugins can choose to use. We however only provide safe read-only(where it applies) access to game data in the official [Dalamud game data APIs](https://goatcorp.github.io/Dalamud/api/index.html).
 
