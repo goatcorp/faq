@@ -25,7 +25,6 @@
 [How can I fix crashes on startup?](#q-how-can-i-fix-crashes-on-startup)\
 [The launcher shows a red world icon and an error message when trying to log in, and the official launcher doesn't open](#q-the-launcher-shows-a-red-world-icon-and-an-error-message-when-trying-to-log-in-and-the-official-launcher-doesnt-open)\
 [The official launcher isn't working / XIVLauncher failed to check for updates / Patch files could not be verified](#q-the-official-launcher-isnt-working--xivlauncher-failed-to-check-for-updates--patch-files-could-not-be-verified)\
-[NVIDIA Driver issue \(7th of January\)](#q-nvidia-driver-issue-7th-of-january)\
 [How to set an injection delay in RivaTuner/RTSS](#q-how-to-set-an-injection-delay-in-rivatunerrtss)\
 [Can I repair my FFXIV installation?](#q-can-i-repair-my-ffxiv-installation)\
 [How do I fix a version check error when trying to update FFXIV?](#q-how-do-i-fix-a-version-check-error-when-trying-to-update-ffxiv)\
@@ -398,16 +397,6 @@ If you're sure this isn't a firewall issue or a rate limit, here are some things
 - Copy a working FFXIV install from another computer
   - The easiest method is to just copy the folder onto a large flash drive or external HDD.
   - If you're familiar with setting up Windows Sharing, you can also share the drive/folder from a working computer and copy it over your network.
-
----
-
-### Q: NVIDIA Driver issue (7th of January)
-
-If you experience crashes with the Nvidia driver from the 7th of January, please try rolling back to the last release before the holidays from the 15th of December.
-
-The release from the 7th seemingly introduced a change or bug that will cause FFXIV to crash under certain conditions when XL is loaded.
-
-We are still looking into this.
 
 ---
 
