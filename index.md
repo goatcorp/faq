@@ -2,11 +2,11 @@
 
 Please select a category from below: <br> <br>
 
-<a href="https://goatcorp.github.io/faq/xl_troubleshooting" class="btnm">Help for XIVLauncher</a>
-<a href="https://goatcorp.github.io/faq/dalamud_troubleshooting" class="btnm">Help for plugins</a>
-<a href="https://goatcorp.github.io/faq/development" class="btnm">Help for plugin developers</a>
-<a href="https://goatcorp.github.io/faq/mobile_otp" class="btnm">Authenticator App Guide</a>
-<a href="https://goatcorp.github.io/faq/steamdeck" class="btnm">Steam Deck Setup Guide</a>
+<a href="{{ site.github.baseurl }}/xl_troubleshooting" class="btnm">Help for XIVLauncher</a>
+<a href="{{ site.github.baseurl }}/dalamud_troubleshooting" class="btnm">Help for plugins</a>
+<a href="{{ site.github.baseurl }}/development" class="btnm">Help for plugin developers</a>
+<a href="{{ site.github.baseurl }}/mobile_otp" class="btnm">Authenticator App Guide</a>
+<a href="{{ site.github.baseurl }}/steamdeck" class="btnm">Steam Deck Setup Guide</a>
 
 </div>
 

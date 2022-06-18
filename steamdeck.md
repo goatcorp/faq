@@ -67,3 +67,6 @@ Make sure you set the Launch Options in the "Add a Non-Steam Game" step. Specifi
 ### Q: XIVLauncher immediately closes when trying to run it through Steam
 
 Do not set a Compatibility mode for XIVLauncher in Steam. XIVLauncher is a native Steam application that does not need Proton to run.
+
+[Return to the top](#installation)\
+<a href="{{ site.github.baseurl }}/">Return to the main FAQ</a>

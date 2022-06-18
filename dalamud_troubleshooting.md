@@ -163,4 +163,4 @@ Want to add a new FAQ entry? Please use the template below and PR to the main [F
 Then add it to the Table of Contents using `- [Name / Title here](#anchor here)`.
 
 [Return to the top](#table-of-contents)\
-[Return to the main FAQ](https://goatcorp.github.io/faq)
+<a href="{{ site.github.baseurl }}/">Return to the main FAQ</a>
