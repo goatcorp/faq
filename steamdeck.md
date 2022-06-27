@@ -68,5 +68,9 @@ Make sure you set the Launch Options in the "Add a Non-Steam Game" step. Specifi
 
 Do not set a Compatibility mode for XIVLauncher in Steam. XIVLauncher is a native Steam application that does not need Proton to run.
 
+### Q: I can't enter my username/password.
+
+Due to a limitation of Steam's text input API, please use the Steam Deck's Gaming Mode to finish setup.
+
 [Return to the top](#installation)\
 <a href="{{ site.github.baseurl }}/">Return to the main FAQ</a>
