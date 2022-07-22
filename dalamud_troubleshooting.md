@@ -10,6 +10,7 @@
 - [How do I turn Dalamud Staging on or off?](#q-how-do-i-turn-dalamud-staging-on-or-off)
 - [How do I reset dalamud/plugin window locations?](#q-how-do-i-reset-dalamudplugin-window-locations)
 - [How do I manually delete plugins?](#q-how-do-i-manually-delete-plugins)
+- [Why can't I find a plugin?](#q-why-cant-i-find-a-plugin)
 
 ### Troubleshooting
 
@@ -93,6 +94,43 @@ Plugins will list their command(s) from the plugin installer window (`/xlplugins
 6. Start the game.
 
 - NOTE: You may not have any manually installed plugins. That's fine.
+
+---
+
+### Q: Why can't I find a plugin?
+
+The following plugins are not currently available to install.
+
+#### Outdated
+_These plugins haven't been updated yet for the latest patch but are expected to return eventually. There are no estimates nor SLAs and are subject to the developer's time/interest/motivation._
+- FCNameColor
+- Wotsit
+
+#### Adoptable
+_These plugins are abandoned by their original developer and haven't been adopted. If you're interested in taking over development, please reach out to the developer and let us know on discord._
+- ACTEndcounter
+- DalamudVox
+- MPTimer
+- RemindMe
+- SideHUDPlugin
+- TabTab
+
+#### Discontinued
+_These plugins have been discontinued due to our plugin rules or the developer's discretion. They won't be coming back._
+- AutoVisor
+- OopsAllLalafells
+
+#### Obsolete
+_These plugins are now obsolete and no longer needed. This can be due to new features added to the game or by being replaced by another plugin. They won't be coming back._
+- AccurateCountDown - _Replaced by EngageTimer_
+- BrowserHost.Plugin - _Replaced by Browsingway_
+- CharSyncPlugin - _Use Character Data Sync_
+- ChatExtender - _Split into Chat Bubbles, Chat Translator, and XIVLogger_
+- GoodMemory - _Now a vanilla feature (mostly)_
+- JobIcons - _Replaced by PartyIcons_
+- SlideCast - _Replaced by SimpleTweaks_
+- VoidList - _Replaced by Visibility_
+- WheresWOLdo - _Consider using Where am I again?_
 
 ---
 
