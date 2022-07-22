@@ -102,12 +102,16 @@ Plugins will list their command(s) from the plugin installer window (`/xlplugins
 The following plugins are not currently available to install.
 
 #### Outdated
+
 _These plugins haven't been updated yet for the latest patch but are expected to return eventually. There are no estimates nor SLAs and are subject to the developer's time/interest/motivation._
+
 - FCNameColor
 - Wotsit
 
 #### Adoptable
+
 _These plugins are abandoned by their original developer and haven't been adopted. If you're interested in taking over development, please reach out to the developer and let us know on discord._
+
 - ACTEndcounter
 - DalamudVox
 - MPTimer
@@ -116,12 +120,16 @@ _These plugins are abandoned by their original developer and haven't been adopte
 - TabTab
 
 #### Discontinued
+
 _These plugins have been discontinued due to our plugin rules or the developer's discretion. They won't be coming back._
+
 - AutoVisor
 - OopsAllLalafells
 
 #### Obsolete
+
 _These plugins are now obsolete and no longer needed. This can be due to new features added to the game or by being replaced by another plugin. They won't be coming back._
+
 - AccurateCountDown - _Replaced by EngageTimer_
 - BrowserHost.Plugin - _Replaced by Browsingway_
 - CharSyncPlugin - _Use Character Data Sync_
