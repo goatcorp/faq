@@ -107,25 +107,24 @@ _These plugins haven't been updated yet for the latest patch but are expected to
 
 - FCNameColor
 - NamePlateDebuffs
-- Wotsit
 
 #### Adoptable
 
 _These plugins are abandoned by their original developer and haven't been adopted. If you're interested in taking over development, please reach out to the developer and let us know on discord._
 
-- ACTEndcounter
-- DalamudVox
-- MPTimer
-- RemindMe
-- SideHUDPlugin
-- TabTab
+- [ACTEndcounter](https://github.com/Leftn/FFXIV-ACT-Endcounter)
+- [DalamudVox](https://github.com/goaaats/dalamudvox)
+- [MPTimer](https://github.com/talimity/mptimer)
+- [RemindMe](https://github.com/Caraxi/RemindMe)
+- [SideHUDPlugin](https://github.com/SheepGoMeh/SideHUD)
+- [TabTab](https://github.com/avafloww/TabTab)
 
 #### Discontinued
 
 _These plugins have been discontinued due to our plugin rules or the developer's discretion. They won't be coming back._
 
-- AutoVisor
-- OopsAllLalafells
+- AutoVisor - _Removed due to automation rule._
+- OopsAllLalafells - _Removed by developer's choice._
 
 #### Obsolete
 
@@ -139,7 +138,7 @@ _These plugins are now obsolete and no longer needed. This can be due to new fea
 - JobIcons - _Replaced by PartyIcons_
 - SlideCast - _Replaced by SimpleTweaks_
 - VoidList - _Replaced by Visibility_
-- WheresWOLdo - _Consider using Where am I again?_
+- WheresWOLdo - _Use "Where am I again?" as this will be retired soon_
 
 ---
 
