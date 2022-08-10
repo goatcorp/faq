@@ -14,7 +14,6 @@
 
 - [What happens when there's an API version bump?](#q-what-happens-when-theres-an-api-version-bump)
 - [How can I stay up to date with API changes?](#q-how-can-i-stay-up-to-date-with-api-changes)
-- [What is the .NET5 upgrade?](#q-what-is-the-net5-upgrade)
 - [How do I fix `Nothing inherits from IDalamudPlugin`?](#q-how-do-i-fix-nothing-inherits-from-idalamudplugin)
 - [What happens when the game is updated?](#q-what-happens-when-the-game-is-updated)
 
@@ -129,7 +128,7 @@ To use FFXIVClientStructs in your own code, you'll need to add a reference to it
 
 or through right-clicking the project in VS, going to Add, and then adding an Assembly Reference to the same path. Note that you will likely need to still open the `csproj` after doing this to ensure that the path uses `$(AppData)` and not the path specific to your system.
 
-However, the version of FFXIVClientStructs included with Dalamud is not updated very frequently, and may not feature the latest changes to the GitHub repository. To use the latest version, you'll need to pack it into your plugin using a tool like [ILRepack](https://github.com/gluck/il-repack).
+The version of FFXIVClientStructs included with Dalamud is updated with reasonable frequency, and has several patches to ensure that backwards compatibility with existing plugins is not broken. You can bundle your own version if you'd like for the latest findings, but be aware that this may make it difficult for you to maintain compatibility with new versions of the game and/or Dalamud.
 
 ---
 
@@ -144,20 +143,6 @@ When there's an API version bump, your plugin will no longer be loaded by Dalamu
 The best place to stay up to date with upcoming API changes is to frequent the [Discord server](https://goat.place/). Changes will be announced with notice so that you can adapt your plugin as appropriate.
 
 After submitting your first plugin to the repository, you will be given a Plugin Developer role so that you will be pinged whenever breaking changes occur.
-
----
-
-## Q: What is the .NET5 upgrade?
-
-Dalamud 6.0 has adopted .NET 5, the latest version of .NET, and has used this opportunity to improve the Dalamud API with version 4 of the API. All new plugins are on API 4 or above. If you are creating a new plugin, or have already updated your plugin, you can stop reading now.
-
-If you are porting an existing plugin, please consult the following links:
-
-- Roadmap: <https://github.com/goatcorp/Dalamud/discussions/479>
-- General Breaking Changes: <https://github.com/goatcorp/Dalamud/discussions/458>
-- Plugin API Redesign: <https://github.com/goatcorp/Dalamud/discussions/474>
-- New Features: <https://github.com/goatcorp/Dalamud/discussions/471>
-- Plugin Manifest Changes: <https://github.com/goatcorp/Dalamud/discussions/457>
 
 ---
 
