@@ -106,6 +106,7 @@ The following plugins are not currently available to install.
 _These plugins haven't been updated yet for the latest patch but are expected to return eventually. There are no estimates nor SLAs and are subject to the developer's time/interest/motivation._
 
 - FCNameColor
+- MOAction
 - NamePlateDebuffs
 
 #### Adoptable
