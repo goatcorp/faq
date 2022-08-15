@@ -115,6 +115,7 @@ _These plugins are abandoned by their original developer and haven't been adopte
 - [ACTEndcounter](https://github.com/Leftn/FFXIV-ACT-Endcounter)
 - [DalamudVox](https://github.com/goaaats/dalamudvox)
 - [MPTimer](https://github.com/talimity/mptimer)
+- [OceanFishin](https://github.com/markjsosnowski/OceanFishin)
 - [RemindMe](https://github.com/Caraxi/RemindMe)
 - [SideHUDPlugin](https://github.com/SheepGoMeh/SideHUD)
 - [TabTab](https://github.com/avafloww/TabTab)
