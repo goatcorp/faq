@@ -105,19 +105,74 @@ The following plugins are not currently available to install.
 
 _These plugins haven't been updated yet for the latest patch but are expected to return eventually. There are no estimates nor SLAs and are subject to the developer's time/interest/motivation._
 
-- MOAction
+- Adaptive Hud
+- Adventurer in Need
+- A Realm Recorded
+- AutoTranslateXIV
+- BatteryGauge
+- Better Housing
+- Character Data Sync
+- Chat Bubbles
+- Coin Pouch
+- Compass
+- Currency Alert
+- Daily Duty
+- Discord Rich Presence
+- Doman Mahjong Status
+- EasyEyes
+- Elden Ring
+- ezMiniCactpot
+- ezWondrousTails
+- Fader Plugin
+- Fancy Loading Screens
+- Fantasy Player
+- FCNameColor
+- FFXIV2MQTT
+- GentleTouch
+- High FPS Physics Fix
+- Inventory Search Bar
+- Item Search
+- Item Vendor Location
+- Job Gauge Adjustments
 - NamePlateDebuffs
+- NextUIPlugin
+- No Kill Plugin
+- OBSPlugin
+- Oh gee, CD
+- PartyIcons
+- Party List Layout
+- Pixel Perfect
+- Quest Map
+- Quote of the Lobby
+- Ready Check
+- ResetAudio
+- Reset enmity command
+- SkillDisplay
+- SkillSwap
+- Snooper
+- SoundSetter
+- TidyChat
+- Ultrawide Cutscenes
+- Used Name
+- Waitingway
+- Where am I again?
+- Window Title Changer
+- Wordsmith
+- Wotsit
+- XIVChat
+- XIVLogger
 
 #### Adoptable
 
 _These plugins are abandoned by their original developer and haven't been adopted. If you're interested in taking over development, please reach out to the developer and let us know on discord._
 
-- [ACTEndcounter](https://github.com/Leftn/FFXIV-ACT-Endcounter)
-- [DalamudVox](https://github.com/goaaats/dalamudvox)
+- [ACT Endcounter](https://github.com/Leftn/FFXIV-ACT-Endcounter)
+- [Hey Dalamud!](https://github.com/goaaats/dalamudvox)
+- [DeviceChangeFix](https://github.com/PGGB/DeviceChangeFix)
 - [MPTimer](https://github.com/talimity/mptimer)
-- [OceanFishin](https://github.com/markjsosnowski/OceanFishin)
+- [Ocean Fishin'](https://github.com/markjsosnowski/OceanFishin)
 - [RemindMe](https://github.com/Caraxi/RemindMe)
-- [SideHUDPlugin](https://github.com/SheepGoMeh/SideHUD)
+- [Side HUD](https://github.com/SheepGoMeh/SideHUD)
 - [TabTab](https://github.com/avafloww/TabTab)
 
 #### Discontinued
