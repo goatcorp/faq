@@ -135,7 +135,9 @@ _These plugins haven't been updated yet for the latest patch but are expected to
 - Item Vendor Location
 - Job Gauge Adjustments
 - NamePlateDebuffs
+- Namingway
 - NextUIPlugin
+- NoSoliciting
 - No Kill Plugin
 - OBSPlugin
 - Oh gee, CD
