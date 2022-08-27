@@ -56,9 +56,9 @@ To distribute a plugin, it needs to be packaged correctly. This can be done manu
 
 - <https://github.com/goatcorp/DalamudPackager>
 
-When your plugin is ready for testing/release, it should be PRed over to the DalamudPlugins repo. **Please place testing plugins in the testing folder**.
+When your plugin is ready for testing/release, it should be PRed over to the DalamudPlugins repo. **Please place testing plugins in the testing/live folder**.
 
-- <https://github.com/goatcorp/DalamudPlugins>
+- <https://github.com/goatcorp/DalamudPluginsD17>
 
 ### Dalamud
 

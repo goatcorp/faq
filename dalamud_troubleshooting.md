@@ -99,25 +99,19 @@ Plugins will list their command(s) from the plugin installer window (`/xlplugins
 
 ### Q: Why can't I find a plugin?
 
-The following plugins are not currently available to install.
-
-#### Outdated
-
-_These plugins haven't been updated yet for the latest patch but are expected to return eventually. There are no estimates nor SLAs and are subject to the developer's time/interest/motivation._
-
-- MOAction
-- NamePlateDebuffs
+The following plugins are not currently available to install. If you do not see a plugin here and have testing enabled - then it's expected to return eventually. There are no estimates nor SLAs, and are subject to the developer's time/interest/motivation.
 
 #### Adoptable
 
 _These plugins are abandoned by their original developer and haven't been adopted. If you're interested in taking over development, please reach out to the developer and let us know on discord._
 
-- [ACTEndcounter](https://github.com/Leftn/FFXIV-ACT-Endcounter)
-- [DalamudVox](https://github.com/goaaats/dalamudvox)
+- [ACT Endcounter](https://github.com/Leftn/FFXIV-ACT-Endcounter)
+- [Hey Dalamud!](https://github.com/goaaats/dalamudvox)
+- [DeviceChangeFix](https://github.com/PGGB/DeviceChangeFix)
 - [MPTimer](https://github.com/talimity/mptimer)
-- [OceanFishin](https://github.com/markjsosnowski/OceanFishin)
+- [Ocean Fishin'](https://github.com/markjsosnowski/OceanFishin)
 - [RemindMe](https://github.com/Caraxi/RemindMe)
-- [SideHUDPlugin](https://github.com/SheepGoMeh/SideHUD)
+- [Side HUD](https://github.com/SheepGoMeh/SideHUD)
 - [TabTab](https://github.com/avafloww/TabTab)
 
 #### Discontinued
