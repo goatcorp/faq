@@ -99,70 +99,7 @@ Plugins will list their command(s) from the plugin installer window (`/xlplugins
 
 ### Q: Why can't I find a plugin?
 
-The following plugins are not currently available to install.
-
-#### Outdated
-
-_These plugins haven't been updated yet for the latest patch but are expected to return eventually. There are no estimates nor SLAs and are subject to the developer's time/interest/motivation._
-
-- Adaptive Hud
-- Adventurer in Need
-- A Realm Recorded
-- AutoTranslateXIV
-- BatteryGauge
-- Better Housing
-- Character Data Sync
-- Chat Bubbles
-- Coin Pouch
-- Compass
-- Currency Alert
-- Daily Duty
-- Discord Rich Presence
-- Doman Mahjong Status
-- EasyEyes
-- Elden Ring
-- ezMiniCactpot
-- ezWondrousTails
-- Fader Plugin
-- Fancy Loading Screens
-- Fantasy Player
-- FCNameColor
-- FFXIV2MQTT
-- GentleTouch
-- High FPS Physics Fix
-- Inventory Search Bar
-- Item Search
-- Item Vendor Location
-- Job Gauge Adjustments
-- NamePlateDebuffs
-- Namingway
-- NextUIPlugin
-- NoSoliciting
-- No Kill Plugin
-- OBSPlugin
-- Oh gee, CD
-- PartyIcons
-- Party List Layout
-- Pixel Perfect
-- Quest Map
-- Quote of the Lobby
-- Ready Check
-- ResetAudio
-- Reset enmity command
-- SkillDisplay
-- SkillSwap
-- Snooper
-- SoundSetter
-- TidyChat
-- Ultrawide Cutscenes
-- Used Name
-- Waitingway
-- Where am I again?
-- Window Title Changer
-- Wordsmith
-- Wotsit
-- XIVChat
-- XIVLogger
+The following plugins are not currently available to install. If you do not see a plugin here and have testing enabled - then it's expected to return eventually. There are no estimates nor SLAs, and are subject to the developer's time/interest/motivation.
 
 #### Adoptable
 
