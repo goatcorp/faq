@@ -184,22 +184,32 @@ Once you've made your new XIVLauncher-based prefix, you can copy files from your
 #### Copy a FFXIV Install from one prefix to another (or move/symlink as desired)
 
 - Copy from: `~/Games/<old prefix>/drive_c/Program Files (x86)/SquareEnix/FINAL FANTASY XIV - A Realm Reborn`
-- Copy to: `~/Games/<new prefix>/drive_c/Program Files (x86)/SquareEnix/FINAL FANTASY XIV - A Realm Reborn`
+- Copy to :
+  - (Lutris) `~/Games/<new prefix>/drive_c/Program Files (x86)/SquareEnix/FINAL FANTASY XIV - A Realm Reborn`
+  - (Proton) ``~/.steam/steam/steamapps/compatdata/39210/pfx/drive_c/Program Files (x86)/FINAL FANTASY XIV Online``
+  - (XLCore) `~/.xlcore/ffxiv`
 
 #### Copy your user/character settings
 
 - Copy from: `~/Games/<old prefix>/drive_c/users/<username>/My Documents/My Games/FINAL FANTASY XIV - A Realm Reborn`
 - Copy to:
-  - (Wine 5) `~/Games/<new prefix>/drive_c/users/<username>/My Documents/My Games/FINAL FANTASY XIV - A Realm Reborn`
-  - (Wine 6) `~/Games/<new prefix>/drive_c/users/<username>/Documents/My Games/FINAL FANTASY XIV - A Realm Reborn`
+  - (Lutris) `~/Games/<new prefix>/drive_c/users/<username>/Documents/My Games/FINAL FANTASY XIV - A Realm Reborn`
+  - (Proton) `~/.local/share/Steam/steamapps/compatdata/39210/pfx/drive_c/users/steamuser/My Documents/My Games/FINAL FANTASY XIV - A Realm Reborn`
+  - (XLCore) `~/.xlcore/ffxivConfig`
 
 #### Copy XIVLauncher config (please reinstall your plugins)
 
 - Copy from: `~/Games/<old prefix>/drive_c/users/<username>/Application Data/XIVLauncher/pluginConfigs`
 - Copy to:
-  - (Wine 5) `~/Games/<new prefix>/drive_c/users/<username>/Application Data/XIVLauncher/pluginConfigs`
-  - (Wine 6) `~/Games/<new prefix>/drive_c/users/<username>/AppData/Roaming/XIVLauncher/pluginConfigs`
+  - (Lutris) `~/Games/<new prefix>/drive_c/users/<username>/AppData/Roaming/XIVLauncher/pluginConfigs`
+  - (XLCore) `~/.xlcore/pluginConfigs`
 
+### Copy other files and programs in the Wine Prefix
+
+- Copy from: `~/Games/<old prefix>/drive_c`
+- Copy to:
+  - (Lutris) `~/Games/<new prefix>/drive_c`
+  - (XLCore) `~/.xlcore/wineprefix/drive_c`
 ---
 
 ### Q: How do I migrate FFXIV and/or XIVLauncher files from an old installation to a new one? \[Windows\]
