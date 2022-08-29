@@ -186,7 +186,7 @@ Once you've made your new XIVLauncher-based prefix, you can copy files from your
 - Copy from: `~/Games/<old prefix>/drive_c/Program Files (x86)/SquareEnix/FINAL FANTASY XIV - A Realm Reborn`
 - Copy to :
   - (Lutris) `~/Games/<new prefix>/drive_c/Program Files (x86)/SquareEnix/FINAL FANTASY XIV - A Realm Reborn`
-  - (Proton) ``~/.steam/steam/steamapps/compatdata/39210/pfx/drive_c/Program Files (x86)/FINAL FANTASY XIV Online``
+  - (Proton) `~/.steam/steam/steamapps/compatdata/39210/pfx/drive_c/Program Files (x86)/FINAL FANTASY XIV Online`
   - (XLCore) `~/.xlcore/ffxiv`
 
 #### Copy your user/character settings
