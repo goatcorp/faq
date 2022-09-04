@@ -6,6 +6,8 @@
 
 To use XIVLauncher, the FFXIV Free Trial or the full version of FFXIV has to be installed on your Steam Deck's **internal memory**. You don't need to start it at any point in time, or need to create a Steam account, it just has to be installed. If you don't own FFXIV on Steam, please install the Free Trial.
 
+To install the Trial, you will need to look for it in the Steam Store.  Depending on whether or not you have previously installed the Trial on this account, it may be hidden from search results. In this case, look for Demos within the Final Fantasy franchise in Desktop Mode, or [use this link to go to the Trial](https://store.steampowered.com/app/312060/FINAL_FANTASY_XIV_Online_Free_Trial/).
+
 This is needed for Gaming Mode to see the game window.
 
 ### Switch to Desktop Mode
