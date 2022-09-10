@@ -301,6 +301,8 @@ Please make exceptions (or whitelist) the following folders:
 
 Please also restart your computer afterwards.
 
+**NOTE**: Most programs will not let you use the shorthand for `%localappdata%` and `%appdata%`. You will need to use their full/real path (usually some form of `C:\Users\AppData` followed by `Local` or `Roaming`.
+
 #### Resetting Dalamud
 
 You may also need to reset Dalamud (the plugin system). To reset Dalamud, remove the `%AppData%\XIVLauncher\addon\Hooks` folder.
@@ -315,6 +317,8 @@ You should also try to whitelist the following files if possible:
   - NOTE: replace X.Y.Z with the latest version available. **This changes with every launcher update!**
 - `%AppData%\XIVLauncher\addon\Hooks\W.X.Y.Z\Dalamud.Injector.exe`
   - NOTE: replace W.X.Y.Z with the latest version available. **This changes with every Dalamud update!**
+- `%AppData%\XIVLauncher\addon\Hooks\W.X.Y.Z\DalamudCrashHandler.exe`
+  - NOTE: replace X.Y.Z with the latest version available. **This changes with every launcher update!**
 - `%AppData%\XIVLauncher\addon\Hooks\W.X.Y.Z\Dalamud.dll`
   - NOTE: replace W.X.Y.Z with the latest version available. **This changes with every Dalamud update!**
 - `%AppData%\XIVLauncher\runtime`
