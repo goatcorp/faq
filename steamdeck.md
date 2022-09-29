@@ -62,6 +62,8 @@ Try adding `PULSE_LATENCY_MSEC=60` to the beginning of the Launch Options in Ste
 
 Change the control layout for the game SteamOS thinks FFXIV is running as. For non-Steam service accounts, this means `FINAL FANTASY XIV Online Free Trial`.
 
+If that does not fix it, rename `~/.xlcore/ffxivConfig/FFXIV.cfg` to `FFXIV.cfg.bak` and run the game again from Gaming Mode. This will reset all Final Fantasy XIV System settings to default.
+
 ### Q: Final Fantasy XIV doesn't close properly / Steam constantly thinks Final Fantasy XIV is playing
 
 Make sure you set the Launch Options in the "Add a Non-Steam Game" step. Specifically the `--parent-expose-pids --parent-share-pids --parent-pid=1` arguments allow XIVLauncher to communicate with Steam to report the game closing.
