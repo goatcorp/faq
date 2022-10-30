@@ -177,12 +177,21 @@ When the game is updated, it is likely that your plugin will stop working and/or
 
 Dalamud plugin development, by its nature, interferes with the game's functioning and changes the experience as intended by Square Enix. This makes it very important to ensure that your plugin does not do anything that a human player could not do; Dalamud plugins should enhance the experience, not radically alter it.
 
-Please make sure that your plugin does not interact with the game servers in a way that is:
+Please make sure that, as much as possible:
 
-- automatic, as in polling data or making requests without direct interaction from the user
-- outside of specification, as in allowing the player to do submit things to the server that would not be possible by normal means
+- your plugin does not interact with the game servers in a way that is:
+    - automatic, as in polling data or making requests without direct interaction from the user
+    - outside of specification, as in allowing the player to do submit things to the server that would not be possible by normal means
+- your plugin does not augment, alter, or interfere with combat, unless it only provides information about your own party or alliance members that is otherwise available, but represents said information differently.
+    - Note that there are plugins on the repository that do not abide by this rule, but they have been grandfathered and similar plugins will not be allowed.
+- your plugin does not interfere with Square Enix's monetary interests (i.e. granting access to Mog Station items) 
+- your plugin does not provide parsing, raid logging, DPS meters, or similar (i.e. information beyond what is traditionally available to players)
+- your plugin does not have a hard dependency on any plugin that violates the Plugin Guidelines
 
-Plugins that violate this will not be accepted into the Dalamud plugin repository, and you will not receive support from the Dalamud community.
+If you are not sure about whether or not your plugin will be allowed, *please* contact us before you start work on it. 
+We don't want to have to turn you down after you've already done the work!
+
+Plugins that violate these rules will not be accepted into the Dalamud plugin repository, and you will not receive support from the Dalamud community.
 
 ---
 
