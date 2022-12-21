@@ -40,7 +40,7 @@ On the Desktop, tab `Return to Gaming Mode`.
 
 ### First time setup / Running the game
 
-Run XIVLauncher in Steam. Once XIVLauncher has opened, click the Gear icon in the bottom left to set game data path, OTP macro, etc. After changing settings, click the check mark. Input your username and password, click login, and let XIVLauncher install the game (if it is not already present in your game data path).
+Run XIVLauncher in Steam. Once XIVLauncher has opened, click the Gear icon in the bottom left if you need to set the game data path, OTP macro, etc. (Use the mount location above for the data path if you're installing to the MicroSD.) After changing settings, click the check mark. Input your username and password, click login, and let XIVLauncher install the game (if it is not already present in your game data path).
 
 When prompted, press the `Steam` button, select `FINAL FANTASY XIV Online` or `FINAL FANTASY XIV Online Free Trial` (the latter will appear for non-Steam service accounts). Final Fantasy XIV will appear on the screen after a few moments.
 
