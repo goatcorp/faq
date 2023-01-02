@@ -8,11 +8,11 @@
 [Are XIVLauncher, Dalamud, and Dalamud Plugins safe to use?](#q-are-xivlauncher-dalamud-and-dalamud-plugins-safe-to-use)\
 [How do I uninstall XIVLauncher?](#q-how-do-i-uninstall-xivlauncher)\
 [Will plugins/XIVLauncher work on patch day?](#q-will-pluginsxivlauncher-work-on-patch-day)\
-[Can I use XIVLauncher to log in early before a patch goes live?](#q-can-i-login-early-to-titlescreen-before-patch-live)\
+[Can I use XIVLauncher to log in early before a patch goes live?](#q-can-i-use-xivlauncher-to-log-in-early-before-a-patch-goes-live)\
 [Where can I find my FFXIV installation?](#q-where-can-i-find-my-ffxiv-installation)\
 [How do I migrate FFXIV and/or XIVLauncher files from an old Wine prefix to a new one? \[Linux\]](#q-how-do-i-migrate-ffxiv-andor-xivlauncher-files-from-an-old-wine-prefix-to-a-new-one-linux)\
 [How do I migrate FFXIV and/or XIVLauncher files from an old installation to a new one? \[Windows\]](#q-how-do-i-migrate-ffxiv-andor-xivlauncher-files-from-an-old-installation-to-a-new-one-windows)\
-[What's the deal with Steam support?](#q-why-do-people-keep-asking-about-steam-so-much)
+[What's the deal with Steam support?](#q-whats-the-deal-with-steam-support)
 
 ### Troubleshooting
 
