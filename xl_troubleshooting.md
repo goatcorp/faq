@@ -8,11 +8,11 @@
 [Are XIVLauncher, Dalamud, and Dalamud Plugins safe to use?](#q-are-xivlauncher-dalamud-and-dalamud-plugins-safe-to-use)\
 [How do I uninstall XIVLauncher?](#q-how-do-i-uninstall-xivlauncher)\
 [Will plugins/XIVLauncher work on patch day?](#q-will-pluginsxivlauncher-work-on-patch-day)\
-[CAN I LOGIN EARLY TO TITLESCREEN BEFORE PATCH LIVE????](#q-can-i-login-early-to-titlescreen-before-patch-live)\
+[Can I use XIVLauncher to log in early before a patch goes live?](#q-can-i-login-early-to-titlescreen-before-patch-live)\
 [Where can I find my FFXIV installation?](#q-where-can-i-find-my-ffxiv-installation)\
 [How do I migrate FFXIV and/or XIVLauncher files from an old Wine prefix to a new one? \[Linux\]](#q-how-do-i-migrate-ffxiv-andor-xivlauncher-files-from-an-old-wine-prefix-to-a-new-one-linux)\
 [How do I migrate FFXIV and/or XIVLauncher files from an old installation to a new one? \[Windows\]](#q-how-do-i-migrate-ffxiv-andor-xivlauncher-files-from-an-old-installation-to-a-new-one-windows)\
-[Why do people keep asking about Steam so much?](#q-why-do-people-keep-asking-about-steam-so-much)
+[What's the deal with Steam support?](#q-why-do-people-keep-asking-about-steam-so-much)
 
 ### Troubleshooting
 
@@ -141,11 +141,11 @@ Plugins:
 
 ---
 
-### Q: CAN I LOGIN EARLY TO TITLESCREEN BEFORE PATCH LIVE????
+### Q: Can I use XIVLauncher to log in early before a patch goes live?
 
-In theory, yes. But you'll probably have expired authorization and have to login again anyways.
+No.
 
-Like every patch maintenance, the lobby server will likely be taken offline as usual. Even assuming you get the patch downloaded and applied mid-maintenance, your authorization will almost assuredly be expired before things are back up.  **Especially for housing patches as SE never ends those early.**
+Like every patch maintenance, the lobby server will likely be taken offline as usual. Even assuming you get the patch downloaded and applied mid-maintenance, your authorization will almost assuredly be expired before things are back up.
 
 You can make use of XL's "wait for maintenance to be over" features to sit and check for boot patches (no login required) and then prompt you to login for game patches as soon as they are generally available.
 
@@ -227,13 +227,13 @@ For the most part, FFXIV is portable. You just need to make sure you've installe
 
 ---
 
-### Q: Why do people keep asking about Steam so much?
+### Q: What's the deal with Steam support?
 
 People who bought FFXIV on Steam are required to link their Steam account to their Square Enix account in the official launcher. We have no way around this, and because of this, you are required to have Steam open if you have a Steam service account.
 
 Your Steam installation also needs to be signed into the correct account.
 
-If you want the Steam overlay on a non-Steam service account, you need to add XIVLauncher as a non-Steam game through Steam.
+If you want the Steam overlay on a non-Steam service account, you need to add XIVLauncher as a non-Steam game through Steam. If you want Steam to count hours for FFXIV, you can right-click it in your library, choose `Properties` and set `Launch Options` to `C:\Users\**YOUR USERNAME HERE**\AppData\Local\XIVLauncher\XIVLauncher.exe %command%`. 
 
 ---
 
