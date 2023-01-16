@@ -99,58 +99,7 @@ Plugins will list their command(s) from the plugin installer window (`/xlplugins
 
 ### Q: Why can't I find a plugin?
 
-The following plugins are not currently available to install. If you do not see a plugin here and have testing enabled - then it's expected to return eventually. There are no estimates nor SLAs, and are subject to the developer's time/interest/motivation.
-
-#### Adoptable
-
-_These plugins are abandoned by their original developer and haven't been adopted. If you're interested in taking over development, please reach out to the developer and let us know on discord._
-
-- [ACT Endcounter](https://github.com/Leftn/FFXIV-ACT-Endcounter)
-- [Blue Mage Helper](https://github.com/markjsosnowski/BlueMageHelper)
-- [Chat Emote Color](https://github.com/chrisk699/ffxiv-chatemotecolor-plugin)
-- [Chat Translator](https://github.com/Haplo064/ChatTranslator)
-- [DeviceChangeFix](https://github.com/PGGB/DeviceChangeFix)
-- [Doman Mahjong Status](https://github.com/iamevn/DomanMahjongStatus)
-- [Elden Ring](https://github.com/Roselyyn/EldenRingDalamud)
-- [Fantasy Player](https://github.com/Dormanil/FantasyPlayer)
-- [Hey Dalamud!](https://github.com/goaaats/dalamudvox)
-- [Hide Padlock](https://github.com/Fr4nsson/MyDalamudPlugins/tree/main/src/HidePadlock)
-- [Job Gauge Adjustments](https://github.com/SupineSnail/SupineSnail.JobGaugeAdjustments)
-- [MPTimer](https://github.com/talimity/mptimer)
-- [Mount Collector](https://github.com/Samuelkaa/MountCollectioner)
-- [Mouse Target Tooltip](https://github.com/Arrenton/MouseTargetTooltip)
-- [Ocean Fishin'](https://github.com/markjsosnowski/OceanFishin)
-- [Oh gee, CD](https://github.com/rootdarkarchon/OhGeeCD)
-- [Quote Of The Lobby](https://github.com/Soreepeong/QuoteOfTheLobby)
-- [RemindMe](https://github.com/Caraxi/RemindMe)
-- [Reset Audio](https://github.com/Soreepeong/FFXIV-ResetAudio)
-- [Reset Enmity Command](https://github.com/akira0245/Reset-dummy-enmity-command)
-- [Side HUD](https://github.com/SheepGoMeh/SideHUD)
-- [Simple Compare](https://github.com/Rennerdo30/ffxiv-simplecompare)
-- [Size Matters](https://github.com/joshua-software-dev/SizeMattersFishing)
-- [TabTab](https://github.com/avafloww/TabTab)
-
-#### Discontinued
-
-_These plugins have been discontinued due to our plugin rules or the developer's discretion. They won't be coming back._
-
-- AutoVisor - _Removed due to automation rule._
-- OopsAllLalafells - _Removed by developer's choice._
-
-#### Obsolete
-
-_These plugins are now obsolete and no longer needed. This can be due to new features added to the game or by being replaced by another plugin. They won't be coming back._
-
-- AccurateCountDown - _Replaced by EngageTimer_
-- BatteryGauge - _Replaced by SimpleTweaks (eventually)_
-- BrowserHost.Plugin - _Replaced by Browsingway_
-- CharSyncPlugin - _Use Character Data Sync_
-- ChatExtender - _Split into Chat Bubbles, Chat Translator, and XIVLogger_
-- GoodMemory - _Now a vanilla feature (mostly)_
-- JobIcons - _Replaced by PartyIcons_
-- SlideCast - _Replaced by SimpleTweaks_
-- VoidList - _Replaced by Visibility_
-- WheresWOLdo - _Use "Where am I again?" as this will be retired soon_
+Plugins often have to be updated for new patches. Please be patient if it's only been a few days or weeks - the plugin will often return. There are no estimates nor SLAs, and are subject to the developer's time/interest/motivation. You can view this [site](https://tommadness.github.io/Plugin-Browser/) to see which plugins are currently available.
 
 ---
 
