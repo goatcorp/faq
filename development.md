@@ -17,6 +17,10 @@
 - [How do I fix `Nothing inherits from IDalamudPlugin`?](#q-how-do-i-fix-nothing-inherits-from-idalamudplugin)
 - [What happens when the game is updated?](#q-what-happens-when-the-game-is-updated)
 
+### Adoption
+- [What happens if I don't want to work on my plugin anymore?](#q-what-happens-if-i-dont-want-to-work-on-my-plugin-anymore)
+- [What happens if I stop updating my plugin?](#q-what-happens-if-i-stop-updating-my-plugin)
+
 ### Restrictions
 
 - [What am I allowed to do in my plugin?](#q-what-am-i-allowed-to-do-in-my-plugin)
@@ -170,6 +174,35 @@ When the game is updated, it is likely that your plugin will stop working and/or
 - Wait for Dalamud to update to accommodate the new game version.
 - Update your plugin to ensure it's using the latest API version and still works with the game. Ensure that any non-Dalamud interactions with the game (e.g. direct interop, etc) have been updated.
 - Repackage and reupload your plugin.
+
+---
+
+## Q: What happens if I don't want to work on my plugin anymore?
+
+Are you OK with another developer taking over the plugin? If so, inform the community in discord (#plugin-dev) that the plugin is up for adoption. This will allow an interested developer to take over.  
+
+Is there already a specific developer that wants to take over the plugin? If so, let the mods know in discord that they may submit PRs.
+
+Do you wish to discontinue the plugin and block other developers from adopting it? If so, let the mods know in discord and provide your rationale. The requests are evaluated on a case-by-case basis.
+
+---
+
+## Q: What happens if I stop updating my plugin?
+
+If your plugin has fallen behind the current API level for over three months... other developers may adopt your plugin if they make a reasonable effort to reach you. If they are unable to reach you, they may adopt the plugin and take over development.
+
+If your plugin has fallen behind the current API level for over six months... other developers may adopt your plugin without your permission.
+
+---
+
+## Q: How do I adopt an existing plugin?
+
+You may adopt a plugin if you meet one of the following criteria:
+- Consent of the current maintainer.
+- The plugin has fallen behind the current API level for over three months. You have made reasonable efforts to reach the original developer.
+- The plugin has fallen behind the current API level for over six months.
+
+Simply inform the community in discord (#plugin-dev) and submit a PR to add yourself as an owner and update the repo url.
 
 ---
 
