@@ -20,6 +20,7 @@
 ### Adoption
 - [What happens if I don't want to work on my plugin anymore?](#q-what-happens-if-i-dont-want-to-work-on-my-plugin-anymore)
 - [What happens if I stop updating my plugin?](#q-what-happens-if-i-stop-updating-my-plugin)
+- [How do I adopt an existing plugin?](#q-how-do-i-adopt-an-existing-plugin)
 
 ### Restrictions
 
