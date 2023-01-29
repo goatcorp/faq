@@ -1,5 +1,7 @@
 # XIVLauncher Security Specifics
 
+---
+
 Here are some additional details about XIVLauncher itself.
 
 1. XIVLauncher is open source. You can audit the code in the main [XIVLauncher GitHub Repo](https://github.com/goatcorp/FFXIVQuickLauncher/).
@@ -40,3 +42,6 @@ You can find the source code for our additional web services here: <https://gith
 1. `kamori.goats.dev` - this is a private VPS behind Cloudflare, run by the maintainer of XIVLauncher, to proxy and cache some common files that XIVLauncher and Dalamud need to check their version. It's being used to reduce the number of network connections to GitHub so that users do not need to worry about hitting rate limits and having bad connections/being blocked by their countries' firewall, which then directs traffic to GitHub as needed. The VPS uses Cloudflare to cache the data in turn and is only accessible via VPN and a hardware key.
 2. `github.com`, `raw.githubusercontent.com`, and `goatcorp.github.io` - It's GitHub. You're on it right now!
 3. `is.xivup.com` - basic community site to check for server status.
+
+<hr>
+<a href="{{ site.github.baseurl }}/">Return to the main FAQ</a>

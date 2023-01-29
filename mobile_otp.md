@@ -2,6 +2,8 @@
 
 You can use an app together with XIVLauncher to automatically log yourself in without needing to type the OTP code manually. The app will send the code over your local network to XIVLauncher, which will use it to log you in.
 
+---
+
 ## Setup
 
 ### Installation
@@ -145,6 +147,8 @@ Update the macro as such:
 1. Start XIVLauncher on your PC and start the login process, either by clicking login or by autologin.
 2. Tap the home screen shortcut you made for the macro
 3. Wait for "Square Enix Software Token" app to automatically open and for the macro to be sent
+
+---
 
 [Return to the top](#setup)\
 <a href="{{ site.github.baseurl }}/">Return to the main FAQ</a>

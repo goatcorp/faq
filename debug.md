@@ -1,5 +1,7 @@
 # Using Visual Studio debugger to figure out game crash reason
 
+---
+
 ## Installing Visual Studio
 
 First of all, you need to install Visual Studio. In this guide I will be using Visual Studio 2022, however 2019 will work as well.
@@ -69,6 +71,8 @@ You will need to include following things into your report:
 ## Exiting debugger
 
 To detach a debugger, navigate to "Debug - Stop debugging".
+
+---
 
 [Return to the top](#Installing Visual Studio)\
 <a href="{{ site.github.baseurl }}/">Return to the main FAQ</a>

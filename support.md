@@ -19,3 +19,7 @@ If you want to directly support us, we would be very happy if you could star [ou
 ### Donations
 
 Individual developers often have their own donation links - these are typically linked within their plugins or on their GitHub profiles. Feel free to browse around - every one of them will appreciate your support. If you can't find a way to donate, the developer likely does not take direct donations.
+
+---
+
+<a href="{{ site.github.baseurl }}/">Return to the main FAQ</a>

@@ -1,5 +1,7 @@
 # XIVLauncher Steam Deck Installation Guide
 
+---
+
 ## Installation
 
 ### Install the Steam version of FFXIV on your Steam Deck
@@ -44,19 +46,29 @@ Run XIVLauncher in Steam. Once XIVLauncher has opened, click the Gear icon in th
 
 When prompted, press the `Steam` button, select `FINAL FANTASY XIV Online` or `FINAL FANTASY XIV Online Free Trial` (the latter will appear for non-Steam service accounts). Final Fantasy XIV will appear on the screen after a few moments.
 
+---
+
 ## FREQUENTLY ASKED QUESTIONS
+
+---
 
 ### Q: Where are my configuration files kept?
 
 Configuration files are saved to `~/.xlcore`.
 
+---
+
 ### Q: The game is disappearing randomly and won't resume after sleep mode
 
 Please make sure that FFXIV or the FFXIV Free Trial from the Steam Store is installed on your Steam Deck's **internal memory**.
 
+---
+
 ### Q: My audio is crackling/distorted
 
 Try adding `PULSE_LATENCY_MSEC=60` to the beginning of the Launch Options in Steam.
+
+---
 
 ### Q: I can't control my game
 
@@ -64,17 +76,25 @@ Change the control layout for the game SteamOS thinks FFXIV is running as. For n
 
 If that does not fix it, rename `~/.xlcore/ffxivConfig/FFXIV.cfg` to `FFXIV.cfg.bak` and run the game again from Gaming Mode. This will reset all Final Fantasy XIV System settings to default.
 
+---
+
 ### Q: Final Fantasy XIV doesn't close properly / Steam constantly thinks Final Fantasy XIV is playing
 
 Make sure you set the Launch Options in the "Add a Non-Steam Game" step. Specifically the `--parent-expose-pids --parent-share-pids --parent-pid=1` arguments allow XIVLauncher to communicate with Steam to report the game closing.
+
+---
 
 ### Q: XIVLauncher immediately closes when trying to run it through Steam
 
 Do not set a Compatibility mode for XIVLauncher in Steam. XIVLauncher is a native Steam application that does not need Proton to run.
 
+---
+
 ### Q: I can't enter my username/password
 
 Due to a limitation of Steam's text input API, please use the Steam Deck's Gaming Mode to finish setup.
+
+---
 
 [Return to the top](#installation)\
 <a href="{{ site.github.baseurl }}/">Return to the main FAQ</a>

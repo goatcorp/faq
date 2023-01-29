@@ -12,3 +12,7 @@ These rules apply to members with support roles, but also to other members that 
 Regarding third-party plugins:
 * Please politely point users to our reworked rules in #welcome.
 * As an exception to the rules, feel free to link users to Penumbra's discord server if they ask about support for it.
+
+---
+
+<a href="{{ site.github.baseurl }}/">Return to the main FAQ</a>
