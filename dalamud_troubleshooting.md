@@ -10,6 +10,7 @@
 - [How do I turn Dalamud Staging on or off?](#q-how-do-i-turn-dalamud-staging-on-or-off)
 - [How do I reset dalamud/plugin window locations?](#q-how-do-i-reset-dalamudplugin-window-locations)
 - [How do I manually delete plugins?](#q-how-do-i-manually-delete-plugins)
+- [Why can't I find a plugin?](#q-why-cant-i-find-a-plugin)
 
 ### Troubleshooting
 
@@ -96,6 +97,12 @@ Plugins will list their command(s) from the plugin installer window (`/xlplugins
 
 ---
 
+### Q: Why can't I find a plugin?
+
+Plugins often have to be updated for new patches. Please be patient if it's only been a few days or weeks - the plugin will often return. There are no estimates nor SLAs, and are subject to the developer's time/interest/motivation. You can view this [site](https://tommadness.github.io/Plugin-Browser/) to see which plugins are currently available.
+
+---
+
 ### Q: I get an error message when trying to install/update/disable a plugin
 
 Please give us more information so we can help troubleshoot why this is happening to you.
@@ -163,4 +170,4 @@ Want to add a new FAQ entry? Please use the template below and PR to the main [F
 Then add it to the Table of Contents using `- [Name / Title here](#anchor here)`.
 
 [Return to the top](#table-of-contents)\
-[Return to the main FAQ](https://goatcorp.github.io/faq)
+<a href="{{ site.github.baseurl }}/">Return to the main FAQ</a>

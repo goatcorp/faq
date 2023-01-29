@@ -69,3 +69,6 @@ You will need to include following things into your report:
 ## Exiting debugger
 
 To detach a debugger, navigate to "Debug - Stop debugging".
+
+[Return to the top](#Installing Visual Studio)\
+<a href="{{ site.github.baseurl }}/">Return to the main FAQ</a>

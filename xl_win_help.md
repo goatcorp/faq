@@ -6,18 +6,18 @@
 
 - [How do I disable autologin?](#q-how-do-i-disable-autologin)
 - [Are XIVLauncher, Dalamud, and Dalamud Plugins safe to use?](#q-are-xivlauncher-dalamud-and-dalamud-plugins-safe-to-use)
+- [How do I uninstall XIVLauncher?](#q-how-do-i-uninstall-xivlauncher)
+- [Will plugins/XIVLauncher work on patch day?](#q-will-pluginsxivlauncher-work-on-patch-day)
+- [Can I use XIVLauncher to log in early before a patch goes live?](#q-can-i-login-early-to-titlescreen-before-patch-live)
 - [Where can I find my FFXIV installation?](#q-where-can-i-find-my-ffxiv-installation)
 - [Can I repair my FFXIV installation?](#q-can-i-repair-my-ffxiv-installation)
-- [How do I uninstall XIVLauncher?](#q-how-do-i-uninstall-xivlauncher)
 - [How do I migrate FFXIV and/or XIVLauncher files from an old installation to a new one?](#q-how-do-i-migrate-ffxiv-andor-xivlauncher-files-from-an-old-installation-to-a-new-one)
-- [Will plugins/XIVLauncher work on patch day?](#q-will-pluginsxivlauncher-work-on-patch-day)
-- [CAN I LOGIN EARLY TO TITLESCREEN BEFORE PATCH LIVE????](#q-can-i-login-early-to-titlescreen-before-patch-live)
-- [Why do people keep asking about Steam so much?](#q-why-do-people-keep-asking-about-steam-so-much)
+- [What's the deal with Steam support?](#q-why-do-people-keep-asking-about-steam-so-much)
 
 ### Troubleshooting
 
 - [I get an error saying XIVLauncher failed to check for updates when I open the program](#q-i-get-an-error-saying-xivlauncher-failed-to-check-for-updates-when-i-open-the-program)
-- [How come the in-game addon \(Dalamud\) doesn't work and/or plugins don't display?](#q-how-come-the-in-game-addon-dalamud-doesnt-work-andor-plugins-dont-display)
+- [Why doesn't the in-game addon \(Dalamud\) doesn't work and/or plugins don't display?](#q-how-come-the-in-game-addon-dalamud-doesnt-work-andor-plugins-dont-display)
 - [How do I whitelist XIVLauncher and Dalamud so my antivirus leaves them alone?](#q-how-do-i-whitelist-xivlauncher-and-dalamud-so-my-antivirus-leaves-them-alone)
 - [XIVLauncher isn't saving my new password / how do I clear my saved password?](#q-xivlauncher-isnt-saving-my-new-password--how-do-i-clear-my-saved-password)
 - [I think XIVLauncher is giving me a Blue Screen of Death. What information would help narrow this down?](#q-i-think-xivlauncher-is-giving-me-a-blue-screen-of-death-what-information-would-help-narrow-this-down)
@@ -142,11 +142,11 @@ Plugins:
 
 ---
 
-### Q: CAN I LOGIN EARLY TO TITLESCREEN BEFORE PATCH LIVE????
+### Q: Can I use XIVLauncher to log in early before a patch goes live?
 
-In theory, yes. But you'll probably have expired authorization and have to login again anyways.
+No.
 
-Like every patch maintenance, the lobby server will likely be taken offline as usual. Even assuming you get the patch downloaded and applied mid-maintenance, your authorization will almost assuredly be expired before things are back up.  **Especially for housing patches as SE never ends those early.**
+Like every patch maintenance, the lobby server will likely be taken offline as usual. Even assuming you get the patch downloaded and applied mid-maintenance, your authorization will almost assuredly be expired before things are back up.
 
 You can make use of XL's "wait for maintenance to be over" features to sit and check for boot patches (no login required) and then prompt you to login for game patches as soon as they are generally available.
 
@@ -156,13 +156,13 @@ As with any patch, **in-game addons will be automatically disabled until Dalamud
 
 ---
 
-### Q: Why do people keep asking about Steam so much?
+### Q: What's the deal with Steam support?
 
 People who bought FFXIV on Steam are required to link their Steam account to their Square Enix account in the official launcher. We have no way around this, and because of this, you are required to have Steam open if you have a Steam service account.
 
 Your Steam installation also needs to be signed into the correct account.
 
-If you want the Steam overlay on a non-Steam service account, you need to add XIVLauncher as a non-Steam game through Steam.
+If you want the Steam overlay on a non-Steam service account, you need to add XIVLauncher as a non-Steam game through Steam. If you want Steam to count hours for FFXIV, you can right-click it in your library, choose `Properties` and set `Launch Options` to `C:\Users\**YOUR USERNAME HERE**\AppData\Local\XIVLauncher\XIVLauncher.exe %command%`. 
 
 ---
 
@@ -222,6 +222,8 @@ You should also try to whitelist the following files if possible:
   - NOTE: replace X.Y.Z with the latest version available. **This changes with every launcher update!**
 - `%AppData%\XIVLauncher\addon\Hooks\W.X.Y.Z\Dalamud.Injector.exe`
   - NOTE: replace W.X.Y.Z with the latest version available. **This changes with every Dalamud update!**
+- `%AppData%\XIVLauncher\addon\Hooks\W.X.Y.Z\DalamudCrashHandler.exe`
+  - NOTE: replace X.Y.Z with the latest version available. **This changes with every launcher update!**
 - `%AppData%\XIVLauncher\addon\Hooks\W.X.Y.Z\Dalamud.dll`
   - NOTE: replace W.X.Y.Z with the latest version available. **This changes with every Dalamud update!**
 - `%AppData%\XIVLauncher\runtime`
@@ -476,4 +478,4 @@ Want to add a new FAQ entry? Please use the template below and PR to the main [F
 Then add it to the Table of Contents using `- [Name / Title here](#anchor here)`.
 
 [Return to the top](#table-of-contents)\
-[Return to the main FAQ](https://goatcorp.github.io/faq)
+<a href="{{ site.github.baseurl }}/">Return to the main FAQ</a>

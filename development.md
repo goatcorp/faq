@@ -14,9 +14,13 @@
 
 - [What happens when there's an API version bump?](#q-what-happens-when-theres-an-api-version-bump)
 - [How can I stay up to date with API changes?](#q-how-can-i-stay-up-to-date-with-api-changes)
-- [What is the .NET5 upgrade?](#q-what-is-the-net5-upgrade)
 - [How do I fix `Nothing inherits from IDalamudPlugin`?](#q-how-do-i-fix-nothing-inherits-from-idalamudplugin)
 - [What happens when the game is updated?](#q-what-happens-when-the-game-is-updated)
+
+### Adoption
+- [What happens if I don't want to work on my plugin anymore?](#q-what-happens-if-i-dont-want-to-work-on-my-plugin-anymore)
+- [What happens if I stop updating my plugin?](#q-what-happens-if-i-stop-updating-my-plugin)
+- [How do I adopt an existing plugin?](#q-how-do-i-adopt-an-existing-plugin)
 
 ### Restrictions
 
@@ -57,9 +61,9 @@ To distribute a plugin, it needs to be packaged correctly. This can be done manu
 
 - <https://github.com/goatcorp/DalamudPackager>
 
-When your plugin is ready for testing/release, it should be PRed over to the DalamudPlugins repo. **Please place testing plugins in the testing folder**.
+When your plugin is ready for testing/release, it should be PRed over to the DalamudPlugins repo. **Please place testing plugins in the testing/live folder**.
 
-- <https://github.com/goatcorp/DalamudPlugins>
+- <https://github.com/goatcorp/DalamudPluginsD17>
 
 ### Dalamud
 
@@ -129,7 +133,7 @@ To use FFXIVClientStructs in your own code, you'll need to add a reference to it
 
 or through right-clicking the project in VS, going to Add, and then adding an Assembly Reference to the same path. Note that you will likely need to still open the `csproj` after doing this to ensure that the path uses `$(AppData)` and not the path specific to your system.
 
-However, the version of FFXIVClientStructs included with Dalamud is not updated very frequently, and may not feature the latest changes to the GitHub repository. To use the latest version, you'll need to pack it into your plugin using a tool like [ILRepack](https://github.com/gluck/il-repack).
+The version of FFXIVClientStructs included with Dalamud is updated with reasonable frequency, and has several patches to ensure that backwards compatibility with existing plugins is not broken. You can bundle your own version if you'd like for the latest findings, but be aware that this may make it difficult for you to maintain compatibility with new versions of the game and/or Dalamud.
 
 ---
 
@@ -144,20 +148,6 @@ When there's an API version bump, your plugin will no longer be loaded by Dalamu
 The best place to stay up to date with upcoming API changes is to frequent the [Discord server](https://goat.place/). Changes will be announced with notice so that you can adapt your plugin as appropriate.
 
 After submitting your first plugin to the repository, you will be given a Plugin Developer role so that you will be pinged whenever breaking changes occur.
-
----
-
-## Q: What is the .NET5 upgrade?
-
-Dalamud 6.0 has adopted .NET 5, the latest version of .NET, and has used this opportunity to improve the Dalamud API with version 4 of the API. All new plugins are on API 4 or above. If you are creating a new plugin, or have already updated your plugin, you can stop reading now.
-
-If you are porting an existing plugin, please consult the following links:
-
-- Roadmap: <https://github.com/goatcorp/Dalamud/discussions/479>
-- General Breaking Changes: <https://github.com/goatcorp/Dalamud/discussions/458>
-- Plugin API Redesign: <https://github.com/goatcorp/Dalamud/discussions/474>
-- New Features: <https://github.com/goatcorp/Dalamud/discussions/471>
-- Plugin Manifest Changes: <https://github.com/goatcorp/Dalamud/discussions/457>
 
 ---
 
@@ -188,16 +178,54 @@ When the game is updated, it is likely that your plugin will stop working and/or
 
 ---
 
+## Q: What happens if I don't want to work on my plugin anymore?
+
+Are you OK with another developer taking over the plugin? If so, inform the community in Discord (#plugin-dev) that the plugin is up for adoption. This will allow an interested developer to take over.  
+
+Is there already a specific developer that wants to take over the plugin? If so, let the mods know in Discord that they may submit PRs.
+
+Do you wish to discontinue the plugin and block other developers from adopting it? If so, let the mods know in Discord and provide your rationale. The requests are evaluated on a case-by-case basis.
+
+---
+
+## Q: What happens if I stop updating my plugin?
+
+If your plugin has fallen behind the current API level for over three months, other developers may adopt your plugin if they make a reasonable effort to reach you. If they are unable to reach you, they may adopt the plugin and take over development.
+
+If your plugin has fallen behind the current API level for over six months, other developers may adopt your plugin without your permission.
+
+---
+
+## Q: How do I adopt an existing plugin?
+
+You may adopt a plugin if you meet one of the following criteria:
+- Consent of the current maintainer.
+- The plugin has fallen behind the current API level for over three months. You have made reasonable efforts to reach the original developer.
+- The plugin has fallen behind the current API level for over six months.
+
+Simply inform the community in Discord (#plugin-dev) and submit a PR to add yourself as an owner and update the repo url.
+
+---
+
 ## Q: What am I allowed to do in my plugin?
 
 Dalamud plugin development, by its nature, interferes with the game's functioning and changes the experience as intended by Square Enix. This makes it very important to ensure that your plugin does not do anything that a human player could not do; Dalamud plugins should enhance the experience, not radically alter it.
 
-Please make sure that your plugin does not interact with the game servers in a way that is:
+Please make sure that, as much as possible:
 
-- automatic, as in polling data or making requests without direct interaction from the user
-- outside of specification, as in allowing the player to do submit things to the server that would not be possible by normal means
+- your plugin does not interact with the game servers in a way that is:
+    - automatic, as in polling data or making requests without direct interaction from the user
+    - outside of specification, as in allowing the player to do submit things to the server that would not be possible by normal means
+- your plugin does not augment, alter, or interfere with combat, unless it only provides information about your own party or alliance members that is otherwise available, but represents said information differently.
+    - Note that there are plugins on the repository that do not abide by this rule, but they have been grandfathered and similar plugins will not be allowed.
+- your plugin does not interfere with Square Enix's monetary interests (i.e. granting access to Mog Station items) 
+- your plugin does not provide parsing, raid logging, DPS meters, or similar (i.e. information beyond what is traditionally available to players)
+- your plugin does not have a hard dependency on any plugin that violates the Plugin Guidelines
 
-Plugins that violate this will not be accepted into the Dalamud plugin repository, and you will not receive support from the Dalamud community.
+If you are not sure about whether or not your plugin will be allowed, *please* contact us before you start work on it. 
+We don't want to have to turn you down after you've already done the work!
+
+Plugins that violate these rules will not be accepted into the Dalamud plugin repository, and you will not receive support from the Dalamud community.
 
 ---
 
@@ -404,4 +432,4 @@ Want to add a new FAQ entry? Please use the template below and PR to the main [F
 Then add it to the Table of Contents using `- [Name / Title here](#anchor here)`.
 
 [Return to the top](#table-of-contents)\
-[Return to the main FAQ](https://goatcorp.github.io/faq)
+<a href="{{ site.github.baseurl }}/">Return to the main FAQ</a>
