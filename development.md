@@ -180,19 +180,19 @@ When the game is updated, it is likely that your plugin will stop working and/or
 
 ## Q: What happens if I don't want to work on my plugin anymore?
 
-Are you OK with another developer taking over the plugin? If so, inform the community in discord (#plugin-dev) that the plugin is up for adoption. This will allow an interested developer to take over.  
+Are you OK with another developer taking over the plugin? If so, inform the community in Discord (#plugin-dev) that the plugin is up for adoption. This will allow an interested developer to take over.  
 
-Is there already a specific developer that wants to take over the plugin? If so, let the mods know in discord that they may submit PRs.
+Is there already a specific developer that wants to take over the plugin? If so, let the mods know in Discord that they may submit PRs.
 
-Do you wish to discontinue the plugin and block other developers from adopting it? If so, let the mods know in discord and provide your rationale. The requests are evaluated on a case-by-case basis.
+Do you wish to discontinue the plugin and block other developers from adopting it? If so, let the mods know in Discord and provide your rationale. The requests are evaluated on a case-by-case basis.
 
 ---
 
 ## Q: What happens if I stop updating my plugin?
 
-If your plugin has fallen behind the current API level for over three months... other developers may adopt your plugin if they make a reasonable effort to reach you. If they are unable to reach you, they may adopt the plugin and take over development.
+If your plugin has fallen behind the current API level for over three months, other developers may adopt your plugin if they make a reasonable effort to reach you. If they are unable to reach you, they may adopt the plugin and take over development.
 
-If your plugin has fallen behind the current API level for over six months... other developers may adopt your plugin without your permission.
+If your plugin has fallen behind the current API level for over six months, other developers may adopt your plugin without your permission.
 
 ---
 
@@ -203,7 +203,7 @@ You may adopt a plugin if you meet one of the following criteria:
 - The plugin has fallen behind the current API level for over three months. You have made reasonable efforts to reach the original developer.
 - The plugin has fallen behind the current API level for over six months.
 
-Simply inform the community in discord (#plugin-dev) and submit a PR to add yourself as an owner and update the repo url.
+Simply inform the community in Discord (#plugin-dev) and submit a PR to add yourself as an owner and update the repo url.
 
 ---
 
