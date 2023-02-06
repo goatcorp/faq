@@ -4,7 +4,7 @@ In this article, we want to talk a little bit about how we decide what plugins c
 ## The technical details
 At the start, we should go a little bit into how our submission process for plugins in the official repo works. This is a bit simplified, but it's the basis upon which the approval process is built on.
 
-* All plugins in the official repository are open source, and no closed source plugins are accepted(apart from one legacy exception). This means that their code can be inspected by anyone, should they wish so.
+* All plugins in the official repository are open source, and no closed source plugins are accepted(apart from one legacy exception). This means that their code can be inspected by anyone, should they wish to do so.
 * Plugin developers submit their plugin by submitting a "commit hash", which is a cryptographical hash that points to a **specific version of their source code**. They can't change their code anymore after we approve this hash without changing the hash, which will then force them to resubmit the plugin.[^1]
 * A cloud buildsystem then downloads that source code, builds the plugin, and outputs a "diff", which is a **list of all changes that were made** to the plugin. The buildsystem has no direct internet access, so plugin developers can't download additional code while the plugin is being built.
 
