@@ -26,6 +26,8 @@ The most important guidelines include...
     - Note that there are plugins on the repository that do not abide by this rule, but they have been grandfathered. We think that removing them would be stupid, but a lot of these plugins were accepted very early into Dalamud's life and we've learned a lot since then. They probably wouldn't be accepted if they were submitted nowadays.
 - that the plugin does not interfere with Square Enix's monetary interests (i.e. granting access to Mog Station items) 
 
+These guidelines exist because we want to improve the experience Square Enix provides - not harm it, or any other player playing the game. We think that they allow for a lot of freedom for plugin developers, while encouraging them to stay true to that intent. 
+
 Technical criteria include a thorough code review, that the plugin works and that it does not upload any personal data. All of this can take a while, which is why it's not uncommon for a new plugin to sit in the queue for more than a week - all of the team members are doing this in their free time, so they might not get to it before then.
 
 We also encourage all new plugins to go through the plugin testing track beforehand, which distributes the plugin to testing users before it goes out to everyone using Dalamud. This helps tracking down potential issues and bugs.
