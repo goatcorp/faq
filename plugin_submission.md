@@ -1,5 +1,5 @@
 # The plugin approval process
-In this article, we want to talk a little bit about how we decide what plugins can be merged into the official repo, and how we make sure that what goes in is safe for us and for you. It's important to know that none of what is described in this post applies to third-party repos - we can only do this for developers that officially submit their plugin.
+This article is about how it is decided what plugins can be merged into the official repository, and how we make sure that what goes in is safe for you and for us. It's important to know that none of what is described in this post applies to custom repositories - we can only do this for developers that officially submit their plugin.
 
 ## The technical details
 At the start, we should go a little bit into how our submission process for plugins in the official repo works. This is a bit simplified, but it's the basis upon which the approval process is built on.
@@ -8,7 +8,7 @@ At the start, we should go a little bit into how our submission process for plug
 * Plugin developers submit their plugin by submitting a "commit hash", which is a cryptographical hash that points to a **specific version of their source code**. They can't change their code anymore after we approve this hash without changing the hash, which will then force them to resubmit the plugin.[^1]
 * A cloud buildsystem then downloads that source code, builds the plugin, and outputs a "diff", which is a **list of all changes that were made** to the plugin. The buildsystem has no direct internet access, so plugin developers can't download additional code while the plugin is being built.
 
-All of this, combined, means that we can always be sure that the code that runs on users' PCs is the code we approved and that it doesn't touch anyone's actual hardware before we do so. We've built this system with convenience for developers and reviewers in mind, so it ideally doesn't put any burden on them - they just have to use some specific variables in their project configuration.
+All of this, combined, means that we can always be sure that the code that runs on users' PCs is the code we approved and that it doesn't touch anyone's actual hardware before we do so. This system was built with convenience for developers and reviewers in mind, so it ideally doesn't put any burden on them - they just have to use some specific variables in their project configuration.
 
 ## The Plugin Approval Team
 The plugin approval team is a subjectively chosen group of 6 volunteers that are technical, security conscious, are themselves plugin developers, think that they know how the Dalamud plugin ecosystem is supposed to work and agree on a few core points regarding what plugins should and shouldn't do.
@@ -39,7 +39,7 @@ Updates to plugins only need to be approved by a single team member, which helps
 <em>What a plugin approval team member sees when they are being called in to review a change to a plugin.</em>
 
 ## Caveat Emptor
-While this is all fine - and it has been working very well for us, without any incidents - all of this work is done by volunteers, and they might miss or overlook things. We can't and don't want to give you a 100% guarantee that things will always be fine, but we think that we can give you a pretty good assurance that they will be.
+While this is all fine - and it has been working pretty well for us, without any incidents - all of this work is done by volunteers, and they might miss or overlook things. We can't and don't want to give you a 100% guarantee that things will always be fine, but we think that we can give you a pretty good assurance that they will be.
 
 It's up to you to decide who you trust!
 
