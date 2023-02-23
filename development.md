@@ -27,6 +27,7 @@
 - [What am I allowed to do in my plugin?](#q-what-am-i-allowed-to-do-in-my-plugin)
 - [Why do you discourage certain types of plugins?](#q-why-do-you-discourage-certain-types-of-plugins)
 - [Are there any performance constraints to be aware of?](#q-are-there-any-performance-constraints-to-be-aware-of)
+- [How are plugins reviewed and approved?](#q-how-are-plugins-reviewed-and-approved)
 
 ### Development
 
@@ -115,7 +116,7 @@ Once you've done this, you can attach to the game with your debugger. In Visual 
 
 This functionality is only supported for debugging your plugins. You will not receive support if you use it for anything else.
 
-[Detailed instruction available here.](debug.md)
+[Detailed instructions are available here.](debug.md)
 
 ---
 
@@ -246,6 +247,12 @@ Plugins that violate these rules will not be accepted into the Dalamud plugin re
 ## Q: Are there any performance constraints to be aware of?
 
 You should generally aim to not impact game performance too much as that can degrade the experience for the player and cause other issues. A good place to start debugging performance issues is through the Plugin Statistics window, which can be found through Plugins > Open Plugin Stats in the dev menu (`/xldev`).
+
+---
+
+## Q: How are plugins reviewed and approved?
+
+[This post documents our plugin submission process](plugin_submission.md), and the stringent review that is applied to each new submission. Feel free to join the Discord and ask for more details if required.
 
 ---
 
