@@ -1,6 +1,6 @@
 # faq
 
-This is the FAQ for XIVLauncher/Dalamud.
+This is the FAQ for XIVLauncher/Dalamud. The published version can be found here: https://goatcorp.github.io/faq/
 
 ## Contributing
 
