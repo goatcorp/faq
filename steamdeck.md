@@ -28,6 +28,8 @@ Right click on XIVLauncher in Steam, select `Properties`, and replace the `Launc
 
 Please note that with this configuration, XIVLauncher will save your password to a file on your Steam Deck, as Valve does not ship a safer way to store passwords by default. If this is a problem for you, please leave out `XL_SECRET_PROVIDER=FILE %command% ` from the line above - XIVLauncher won't be able to save your password in that case.
 
+(For desktop Linux users with a sudden performance drop after some time in game, this may be caused by the Steam overlay. Try adding `LD_PRELOAD=""` at the start to disable it.)
+
 **Do not set a Compatibility mode for XIVLauncher.** XIVLauncher is a native Linux application. Setting Compatibility for it will break it.
 
 ### OPTIONAL: Allow external folder access to XIVLauncher
