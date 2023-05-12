@@ -401,6 +401,7 @@ If you're sure this isn't a firewall issue or a rate limit, here are some things
 
 - Reboot the computer
 - Reboot the network equipment (modem and router)
+- Ensure your hard disk is not full
 - Try different DNS
   - Google offers 8.8.8.8 and 8.8.4.4
   - CloudFlare offers 1.1.1.1 and 1.0.0.1
