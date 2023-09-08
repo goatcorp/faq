@@ -84,6 +84,7 @@ Next, please insert your YubiKey into your computer and pick **one** of the belo
 Paste or type in your `Authentication Key` from MogStation into the field that pops up, then press `Enter`.
 
 - Optionally, also toggle the `Require Touch?` checkbox if you'd like to have to touch your YubiKey before being logged in.
+- You also will have needed to have logged in using XIVLauncher at least once before. This will create a credential on your YubiKey using your `currently selected account` in XIVLauncher
 
 ![Setup YubiKey Prompt](images/2fa_otp_setup.png)
 
@@ -92,8 +93,11 @@ Paste or type in your `Authentication Key` from MogStation into the field that p
 **OPTION B:** Download and install the [Yubico Authenticator](https://www.yubico.com/products/yubico-authenticator/) application, created by the makers of YubiKey. Click the `Add account` button, then fill out the fields like so:
 
 - Issuer: XIVLauncher
-- Account Name: FFXIV
+- Account Name: FFXIV-yourusername
 - Secret Key: `Paste your Authentication Key here without the spaces`
+
+
+### Please ensure your username is in all lowercase and that it is the same username you use to login to MogStation
 
 Optionally enable `Require Touch`
 
