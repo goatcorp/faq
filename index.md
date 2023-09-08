@@ -6,6 +6,7 @@ Please select a category from below: <br> <br>
 <a href="{{ site.github.baseurl }}/dalamud_troubleshooting" class="btnm">Help for plugins</a>
 <a href="https://dalamud.dev" class="btnm">Help for plugin developers</a>
 <a href="{{ site.github.baseurl }}/mobile_otp" class="btnm">Authenticator App Guide</a>
+<a href="{{ site.github.baseurl }}/yubikey" class="btnm">YubiKey Authentication Guide</a>
 <a href="{{ site.github.baseurl }}/steamdeck" class="btnm">Steam Deck Setup Guide</a>
 
 </div>
