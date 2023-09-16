@@ -7,6 +7,7 @@
 - [How do I install/enable plugins?](#q-how-do-i-installenable-plugins)
 - [How do I enable plugin test builds?](#q-how-do-i-enable-plugin-test-builds)
 - [What is the command for \<insert plugin here\>?](#q-what-is-the-command-for-insert-plugin-here)
+- [How can I access Dalamud if I play with a controller?](#q-how-can-i-access-dalamud-if-i-play-with-a-controller)
 - [How do I turn Dalamud Staging on or off?](#q-how-do-i-turn-dalamud-staging-on-or-off)
 - [How do I reset dalamud/plugin window locations?](#q-how-do-i-reset-dalamudplugin-window-locations)
 - [How do I manually delete plugins?](#q-how-do-i-manually-delete-plugins)
@@ -48,6 +49,14 @@ For troubleshooting, please keep questions/comments/issues in the [plugin-testin
 ### Q: What is the command for \<insert plugin here\>?
 
 Plugins will list their command(s) from the plugin installer window (`/xlplugins`). The command `/xlhelp` will print all commands in your chat.
+
+---
+
+### Q: How can I access Dalamud if I play with a controller?
+
+You can toggle the controller mode with Left Bumper and clicking in Left Stick (L1 and L3) allowing you to navigate among the Dalamud UI.
+
+In this mode you can also open and close the Plugin Installer with Right Stick (R3).
 
 ---
 
