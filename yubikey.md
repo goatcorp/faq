@@ -96,7 +96,6 @@ Paste or type in your `Authentication Key` from MogStation into the field that p
 - Account Name: FFXIV-yourusername
 - Secret Key: `Paste your Authentication Key here without the spaces`
 
-
 ### Please ensure your username is in all lowercase and that it is the same username you use to login to MogStation
 
 Optionally enable `Require Touch`
@@ -113,9 +112,7 @@ Afterwards add your `Authentication Key` to a separate software authenticator li
 
 ---
 
-```text
-Again, I'd recommend always having a backup. In the event you lose your security key you'd want to have another way to get into your account(s), and the same goes for if you lost access to a software authenticator you'd want to probably have another way to get into your account. Do your research on the software authenticators you use and also on Yubico. Keep track of your emergency recovery password and be aware of the steps you'd need to take if the worst case were to happen and your account was compromised.
-```
+> Again, I'd recommend always having a backup. In the event you lose your security key you'd want to have another way to get into your account(s), and the same goes for if you lost access to a software authenticator you'd want to probably have another way to get into your account. Do your research on the software authenticators you use and also on Yubico. Keep track of your emergency recovery password and be aware of the steps you'd need to take if the worst case were to happen and your account was compromised.
 
 ### Step 4
 
@@ -147,9 +144,7 @@ If you do as this prompt says and touch your YubiKey, you should then be logged 
 
 ![YubiKey Timeout](images/2fa_otp_timeout.png)
 
-```text
-**NOTE:** If at any point you are presented with an error message stating that your one-time password (OTP) is invalid, please double check your `Authentication Key` and retry this tutorial starting from `Step 3`.
-```
+> **NOTE:** If at any point you are presented with an error message stating that your one-time password (OTP) is invalid, please double check your `Authentication Key` and retry this tutorial starting from `Step 3`.
 
 Have fun in Eorzea!
 
