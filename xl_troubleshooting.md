@@ -372,8 +372,9 @@ If unsure about some of those details or if the Windows Event Viewer doesn't tel
 ---
 
 ### Q: How can I fix crashes on startup?
+If you are on Windows, please try to install the VC Redist from Microsoft at <https://github.com/abbodi1406/vcredist/releases/latest>, as well as the .NET 4.8 Runtime <https://dotnet.microsoft.com/download/dotnet-framework/thank-you/net48-web-installer>.
 
-Please try to install the VC Redist from Microsoft at <https://github.com/abbodi1406/vcredist/releases/latest>, as well as the .NET 4.8 Runtime <https://dotnet.microsoft.com/download/dotnet-framework/thank-you/net48-web-installer>.
+This does not apply to XIVLauncher.Core on Linux, as .Net Framework is not used and Wine takes care of providing Visual C++ compatibility.
 
 If you are still facing issues, please join our [Discord server](https://goat.place/).
 
