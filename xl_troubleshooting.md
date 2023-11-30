@@ -29,6 +29,7 @@
 [Can I repair my FFXIV installation?](#q-can-i-repair-my-ffxiv-installation)\
 [How do I fix a version check error when trying to update FFXIV?](#q-how-do-i-fix-a-version-check-error-when-trying-to-update-ffxiv)\
 [I updated my game with TexTools mods installed. How do I fix crashes?](#q-i-updated-my-game-with-textools-mods-installed-how-do-i-fix-crashes)
+[You need to install an app for this task - Search for app in the Store?](#q-you-need-to-install-an-app-for-this-task)
 
 ### Misc
 
@@ -478,6 +479,25 @@ Yes! Right click `Log in` in XIVLauncher and select `Repair game files`.
 You'll know if you're affected by this because the official launcher will crash the game too. This issue is not caused by XIVLauncher.
 
 Back up your mod files and [follow this FAQ entry to repair your game](#q-can-i-repair-my-ffxiv-installation). Please note your mods will be uninstalled.
+
+---
+
+### Q: You need to install an app for this task
+
+This is due to a feature originally introduced in Windows 10, but that only started being enabled more often in Windows 11 fresh installs (or OEM machines that came with Windows installed).
+
+The original post we found related to this can be found here:
+https://superuser.com/questions/1525779/search-for-app-in-the-store-prompt-when-opening-exe-files
+
+There are two settings you'll want to check in **Windows Security**
+
+First, go to **App & browser control** and click on **Smart App Control Settings** -> Turn it off (this is off by default on machines upgraded to Windows 10/11 and is more of an overprotective feature). Afterward, please restart your computer and try again.
+![image](https://github.com/goatcorp/FFXIVQuickLauncher/assets/10376708/3fd22f63-a4e0-4b28-b054-a4ffbd4f7644)
+
+If the issue persists, then we'll temporarily turn off Windows Smart Screen (you'll want to turn this back on later though).
+
+In **Windows Security**, go back **App & browser control** and click on **Reputation-based protection** -> Turn off "Check apps and files"
+![image](https://github.com/goatcorp/FFXIVQuickLauncher/assets/10376708/a702e47d-c705-44a7-a99b-28bf2073e61b)
 
 ---
 
