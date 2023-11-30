@@ -28,7 +28,7 @@
 [How to set an injection delay in RivaTuner/RTSS](#q-how-to-set-an-injection-delay-in-rivatunerrtss)\
 [Can I repair my FFXIV installation?](#q-can-i-repair-my-ffxiv-installation)\
 [How do I fix a version check error when trying to update FFXIV?](#q-how-do-i-fix-a-version-check-error-when-trying-to-update-ffxiv)\
-[I updated my game with TexTools mods installed. How do I fix crashes?](#q-i-updated-my-game-with-textools-mods-installed-how-do-i-fix-crashes)
+[I updated my game with TexTools mods installed. How do I fix crashes?](#q-i-updated-my-game-with-textools-mods-installed-how-do-i-fix-crashes)\
 [You need to install an app for this task - Search for app in the Store?](#q-you-need-to-install-an-app-for-this-task)
 
 ### Misc
