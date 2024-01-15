@@ -18,6 +18,8 @@ Press and hold the Power Button. Select `Switch to Desktop Mode`
 
 Open the `Discover Store`, search for `XIVLauncher`, and press Install.
 
+**For Any other linux distro** The `Discover Store` is a GUI for flatpak. This is the package: https://flathub.org/apps/dev.goats.xivlauncher
+
 **OPTIONAL:** If you would like to install Final Fantasy XIV to your Deck's MicroSD card or any folder outside of the default (`~/.xlcore/ffxiv`), you will also need `Flatseal` from the Discover Store.
 
 ### Add a Non-Steam Game
