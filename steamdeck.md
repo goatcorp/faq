@@ -26,7 +26,7 @@ Other desktop environments may or may not have XIVLauncher available in their ow
 
 There are several **unofficial** packages for XIVLauncher on the Arch User Repository (AUR). These packages are an alternative method of installing XIVLauncher for Arch Linux and its derivative distributions (Manjaro, Endeavour OS, etc.) ONLY.
 
-Currently, the `xivlauncher`, `xivlauncher-bin` and `xivlauncher-git` AUR packages are available. However, **AUR packages are community builds and only the Flatpak release of XIVLauncher is officially supported.** 
+Currently, the `xivlauncher`, `xivlauncher-bin` and `xivlauncher-git` AUR packages are available. However, **AUR packages are community builds and only the Flatpak release of XIVLauncher is officially supported.**
 
 For reference, `xivlauncher` downloads the source code and builds the `XIVLauncher` package on your system, `xivlauncher-bin` provides a prebuilt binary, and `xivlauncher-git` provides testing builds. We cannot guarantee the functionality or security of AUR packages.
 
@@ -52,7 +52,7 @@ Press and hold the Power Button. Select `Switch to Desktop Mode`.
 
 Open the `Discover Store`, search for `XIVLauncher`, and press Install.
 
-**For Any other linux distro,** the `Discover Store` is a GUI for flatpak. This is the package: https://flathub.org/apps/dev.goats.xivlauncher
+**For Any other linux distro,** the `Discover Store` is a GUI for flatpak. This is the package: <https://flathub.org/apps/dev.goats.xivlauncher>
 
 **OPTIONAL:** If you would like to install Final Fantasy XIV to your Deck's MicroSD card or any folder outside of the default (`~/.xlcore/ffxiv`), you will also need `Flatseal` from the Discover Store. See documentation on enabling external folder access below.
 
@@ -64,7 +64,7 @@ Right click on XIVLauncher in Steam, select `Properties`, and replace the `Launc
 
 **NOTE:** Recent versions of Flatpak have seemingly deprecated the `--parent-pid=1` option. If you encounter problems, remove `--parent-expode-pids --parent-share-pids --parent-pid=1` from the launch options listed above.
 
-**NOTE:** With this configuration, XIVLauncher will save your password to a file on your Steam Deck, as Valve does not ship a safer way to store passwords by default. If this is a problem for you, please leave out `XL_SECRET_PROVIDER=FILE %command% ` from the line above - XIVLauncher won't be able to save your password in that case.
+**NOTE:** With this configuration, XIVLauncher will save your password to a file on your Steam Deck, as Valve does not ship a safer way to store passwords by default. If this is a problem for you, please leave out `XL_SECRET_PROVIDER=FILE %command%` from the line above - XIVLauncher won't be able to save your password in that case.
 
 (For desktop Linux users with a sudden performance drop after some time in game, this may be caused by the Steam overlay. Try adding `LD_PRELOAD=""` at the start to disable it.)
 
@@ -72,7 +72,7 @@ Right click on XIVLauncher in Steam, select `Properties`, and replace the `Launc
 
 ### OPTIONAL: Allow external folder access to XIVLauncher
 
-Run Flatseal. On the left, scroll down to XIVLauncher. In the main part of the window, scroll down to `Filesystem`. Click the Folder icon next to Other files. Type the location where you would like to install Final Fantasy XIV. 
+Run Flatseal. On the left, scroll down to XIVLauncher. In the main part of the window, scroll down to `Filesystem`. Click the Folder icon next to Other files. Type the location where you would like to install Final Fantasy XIV.
 
 For Steam Deck users, your MicroSD is mounted to `/run/media/mmcblk0p1` by default.
 
@@ -94,35 +94,33 @@ When prompted, press the `Steam` button, select `FINAL FANTASY XIV Online` or `F
 
 Configuration files are saved to `~/.xlcore`.
 
-### Q: The game is disappearing randomly and won't resume after sleep mode on Steam Deck.
+### Q: The game is disappearing randomly and won't resume after sleep mode on Steam Deck
 
 Please make sure that FFXIV or the FFXIV Free Trial from the Steam Store is installed on your Steam Deck's **internal memory**.
 
-### Q: My audio is crackling/distorted.
+### Q: My audio is crackling/distorted
 
 Try adding `PULSE_LATENCY_MSEC=60` to the beginning of the Launch Options in Steam.
 
-### Q: I can't control my game.
+### Q: I can't control my game
 
 Change the control layout for the game SteamOS thinks FFXIV is running as. For non-Steam service accounts, this means `FINAL FANTASY XIV Online Free Trial`.
 
 If that does not fix it, rename `~/.xlcore/ffxivConfig/FFXIV.cfg` to `FFXIV.cfg.bak` and run the game again from Gaming Mode. This will reset all Final Fantasy XIV System settings to default. Renaming `FFXIV.cfg.bak` back to `FFXIV.cfg` will restore these settings.
 
-### Q: Final Fantasy XIV doesn't close properly / Steam constantly thinks Final Fantasy XIV is playing.
+### Q: Final Fantasy XIV doesn't close properly / Steam constantly thinks Final Fantasy XIV is playing
 
 A fix is in progress for newer versions of Flatpak.
 
 If you are on an older Flatpak version, make sure you set the Launch Options in the "Add a Non-Steam Game" step. Specifically the `--parent-expose-pids --parent-share-pids --parent-pid=1` arguments allow XIVLauncher to communicate with Steam to report the game closing. (This does not work on newer versions of Flatpak, as `--parent-pid=1` has been deprecated for breaking the Flatpak sandbox.)
 
-### Q: XIVLauncher immediately closes when trying to run it through Steam.
+### Q: XIVLauncher immediately closes when trying to run it through Steam
 
 Do not set a Compatibility mode for XIVLauncher in Steam. XIVLauncher is a native Steam application that does not need Proton to run.
 
-### Q: I can't enter my username/password on Steam Deck.
+### Q: I can't enter my username/password on Steam Deck
 
 Due to a limitation of Steam's text input API, please use the Steam Deck's Gaming Mode to finish setup.
 
-
-
-[Return to the top](#installation)\
+[Return to the top](# XIVLauncher Linux %28Flatpak/ Steam Deck%29 Installation Guide)
 <a href="{{ site.github.baseurl }}/">Return to the main FAQ</a>
