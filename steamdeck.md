@@ -1,6 +1,40 @@
-# XIVLauncher Steam Deck Installation Guide
+# XIVLauncher Linux (Flatpak/ Steam Deck) Installation Guide
 
-## Installation
+## Installing XIVLauncher on Desktop Linux
+
+**IMPORTANT:** Installation for the Steam Deck works a bit differently due to Valve's changes in SteamOS, please see the next section for Steam Deck instructions.
+
+Generally, the recommended and supported way to install XIVLauncher on a desktop Linux distribution (Ubuntu, Fedora Workstation, etc.) is to install it as a Flatpak. Flatpaks are mostly self-contained and sandboxed applications, which means that they only have access to the parts of your system that they explicitly need in order to function. The `Flatseal` program is a useful tool for managing permissions for Flatpak apps, which you may install separately if you so wish.
+
+To install XIVLauncher as a Flatpak, you will need to have Flatpak itself installed and the Flathub repository for flatpaks enabled on your system. Please see upstream (your distro's and/or Flatpak's) documentation on how to install Flatpak to your system and to enable the Flathub repositories.
+
+### Install XIVLauncher as a Flatpak from the terminal
+
+To install XIVLauncher as a flatpak using the terminal, run the command `flatpak install flathub dev.goats.xivlauncher` as a regular user ( without `sudo`).
+
+### Install XIVLauncher as a Flatpak from your software store (GNOME/KDE)
+
+Some desktop environments provide graphical frontends for Flatpak repositories, allowing you to browse an app store to install Flatpaks in a more intuitive way.
+
+- If you are using GNOME, open Software and then search for `XIVLauncher`. Click on the XIVLauncher entry in the results. Click `Install`.
+
+- If you are using KDE, open Discover and then search for `XIVLauncher`. Click on the XIVLauncher entry in the results. Click `Install`.
+
+Other desktop environments may or may not have XIVLauncher available in their own Flatpak frontend applications. If XIVLauncher does not appear in GNOME Software or KDE Discover, verify that Flatpak is installed and running, and verify that you have the Flathub repos enabled.
+
+### Install XIVLauncher from the Arch User Repository (UNOFFICIAL)
+
+There are several **unofficial** packages for XIVLauncher on the Arch User Repository (AUR). These packages are an alternative method of installing XIVLauncher for Arch Linux and its derivative distributions (Manjaro, Endeavour OS, etc.) ONLY.
+
+Currently, the `xivlauncher`, `xivlauncher-bin` and `xivlauncher-git` AUR packages are available. However, **AUR packages are community builds and only the Flatpak release of XIVLauncher is officially supported.**
+
+For reference, `xivlauncher` downloads the source code and builds the `XIVLauncher` package on your system, `xivlauncher-bin` provides a prebuilt binary, and `xivlauncher-git` provides testing builds. We cannot guarantee the functionality or security of AUR packages.
+
+Please see the [Arch Wiki](https://wiki.archlinux.org/title/Arch_User_Repository#Installing_and_upgrading_packages) or your distribution's documentation on official instructions for installing AUR packages. AUR packages can be insecure. Be vigilant.
+
+## Installing XIVLauncher on Steam Deck
+
+**IMPORTANT:** The following installation instructions are for the Steam Deck only. For installing XIVLauncher on a Linux desktop/laptop (including Arch Linux and/or KDE setups), please refer to the above section.
 
 ### Install the Steam version of FFXIV on your Steam Deck
 
@@ -12,15 +46,15 @@ This is needed for Gaming Mode to see the game window.
 
 ### Switch to Desktop Mode
 
-Press and hold the Power Button. Select `Switch to Desktop Mode`
+Press and hold the Power Button. Select `Switch to Desktop Mode`.
 
 ### Install XIVLauncher
 
 Open the `Discover Store`, search for `XIVLauncher`, and press Install.
 
-**For Any other linux distro** The `Discover Store` is a GUI for flatpak. This is the package: https://flathub.org/apps/dev.goats.xivlauncher
+**For Any other linux distro,** the `Discover Store` is a GUI for flatpak. This is the package: <https://flathub.org/apps/dev.goats.xivlauncher>
 
-**OPTIONAL:** If you would like to install Final Fantasy XIV to your Deck's MicroSD card or any folder outside of the default (`~/.xlcore/ffxiv`), you will also need `Flatseal` from the Discover Store.
+**OPTIONAL:** If you would like to install Final Fantasy XIV to your Deck's MicroSD card or any folder outside of the default (`~/.xlcore/ffxiv`), you will also need `Flatseal` from the Discover Store. See documentation on enabling external folder access below.
 
 ### Add a Non-Steam Game
 
@@ -28,7 +62,9 @@ In Steam's Desktop mode, select `ADD A GAME`, scroll down to XIVLauncher, click 
 
 Right click on XIVLauncher in Steam, select `Properties`, and replace the `Launch Options` with the following: `XL_SECRET_PROVIDER=FILE %command% run --parent-expose-pids --parent-share-pids --parent-pid=1 --branch=stable --arch=x86_64 --command=xivlauncher dev.goats.xivlauncher`
 
-Please note that with this configuration, XIVLauncher will save your password to a file on your Steam Deck, as Valve does not ship a safer way to store passwords by default. If this is a problem for you, please leave out `XL_SECRET_PROVIDER=FILE %command% ` from the line above - XIVLauncher won't be able to save your password in that case.
+**NOTE:** Recent versions of Flatpak have seemingly deprecated the `--parent-pid=1` option. If you encounter problems, remove `--parent-expode-pids --parent-share-pids --parent-pid=1` from the launch options listed above.
+
+**NOTE:** With this configuration, XIVLauncher will save your password to a file on your Steam Deck, as Valve does not ship a safer way to store passwords by default. If this is a problem for you, please leave out `XL_SECRET_PROVIDER=FILE %command%` from the line above - XIVLauncher won't be able to save your password in that case.
 
 (For desktop Linux users with a sudden performance drop after some time in game, this may be caused by the Steam overlay. Try adding `LD_PRELOAD=""` at the start to disable it.)
 
@@ -36,11 +72,15 @@ Please note that with this configuration, XIVLauncher will save your password to
 
 ### OPTIONAL: Allow external folder access to XIVLauncher
 
-Run Flatseal. On the left, scroll down to XIVLauncher. In the main part of the window, scroll down to `Filesystem`. Click the Folder icon next to Other files. Type the location where you would like to install Final Fantasy XIV. By default, your MicroSD is mounted to `/run/media/mmcblk0p1`.
+Run Flatseal. On the left, scroll down to XIVLauncher. In the main part of the window, scroll down to `Filesystem`. Click the Folder icon next to Other files. Type the location where you would like to install Final Fantasy XIV.
+
+For Steam Deck users, your MicroSD is mounted to `/run/media/mmcblk0p1` by default.
+
+For desktop Linux users, the paths for external drives vary by distribution and system.
 
 ### Switch to Gaming Mode
 
-On the Desktop, tab `Return to Gaming Mode`.
+On the Desktop, tap `Return to Gaming Mode`.
 
 ### First time setup / Running the game
 
@@ -54,7 +94,7 @@ When prompted, press the `Steam` button, select `FINAL FANTASY XIV Online` or `F
 
 Configuration files are saved to `~/.xlcore`.
 
-### Q: The game is disappearing randomly and won't resume after sleep mode
+### Q: The game is disappearing randomly and won't resume after sleep mode on Steam Deck
 
 Please make sure that FFXIV or the FFXIV Free Trial from the Steam Store is installed on your Steam Deck's **internal memory**.
 
@@ -66,19 +106,21 @@ Try adding `PULSE_LATENCY_MSEC=60` to the beginning of the Launch Options in Ste
 
 Change the control layout for the game SteamOS thinks FFXIV is running as. For non-Steam service accounts, this means `FINAL FANTASY XIV Online Free Trial`.
 
-If that does not fix it, rename `~/.xlcore/ffxivConfig/FFXIV.cfg` to `FFXIV.cfg.bak` and run the game again from Gaming Mode. This will reset all Final Fantasy XIV System settings to default.
+If that does not fix it, rename `~/.xlcore/ffxivConfig/FFXIV.cfg` to `FFXIV.cfg.bak` and run the game again from Gaming Mode. This will reset all Final Fantasy XIV System settings to default. Renaming `FFXIV.cfg.bak` back to `FFXIV.cfg` will restore these settings.
 
 ### Q: Final Fantasy XIV doesn't close properly / Steam constantly thinks Final Fantasy XIV is playing
 
-Make sure you set the Launch Options in the "Add a Non-Steam Game" step. Specifically the `--parent-expose-pids --parent-share-pids --parent-pid=1` arguments allow XIVLauncher to communicate with Steam to report the game closing.
+A fix is in progress for newer versions of Flatpak.
+
+If you are on an older Flatpak version, make sure you set the Launch Options in the "Add a Non-Steam Game" step. Specifically the `--parent-expose-pids --parent-share-pids --parent-pid=1` arguments allow XIVLauncher to communicate with Steam to report the game closing. (This does not work on newer versions of Flatpak, as `--parent-pid=1` has been deprecated for breaking the Flatpak sandbox.)
 
 ### Q: XIVLauncher immediately closes when trying to run it through Steam
 
 Do not set a Compatibility mode for XIVLauncher in Steam. XIVLauncher is a native Steam application that does not need Proton to run.
 
-### Q: I can't enter my username/password
+### Q: I can't enter my username/password on Steam Deck
 
 Due to a limitation of Steam's text input API, please use the Steam Deck's Gaming Mode to finish setup.
 
-[Return to the top](#installation)\
+[Return to the top](# XIVLauncher Linux %28Flatpak/ Steam Deck%29 Installation Guide)
 <a href="{{ site.github.baseurl }}/">Return to the main FAQ</a>
