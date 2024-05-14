@@ -60,7 +60,7 @@ Open the `Discover Store`, search for `XIVLauncher`, and press Install.
 
 In Steam's Desktop mode, select `ADD A GAME`, scroll down to XIVLauncher, click the checkbox, and click `ADD SELECTED PROGRAM`
 
-Right click on XIVLauncher in Steam, select `Properties`, and replace the `Launch Options` with the following: `XL_SECRET_PROVIDER=FILE %command% run --parent-expose-pids --parent-share-pids --parent-pid=1 --branch=stable --arch=x86_64 --command=xivlauncher dev.goats.xivlauncher`
+Right click on XIVLauncher in Steam, select `Properties`, and replace the `Launch Options` with the following: `XL_SECRET_PROVIDER=FILE %command% "run" "--parent-expose-pids" "--parent-share-pids" "--parent-pid=1" "--branch=stable" "--arch=x86_64" "--command=xivlauncher" "dev.goats.xivlauncher"`
 
 **NOTE:** Recent versions of Flatpak have seemingly deprecated the `--parent-pid=1` option. If you encounter problems, remove `--parent-expode-pids --parent-share-pids --parent-pid=1` from the launch options listed above.
 
