@@ -138,7 +138,7 @@ Due to the changes to Android not providing access to the clipboard for backgrou
 
 Update the macro as such:
 
-<img src="https://cdn.discordapp.com/attachments/581875020632948762/660532896737787906/SmartSelect_20191228-112146_MacroDroid.jpg" width=280>
+<img src="https://github.com/goatcorp/faq/assets/10376708/b86175cc-6b56-4dae-a663-b2cc62d3f452" width=280>
 
 #### How to use
 
