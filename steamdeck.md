@@ -41,6 +41,8 @@ After the installer has finished, please follow these steps to use the compatibi
 
 ### Flatpak
 
+First, check to see if flathub is installed with flatpak remotes. If you don't see an entry for flathub, check https://flathub.org/setup for instructions on how to install it.
+
 #### Via terminal
 
 To install XIVLauncher as a flatpak using the terminal, run the command `flatpak install flathub dev.goats.xivlauncher` as a regular user ( without `sudo`).
@@ -63,7 +65,7 @@ Run Flatseal. On the left, scroll down to XIVLauncher. In the main part of the w
 
 ### System package
 
-A list of alternative packages and formats can be found [here](https://github.com/goatcorp/XIVLauncher.Core?tab=readme-ov-file#distribution). Please note that apart from the compatibility tool and the Flatpak, the rest are maintained by members of the community and are deemed unofficial.
+A list of alternative packages and formats can be found [here](https://github.com/goatcorp/XIVLauncher.Core?tab=readme-ov-file#distribution). Please note that apart from the compatibility tool and the Flatpak, the rest are maintained by members of the community and are deemed unofficial. You will, however, still receieve community support as long as the package is up-to-date.
 
 ## FREQUENTLY ASKED QUESTIONS
 
