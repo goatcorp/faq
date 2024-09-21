@@ -41,7 +41,7 @@ After the installer has finished, please follow these steps to use the compatibi
 
 ### Flatpak
 
-First, check to see if flathub is installed by running `flatpak remotes`. If you don't see an entry for flathub, check https://flathub.org/setup for instructions on how to install it.
+First, check to see if flathub is installed by running `flatpak remotes`. If you don't see an entry for flathub, check [https://flathub.org/setup](https://flathub.org/setup) for instructions on how to install it.
 
 #### Via terminal
 
