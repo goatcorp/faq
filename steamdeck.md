@@ -11,7 +11,7 @@ XIVLauncher for Linux is distributed in many different formats depending on your
 
 The XIVLauncher Steam compatibility tool is handled by a project called [XLM](https://github.com/Blooym/XLM). Automatic install scripts are provided for all major system configurations that will do most of the setup work for you *(However if your system configuration is not covered here you can always manually download the XLM binary from the [GitHub Releases Page](https://github.com/Blooym/xlm/releases/latest) and install that way)*.
 
-Auto installers for the Steam compatibility tool are provided for the `Steam Deck`, `Flatpak` and `Native` packages of Steam. Simply copy and paste the script for your system below into the terminal and the compatibility tool will be installed for you. Afterwards, follow the steps below to start using it.
+Auto installers for the Steam compatibility tool are provided for the `Steam Deck`, `Flatpak` and `Native` packages of Steam. Simply copy and paste the script for your system into the terminal and the compatibility tool will be installed for you. Afterwards, follow the steps below to start using it. **Please note that these scripts CANNOT and SHOULD NOT be ran as sudo or root.**
 
 **Steamdeck Install Script**:
 
