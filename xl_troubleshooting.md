@@ -17,7 +17,6 @@
 ### Troubleshooting
 
 [I get an error saying XIVLauncher failed to check for updates when I open the program](#q-i-get-an-error-saying-xivlauncher-failed-to-check-for-updates-when-i-open-the-program)\
-[I'm on Linux and I keep getting "XIVLauncher failed to update" errors](#q-im-on-linux-and-i-keep-getting-xivlauncher-failed-to-update-errors)\
 [How come the in-game addon \(Dalamud\) doesn't work and/or plugins don't display?](#q-how-come-the-in-game-addon-dalamud-doesnt-work-andor-plugins-dont-display)\
 [How do I whitelist XIVLauncher and Dalamud so my antivirus leaves them alone?](#q-how-do-i-whitelist-xivlauncher-and-dalamud-so-my-antivirus-leaves-them-alone)\
 [XIVLauncher isn't saving my new password / how do I clear my saved password?](#q-xivlauncher-isnt-saving-my-new-password--how-do-i-clear-my-saved-password)\
@@ -34,7 +33,7 @@
 ### Misc
 
 [Do not run XIVLauncher as admin](#do-not-run-xivlauncher-as-admin)\
-[XL Environment Variables](#q-xl-environment-variables)\
+[XL Environment Variables](#xl-environment-variables)\
 [WTFast Config](#q-wtfast-config)
 
 ---
@@ -160,18 +159,22 @@ As with any patch, **in-game addons will be automatically disabled until Dalamud
 
 (AKA: What does XIVLauncher mean by "game path"?)
 
-FFXIV installs to a few different locations depending on whether you used the official installer or steam, when you installed it, and potentially if you installed the free trial or not. Here are some of the common paths.
+FFXIV installs to a few different locations depending on whether you used the official installer or steam, when you installed it, and potentially if you installed the free trial or not. Here are some of the common paths. Linux-based systems are not as consistent as Windows, as this will depend on your local environment far more. 
 
 Whatever you do, DO NOT SELECT THE `boot` OR `game` FOLDER. But if you already have a copy of FFXIV installed, you'll want the folder that contains them.
 
 Official Launcher:
-
 - `C:\Program Files (x86)\SquareEnix\FINAL FANTASY XIV - A Realm Reborn`
 
 Steam:
-
 - `C:\Program Files (x86)\Steam\steamapps\common\FINAL FANTASY XIV Online`
 - `C:\Program Files (x86)\Steam\steamapps\common\FINAL FANTASY XIV - A Realm Reborn`
+
+XIVLauncher.Core (xlcore)'s default path:
+- `~/.xlcore/ffxiv` (This is a hidden folder in your user home folder)
+
+Steam for Linux will depend on where your Steam Library is. It will usually look something like this on a default install.
+- `~/.steam/steam/steamapps/common/FINAL FANTASY XIV Online`
 
 **NOTE**: If your steam library is on another drive, it will have a different, but similar structure.
 
@@ -183,35 +186,36 @@ Steam:
 
 Once you've made your new XIVLauncher-based prefix, you can copy files from your old ffxiv prefix for the following:
 
-#### Copy a FFXIV Install from one prefix to another (or move/symlink as desired)
+#### Copy a FFXIV Install from one location to another (or move/symlink as desired)
 
-- Copy from: `~/Games/<old prefix>/drive_c/Program Files (x86)/SquareEnix/FINAL FANTASY XIV - A Realm Reborn`
-- Copy to :
+- The game can be installed in a few common locations. This will vary by distro and device. :
   - (Lutris) `~/Games/<new prefix>/drive_c/Program Files (x86)/SquareEnix/FINAL FANTASY XIV - A Realm Reborn`
-  - (Proton) `~/.steam/steam/steamapps/steamapps/common/FINAL FANTASY XIV Online`
+  - (Proton) `~/.steam/steam/steamapps/common/FINAL FANTASY XIV Online`
   - (XLCore) `~/.xlcore/ffxiv`
 
 #### Copy your user/character settings
 
-- Copy from: `~/Games/<old prefix>/drive_c/users/<username>/My Documents/My Games/FINAL FANTASY XIV - A Realm Reborn`
-- Copy to:
+- This will depend on how/where you installed FFXIV. These are the default locations for each install method.
   - (Lutris) `~/Games/<new prefix>/drive_c/users/<username>/Documents/My Games/FINAL FANTASY XIV - A Realm Reborn`
   - (Proton) `~/.local/share/Steam/steamapps/compatdata/39210/pfx/drive_c/users/steamuser/My Documents/My Games/FINAL FANTASY XIV - A Realm Reborn`
   - (XLCore) `~/.xlcore/ffxivConfig`
+  - **NOTE**: If you're sharing game config between separate launchers (ex: Proton and XLCore), we recommend copying to Proton and then set a game config path in XIVLauncher's settings.
 
-#### Copy XIVLauncher config (please reinstall your plugins)
+#### What files should you copy? We recommend only copying configuration files that are portable. 
 
-- Copy from: `~/Games/<old prefix>/drive_c/users/<username>/Application Data/XIVLauncher/pluginConfigs`
+- `pluginConfigs` will store your plugin configuration
+- `dalamudConfig.json` is your Dalamud Settings config file. This also holds any custom repository config.
+- `dalamudui.ini` stores Dalamud/Plugin window locations. Only copy this if you'll be playing on a display setup with the same resolution
+- `dalamudVfs.db` stores plugin collections and other information.
+- **NOTE**: We do not recommend making backups of the `installedPlugins` folder. Launcher config is machine-specific and should not be carried over. Other files and folders for Dalamud will be redownloaded on new machines.
+
+#### Copy XIVLauncher config to these locations
+
 - Copy to:
-  - (Lutris) `~/Games/<new prefix>/drive_c/users/<username>/AppData/Roaming/XIVLauncher/pluginConfigs`
-  - (XLCore) `~/.xlcore/pluginConfigs`
+  - (Lutris) `~/Games/<new prefix>/drive_c/users/<username>/AppData/Roaming/XIVLauncher/`
+  - (XLCore) `~/.xlcore/`
 
-### Copy other files and programs in the Wine Prefix
 
-- Copy from: `~/Games/<old prefix>/drive_c`
-- Copy to:
-  - (Lutris) `~/Games/<new prefix>/drive_c`
-  - (XLCore) `~/.xlcore/wineprefix/drive_c`
 ---
 
 ### Q: How do I migrate FFXIV and/or XIVLauncher files from an old installation to a new one? \[Windows\]
@@ -222,9 +226,23 @@ For the most part, FFXIV is portable. You just need to make sure you've installe
 
 **NOTE**: You shouldn't do this if you had TexTools installed. Or at least, make sure to restore indexes/repair game first as it probably broke your client.
 
+#### Copy your user/character settings
+
 - Copy your user\character settings: `%USERPROFILE%\Documents\My Games\FINAL FANTASY XIV - A Realm Reborn`
-- Copy XIVLauncher config (please reinstall your plugins): `%appdata%\XIVLauncher\pluginConfigs`
-  - **NOTE**: do not copy other config or folders as those are unique to that particular computer. You should set them up per machine.
+
+  
+#### What XIVLauncher files should you copy? We recommend only copying configuration files that are portable. 
+
+- `pluginConfigs` will store your plugin configuration
+- `dalamudConfig.json` is your Dalamud Settings config file. This also holds any custom repository config.
+- `dalamudui.ini` stores Dalamud/Plugin window locations. Only copy this if you'll be playing on a display setup with the same resolution
+- `dalamudVfs.db` stores plugin collections and other information.
+- **NOTE**: We do not recommend making backups of the `installedPlugins` folder. Launcher config is machine-specific and should not be carried over. Other files and folders for Dalamud will be redownloaded on new machines.
+
+#### Copy XIVLauncher config to these locations
+
+- Copy to: `%appdata%\XIVLauncher\` - this is a shortcut to your `%userprofile%\appdata\roaming\xivlauncher` folder
+
 
 ---
 
@@ -259,20 +277,6 @@ If you've made a lot of queries to GitHub recently, it's possible they may have 
 
 For the fastest support, head over to our [Discord server](https://goat.place/). and post into the XIVLauncher help channel with the error you're getting, a screenshot (if possible), and your `output.log` file (which can be found in `%AppData%\XIVLauncher` - use `f!faq logxl` in the Discord for more details there).
 
----
-
-### Q: I'm on Linux and I keep getting "XIVLauncher failed to update" errors
-
-On some more recent Linux distributions, TLS 1.0 and 1.1 has been disabled. This causes an issue with Wine and FFXIV/XIVLauncher because it may not always negotiate TLS correctly.
-
-You can fix this by setting your `dssenh` DLL override to native if it isn't already. (`dssenh=n` as an environment variable or in Lutris)
-
-This has also been added to the xivlauncher Lutris script as well.
-
-Thank you to kainz0r for this tip!
-![Example](images/LinuxConfigScreenshot.png)
-
-On **Fedora**? You will need to run `sudo update-crypto-policies --set DEFAULT:FEDORA32` in order to lighten up the security policies as Fedora 33 and later have stricter SSL/TLS settings. `FEDORA32` didn't work? Try instead: `sudo update-crypto-policies --set LEGACY`
 
 ---
 
@@ -459,7 +463,10 @@ If they are not present, add them.
 
 ### Q: Can I repair my FFXIV installation?
 
-Yes! Right click `Log in` in XIVLauncher and select `Repair game files`.
+Yes! Right click `Log in` or use the advanced launch options button next to it in XIVLauncher and select `Repair game files`.
+
+![image](https://github.com/user-attachments/assets/2b8f1f4d-7ec9-4ca4-8f03-7da13c9da50e)
+
 
 **DO NOT USE THE REPAIR FEATURE IN THE OFFICIAL LAUNCHER!** It deletes your entire game installation and redownloads it.
 
