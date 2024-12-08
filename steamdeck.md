@@ -9,9 +9,9 @@ XIVLauncher for Linux is distributed in many different formats depending on your
 
 ## Install XIVLauncher as a Steam compatibility tool
 
-The XIVLauncher Steam compatibility tool is handled by a project called [XLM](https://github.com/Blooym/XLM). Automatic install scripts are provided for all major system configurations that will do most of the setup work for you *(However if your system configuration is not covered here you can always manually download the XLM binary from the [GitHub Releases Page](https://github.com/Blooym/xlm/releases/latest) and install that way)*.
+The XIVLauncher Steam compatibility tool is handled by a project called [XLM](https://github.com/Blooym/XLM). Automatic install scripts are provided for all major system configurations that will do most of the setup work for you *(However if your system configuration is not covered here you can always manually download the XLM binary from the [GitHub Releases Page](https://github.com/Blooym/xlm/releases/latest) and install that way)*. Regardless of how you install XLM from it will always be kept up to date automatically.
 
-Auto installers for the Steam compatibility tool are provided for the `Steam Deck`, `Flatpak` and `Native` packages of Steam. Simply copy and paste the script for your system into the terminal and the compatibility tool will be installed for you. Afterwards, follow the steps below to start using it. **Please note that these scripts CANNOT and SHOULD NOT be ran as sudo or root.**
+Run one of the following commands to install XLM as a Steam compatibility tool. What command you need to run depends on how you have Steam installed. **These scripts CANNOT and SHOULD NOT be run with sudo or root permissions.**
 
 **Steamdeck Install Script**:
 
@@ -24,15 +24,21 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/Blooym/xlm/main/setup/inst
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/Blooym/xlm/main/setup/install-native.sh)"
 ```
 
-**Steam Install Script (Snap)**
-```sh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/Blooym/xlm/main/setup/install-snap.sh)"
-```
-
 **Steam Install Script (Flatpak)**
 ```sh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/Blooym/xlm/main/setup/install-flatpak.sh)"
 ```
+
+---
+
+#### Experimental
+
+Steam (Snap) **[Unsupported - may be broken on Wayland]**
+```sh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/Blooym/xlm/main/setup/install-snap.sh)"
+```
+
+---
 
 After the installer has finished, please follow these steps to use the compatibility tool:
 - Switch back to gaming mode (if on Steam Deck) or restart your Steam client otherwise.
@@ -41,6 +47,18 @@ After the installer has finished, please follow these steps to use the compatibi
 - Enable the "Force the use of a specific Steam Play compatibility tool" checkbox.
 - From the box that appears select "XLCore [XLM]" (if this does not show, please make sure you properly restarted Steam).
 - You can now launch the game as usual. XIVLauncher will be automatically installed and run for you.
+
+### Optional Advanced Features
+
+#### Using a fork of XIVLauncher
+
+To use a fork of XIVLauncher you can add the flags `--xlcore-repo-owner` and `--xlcore-repo-name` to the Steam "Launch Arguments" section.
+
+Forks of XIVLauncher can also offer their own install scripts that automate this process for you so you don't have to manually add these flags.
+
+#### Pre + Post launch scripts (Advanced)
+
+When installed as a Steam compatibility tool XLM supports running scripts before and after XIVLauncher has been ran. These scripts allow for extending the functionality of XLM or XIVLauncher. On startup, XLM will look for directories inside of the `XLM` compatibility tool folder named `prelaunch.d` and `postlaunch.d` and run all scripts contained inside. These scripts have to be placed manually after installing XLM and no support is offered if you create/use a script that breaks something.
 
 ## Install XIVLauncher as a flatpak or system package
 
