@@ -197,24 +197,27 @@ Once you've made your new XIVLauncher-based prefix, you can copy files from your
 
 - This will depend on how/where you installed FFXIV. These are the default locations for each install method.
   - (Lutris) `~/Games/<new prefix>/drive_c/users/<username>/Documents/My Games/FINAL FANTASY XIV - A Realm Reborn`
-  - (Proton) `~/.local/share/Steam/steamapps/compatdata/39210/pfx/drive_c/users/steamuser/My Documents/My Games/FINAL FANTASY XIV - A Realm Reborn`
+  - (older Steam/Proton) `~/.local/share/Steam/steamapps/compatdata/39210/pfx/drive_c/users/steamuser/My Documents/My Games/FINAL FANTASY XIV - A Realm Reborn`
+  - (Proton) `~/.steam/steam/steamapps/compatdata/39210/pfx/drive_c/users/steamuser/My Documents/My Games/FINAL FANTASY XIV - A Realm Reborn`
   - (XLCore) `~/.xlcore/ffxivConfig`
   - **NOTE**: If you're sharing game config between separate launchers (ex: Proton and XLCore), we recommend copying to Proton and then set a game config path in XIVLauncher's settings.
+  - **NOTE 2**: If you have the FFXIV Free Trial, your config path may use `312060` instead of `39210`
+  - **NOTE 3**: Please make sure to type the full path. `~` is a shorthand for the location of your user folder, typically `/home/<username>`. If unsure, check this in your file manager first!
 
-#### What files should you copy? We recommend only copying configuration files that are portable. 
+#### What files from the xivlauncher/xlcore folder should you copy? We recommend only copying configuration files that are portable. 
 
 - `pluginConfigs` will store your plugin configuration
 - `dalamudConfig.json` is your Dalamud Settings config file. This also holds any custom repository config.
 - `dalamudui.ini` stores Dalamud/Plugin window locations. Only copy this if you'll be playing on a display setup with the same resolution
 - `dalamudVfs.db` stores plugin collections and other information.
 - **NOTE**: We do not recommend making backups of the `installedPlugins` folder. Launcher config is machine-specific and should not be carried over. Other files and folders for Dalamud will be redownloaded on new machines.
+- **NOTE2**: Some plugins rely on external paths. You are responsible for copying those and/or adjusting your plugin config to point back to them.
 
 #### Copy XIVLauncher config to these locations
 
 - Copy to:
   - (Lutris) `~/Games/<new prefix>/drive_c/users/<username>/AppData/Roaming/XIVLauncher/`
   - (XLCore) `~/.xlcore/`
-
 
 ---
 
