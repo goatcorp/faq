@@ -13,18 +13,18 @@ The XIVLauncher Steam compatibility tool is handled by a project called [XLM](ht
 
 Run one of the following commands to install XLM as a Steam compatibility tool. What command you need to run depends on how you have Steam installed. **These scripts CANNOT and SHOULD NOT be run with sudo or root permissions.**
 
-**Steamdeck Install Script**:
+**Steamdeck Install Script (also for Bazzite and other deck-interface distros)**:
 
 ```sh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/Blooym/xlm/main/setup/install-steamdeck.sh)"
 ```
 
-**Steam Install Script (Native)**
+**Native Steam Install Script (Steam installed as a native package)**
 ```sh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/Blooym/xlm/main/setup/install-native.sh)"
 ```
 
-**Steam Install Script (Flatpak)**
+**Flatpak Steam Install Script (Steam installed as a Flatpak)**
 ```sh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/Blooym/xlm/main/setup/install-flatpak.sh)"
 ```
@@ -33,7 +33,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/Blooym/xlm/main/setup/inst
 
 #### Experimental
 
-Steam (Snap) **[Unsupported - may be broken on Wayland]**
+Snap Steam (Steam installed as a snap, for Ubuntu 24.04 and later) **[Unsupported - may be broken on Wayland]**
 ```sh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/Blooym/xlm/main/setup/install-snap.sh)"
 ```
