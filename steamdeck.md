@@ -120,9 +120,12 @@ Due to a limitation of Steam's text input API, please use the Steam Deck's Gamin
 
 ### Q: I'm seeing "No secrets provider installed or configured"
 
-This means that XIVLauncher was unable to find a secure way to store your passwords. This is usually because you don't have a secrets manager like GNOME Keyring or KDE Wallet installed on your system. It's recommended you install a recognised and well known secrets manager to solve this problem. 
+This means that XIVLauncher was unable to find a secure way to store your passwords. This is usually because you don't have a secrets manager like GNOME Keyring or KDE Wallet installed on your system. It's recommended you install a recognised and well known secrets manager to solve this problem. Even with a secret provider installed, XIVLauncher will occasionally fail to find it. In that case, just restart the launcher.
 
 If you are using a Steamdeck or are unable to install a secrets manager, you can run XIVLauncher with `XL_SECRET_PROVIDER=file` to store your credentials insecurely via a file. This will be done for you if you are using the compatibility tool on Steamdeck or with Flatpak Steam.
+
+### Q: An Internal Dalamud error has occurred!
+This can have several causes, but is usually caused by a broken wine prefix or by using an unpatched wine build. Go into the **Troubleshooting** tab in settings, and press the **Clear Prefix** button. If that doesn't work, try enabling the **Hack: Fix libicuuc Dalamud error". If that fails as well, try going into the **Wine** tab and changing to Legacy or Stable (you may have to clear the prefix again).
 
 [Return to the top](#xivlauncher-linux-installation-guide)
 <a href="{{ site.github.baseurl }}/">Return to the main FAQ</a>
