@@ -127,5 +127,13 @@ If you are using a Steamdeck or are unable to install a secrets manager, you can
 ### Q: An Internal Dalamud error has occurred!
 This can have several causes, but is usually caused by a broken wine prefix or by using an unpatched wine build. Go into the **Troubleshooting** tab in settings, and press the **Clear Prefix** button. If that doesn't work, try enabling the **Hack: Fix libicuuc Dalamud error**. If that fails as well, try going into the **Wine** tab and changing to Legacy or Stable (you may have to clear the prefix again).
 
+### Q: I'm getting "Could not obtain Process Handle"
+
+This usually means that XIVLauncher had problems downloading one or more compontents. This is almost always a network routing issue, and can often be fixed by using a VPN. If you need a free VPN, [Proton VPN](https://protonvpn.com/) is a good one. On Steam Deck, it should be available in the Discover Store. You can also install the client from [Flathub](https://flathub.org/apps/com.protonvpn.www). It may also be available in some linux distro repositories. Arch linux, for example, has `proton-vpn-gtk-app`. You will need to sign up for a free account.
+
+### Q: The launcher is taking forever to log in / download dalamud / Ensure compatibility tool / launch the game
+
+The first launch on a fresh wine prefix (either the first time you launch the game, or after clearing the prefix and or compatibility tools from troubleshooting), it can take quite a while to launch the game. If the problem persists on later launches, it is probably a networking issue, and may be solved by following the steps in the ["Could not obtain Process Handle"](#q-an-internal-dalamud-error-has-occurred) question.
+
 [Return to the top](#xivlauncher-linux-installation-guide)
 <a href="{{ site.github.baseurl }}/">Return to the main FAQ</a>
