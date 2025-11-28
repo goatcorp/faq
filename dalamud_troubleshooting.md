@@ -62,25 +62,30 @@ In this mode you can also open and close the Plugin Installer with Right Stick (
 
 ### Q: How do I turn Dalamud Staging on or off?
 
-#### In game (if you can still launch)
+#### In game
 
-1. Type `/xldev` in game.
-2. Click on the Dalamud menu on the top of the screen.
-3. Select/unselect the settings as wanted.
-4. Relaunch the game.
+1. Type `/xlbranch` in game.
+2. Select the desired option.
+3. Relaunch the game.
 
-#### Out of game (when you get crashes)
+#### Out of game
+
+<img width="554" height="246" alt="image" src="https://github.com/user-attachments/assets/90c81752-f20b-478e-8f8a-1885324d1798" />
 
 1. Close the game.
-2. Go to `%AppData%\XIVLauncher\` and open `dalamudConfig.json` in your text editor of choice.
-3. Go to the line that says `"DalamudBetaKey":`. Change the value to `"BETAKEYHERE"` to enable Dalamud Staging, and **`null`** (no quotes) to disable Dalamud Staging.
+2. Open XIVLauncher's settings and select the Dalamud tab
+3. Click the `Change Dalamud Branch` button
 4. Save the file.
 5. Launch the game.
 
+#### Which branches are available?
+- Release - stable builds
+- STG - testing releases
+- other branches may be available, but are for developer use 
+
+#### Additional Notes
 - This is for developers, not users. Plugin testers should only use it when specifically stated. You should expect to encounter issues and crash more often on staging builds. **Use with caution.**
 - NOTE: After enabling Dalamud Staging, you may have to wait for Dalamud to be redownloaded.
-- NOTE 2: You should replace the `BETAKEYHERE` entry with a real beta key. **It requires the quotes**.
-- NOTE 3: Make sure there are no quotes when setting `DalamudBetaKey` to null.
 
 ---
 
