@@ -323,7 +323,6 @@ You should also try to whitelist the following files if possible:
 - `(your FFXIV installation)\game\ffxiv_dx11.exe`
 - `%LocalAppData%\XIVLauncher\XIVLauncher.exe`
 - `%LocalAppData%\XIVLauncher\current\XIVLauncher.exe`
-  - NOTE: replace X.Y.Z with the latest version available. **This changes with every launcher update!**
 - `%AppData%\XIVLauncher\addon\Hooks\W.X.Y.Z\Dalamud.Injector.exe`
   - NOTE: replace W.X.Y.Z with the latest version available. **This changes with every Dalamud update!**
 - `%AppData%\XIVLauncher\addon\Hooks\W.X.Y.Z\DalamudCrashHandler.exe`
