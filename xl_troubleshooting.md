@@ -28,7 +28,8 @@
 [Can I repair my FFXIV installation?](#q-can-i-repair-my-ffxiv-installation)\
 [How do I fix a version check error when trying to update FFXIV?](#q-how-do-i-fix-a-version-check-error-when-trying-to-update-ffxiv)\
 [I updated my game with TexTools mods installed. How do I fix crashes?](#q-i-updated-my-game-with-textools-mods-installed-how-do-i-fix-crashes)\
-[You need to install an app for this task - Search for app in the Store?](#q-you-need-to-install-an-app-for-this-task)
+[You need to install an app for this task - Search for app in the Store?](#q-how-do-i-disable-smart-app-control)\
+["Smart App Control blocked an app that may be unsafe"/"We can't confirm who published Dalamud.dll"](#q-how-do-i-disable-smart-app-control)
 
 ### Misc
 
@@ -491,9 +492,11 @@ Back up your mod files and [follow this FAQ entry to repair your game](#q-can-i-
 
 ---
 
-### Q: You need to install an app for this task
+### Q: How do I disable smart app control?
 
 This is due to a feature originally introduced in Windows 10, but that only started being enabled more often in Windows 11 fresh installs (or OEM machines that came with Windows installed).
+
+It can appear as messages stating **"You need to install an app for this task"**, **"Smart App Control blocked an app that may be unsafe"**, or notifications stating **"We can't confirm who published"** when starting the game.
 
 The original post we found related to this can be found here:
 https://superuser.com/questions/1525779/search-for-app-in-the-store-prompt-when-opening-exe-files
