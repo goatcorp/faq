@@ -380,9 +380,11 @@ If unsure about some of those details or if the Windows Event Viewer doesn't tel
 ---
 
 ### Q: How can I fix crashes on startup?
-If you are on Windows, please try to install the VC Redist from Microsoft at <https://aka.ms/vc14/vc_redist.x64.exe>, as well as the .NET 4.8 Runtime <https://dotnet.microsoft.com/download/dotnet-framework/thank-you/net48-web-installer>.
+If you are on Windows, please try to install the latest Visual C++ Redistributable from Microsoft at <https://aka.ms/vc14/vc_redist.x64.exe>, which comes from <https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#latest-supported-redistributable-version>. Dalamud uses the x64 release. 
 
-This does not apply to XIVLauncher.Core on Linux, as .Net Framework is not used and Wine takes care of providing Visual C++ compatibility.
+Microsoft regularly updates the runtime, and having an older version does not guarantee compatibility. You can see a list of past releases on <https://github.com/abbodi1406/vcredist/tree/master/source_links>.
+
+This does not apply to XIVLauncher.Core for Linux or XIV On Mac for macOS as Wine takes care of providing Visual C++ compatibility. (It may not always match the latest version number, however, as that's tied to the Wine version.)
 
 If you are still facing issues, please join our [Discord server](https://goat.place/).
 
